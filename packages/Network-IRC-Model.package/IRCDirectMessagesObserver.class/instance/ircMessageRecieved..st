@@ -7,8 +7,9 @@ ircMessageRecieved: aMessage
 				ifNil: ['Server'].
 	sender := IRCProtocolMessage cleanSenderString: sender.
 	"Check if someone else is handling this for us if we are the  
-	generic private messages handler."
-	talkingTo isNil
+	generic private messages handler.
+	(and check if there is a gui first for using model without gui)"
+	((talkingTo isNil) and: ((connection gui) notNil))
 		ifTrue: [(connection gui alreadyShowingPrivateMessagesFrom: sender)
 				ifTrue: [^ nil]].
 	"Should open a new window and let that one have this  
@@ -56,5 +57,10 @@ ircMessageRecieved: aMessage
 
 	self addToChatText: newLine.
 	talkingTo isNil
-		ifTrue: [connection gui possibleTabStateChange: self class privateMessagesLabel]
-		ifFalse: [connection gui possibleTabStateChange: sender]
+		ifTrue: [
+			(connection gui) ifNotNil:
+				[ connection gui possibleTabStateChange: self class privateMessagesLabel ]
+		]
+		ifFalse: [
+			(connection gui) ifNotNil: [ connection gui possibleTabStateChange: sender ]
+		]

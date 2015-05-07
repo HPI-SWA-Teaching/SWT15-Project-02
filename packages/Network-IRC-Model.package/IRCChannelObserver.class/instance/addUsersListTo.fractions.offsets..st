@@ -31,4 +31,8 @@ addUsersListTo: win fractions: fractions offsets: offsets
 	win
 		addMorph: alignMorph
 		fullFrame: (LayoutFrame fractions: fractions offsets: offsets).
-	alignMorph fillWithRamp: connection gui paneColorRamp oriented: 16 @ 32
+
+	"check if there is a gui first for using model without gui:"
+	(connection gui) ifNotNil: [
+		alignMorph fillWithRamp: connection gui paneColorRamp oriented: 16 @ 32
+	]
