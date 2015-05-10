@@ -1,0 +1,4 @@
+access
+channels
+
+	^(channels asArray)

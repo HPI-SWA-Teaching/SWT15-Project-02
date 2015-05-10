@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChannel:" : "jc 5/10/2015 22:15",
+		"channels" : "jc 5/8/2015 20:15",
+		"connectAndJoin" : "jc 5/10/2015 22:20",
+		"connection" : "jc 5/8/2015 20:10",
+		"connection:" : "jc 5/10/2015 22:22",
+		"disconnect" : "jc 5/10/2015 22:22",
+		"initialize" : "jc 5/10/2015 22:25",
+		"oneLoop" : "jc 5/10/2015 22:27",
+		"removeChannel:" : "jc 5/10/2015 22:28",
+		"startLooping" : "jc 5/10/2015 20:20",
+		"stopLooping" : "jc 5/10/2015 22:29" } }
