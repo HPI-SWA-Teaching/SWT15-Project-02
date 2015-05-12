@@ -6,3 +6,6 @@ oneLoop
 	"examples:"
 	"connection channelObservers do: [ :observer | observer sendMessage: 'one loop' ]." "For sending 'one loop' every loop to all channels."
 	"connection channelObservers do: [ :observer | Transcript show: (observer chatText); cr; cr. ]." "For printing the channels contents in the transcript."
+	connection channelObservers do: [ :observer |
+		self processNewLinesFrom: observer.
+	].

@@ -4,6 +4,7 @@ connectAndJoin
 
 	((connection notNil) and: ((connection connected) not)) ifTrue: [
 		connection connectToggle.
+		connection openDirectMessagesObserver.
 		channels do: [ :channel | connection openNoGuiChannelCaptured: channel. ].
 		
 		"Obsolete welcome message. Just for testing purposes."

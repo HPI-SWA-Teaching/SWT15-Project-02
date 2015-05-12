@@ -1,1 +1,2 @@
-(name 'Network-IRC-Bots-jc.1' message 'empty log message' id '9762ff63-c19f-45c5-b72b-817f12cc4e76' date '10 May 2015' time '10:50:25.014 pm' author 'jc' ancestors () stepChildren ())
+(name 'Network-IRC-Bots-jc.2' message 'GeneralBot completed.
+Simple version of the UtilityBot created.' id '0a9a7be5-63b5-4d66-932e-c60f4636afac' date '12 May 2015' time '1:44:32.07 pm' author 'jc' ancestors ((name 'Network-IRC-Bots-jc.1' message 'empty log message' id '9762ff63-c19f-45c5-b72b-817f12cc4e76' date '10 May 2015' time '10:50:25.014 pm' author 'jc' ancestors () stepChildren ())) stepChildren ())
