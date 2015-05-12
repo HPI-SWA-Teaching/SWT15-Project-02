@@ -8,7 +8,7 @@ connectAndJoin
 		channels do: [ :channel | connection openNoGuiChannelCaptured: channel. ].
 		
 		"Obsolete welcome message. Just for testing purposes."
-		connection channelObservers do: [ :observer | observer sendMessage: 'Hejsan!' ].
+		connection channelObservers do: [ :observer | observer sendMessage: 'Hej!' ].
 
 		self startLooping.
 		^true
