@@ -13,9 +13,13 @@ openMorphicView
 				 layoutPolicy: ProportionalLayout new.
 	alignMorph color: Color paleYellow.
 	self buildMorphIn: alignMorph.
-	(connection gui swapper) 
-		addPane: alignMorph
-		named: paneName
-		hidden: talkingTo isNil
-		closeable: talkingTo isNil not
-		swapModel: self
+
+	"check if there is a gui first for using model without gui:"
+	(connection gui) ifNotNil: [
+		(connection gui swapper) 
+			addPane: alignMorph
+			named: paneName
+			hidden: talkingTo isNil
+			closeable: talkingTo isNil not
+			swapModel: self
+	]

@@ -14,10 +14,14 @@ openCapturedView
 				layoutPolicy: ProportionalLayout new.
 	alignMorph color: Color white.
 	self buildMorphIn: alignMorph.
-	(connection gui swapper) 
-		addPane: alignMorph
-		named: paneName
-		hidden: false
-		closeable: true
-		swapModel: self.
-	self justOpened
+
+	"check if there is a gui first for using model without gui:"
+	(connection gui) ifNotNil: [
+		(connection gui swapper) 
+			addPane: alignMorph
+			named: paneName
+			hidden: false
+			closeable: true
+			swapModel: self.
+	].
+		self justOpened

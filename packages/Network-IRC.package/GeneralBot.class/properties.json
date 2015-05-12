@@ -1,0 +1,16 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection",
+		"channels",
+		"looping" ],
+	"name" : "GeneralBot",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
