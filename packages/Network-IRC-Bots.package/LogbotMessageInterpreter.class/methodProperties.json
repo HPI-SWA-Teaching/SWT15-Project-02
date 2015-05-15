@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 5/13/2015 22:21",
+		"begin" : "LW 5/12/2015 15:44",
+		"begin:" : "LW 5/12/2015 15:47",
+		"end" : "LW 5/12/2015 15:44",
+		"end:" : "LW 5/12/2015 15:47",
+		"events" : "LW 5/12/2015 15:58",
+		"initialize" : "LW 5/13/2015 22:12",
+		"nick" : "LW 5/12/2015 15:58",
+		"order" : "LW 5/12/2015 15:58",
+		"orderby" : "LW 5/12/2015 15:58",
+		"parseArgument:" : "LW 5/13/2015 21:48",
+		"parseCommand:" : "LW 5/13/2015 22:12",
+		"pattern" : "LW 5/12/2015 15:58" } }

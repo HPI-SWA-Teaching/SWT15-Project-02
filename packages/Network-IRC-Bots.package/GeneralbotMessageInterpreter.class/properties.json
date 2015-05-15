@@ -1,0 +1,21 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clientnick",
+		"names",
+		"commands",
+		"helpcommands",
+		"arguments",
+		"command",
+		"useTime",
+		"errorMessage" ],
+	"name" : "GeneralbotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

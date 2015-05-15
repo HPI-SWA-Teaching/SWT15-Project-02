@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 5/12/2015 15:51",
+		"clientnick" : "LW 5/13/2015 22:20",
+		"command" : "LW 5/12/2015 15:50",
+		"errorMessage" : "LW 5/13/2015 21:31",
+		"findNextTextArgument:" : "LW 5/13/2015 21:33",
+		"fixTimes" : "LW 5/13/2015 21:34",
+		"initialize" : "LW 5/12/2015 15:28",
+		"parseAllAsTextArgument:for:" : "LW 5/13/2015 22:32",
+		"parseArgument:" : "LW 5/12/2015 15:29",
+		"parseBoolArgument:for:" : "LW 5/12/2015 15:16",
+		"parseCommand:" : "LW 5/12/2015 15:29",
+		"parseDate:time:" : "LW 5/12/2015 15:16",
+		"parseDateAndTimeArgument:for:" : "LW 5/12/2015 15:16",
+		"parseEnumArgument:for:enums:" : "LW 5/12/2015 15:16",
+		"parseIRCMessage:" : "LW 5/13/2015 22:29",
+		"parseMessage:" : "LW 5/13/2015 21:46",
+		"parseName:" : "LW 5/13/2015 21:37",
+		"parseNumberArgument:for:" : "LW 5/13/2015 21:29",
+		"parseTextArgument:for:" : "LW 5/12/2015 15:16",
+		"parseTime:" : "LW 5/12/2015 15:16",
+		"useTime" : "LW 5/13/2015 12:35" } }

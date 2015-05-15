@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 5/13/2015 22:21",
+		"charcount" : "LW 5/13/2015 21:52",
+		"code" : "LW 5/13/2015 22:07",
+		"initialize" : "LW 5/13/2015 21:50",
+		"linecount" : "LW 5/13/2015 21:52",
+		"parseArgument:" : "LW 5/13/2015 21:10",
+		"parseCommand:" : "LW 5/13/2015 12:56",
+		"showreturn" : "LW 5/13/2015 22:07",
+		"showtranscript" : "LW 5/13/2015 21:53" } }

@@ -1,0 +1,25 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"showcommands",
+		"beginarguments",
+		"endarguments",
+		"begin",
+		"end",
+		"addcommands",
+		"urlarguments",
+		"url",
+		"repoarguments",
+		"channelarguments",
+		"repo",
+		"channel" ],
+	"name" : "UpdatebotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "GeneralbotMessageInterpreter",
+	"type" : "normal" }
