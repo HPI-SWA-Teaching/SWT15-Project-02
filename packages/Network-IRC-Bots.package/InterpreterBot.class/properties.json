@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"connection",
-		"channels",
-		"looping",
-		"loopingProcess",
-		"joinMessage" ],
-	"name" : "GeneralBot",
+		 ],
+	"name" : "InterpreterBot",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GeneralBot",
 	"type" : "normal" }
