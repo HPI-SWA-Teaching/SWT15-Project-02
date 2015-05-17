@@ -9,6 +9,8 @@
 		"connection:" : "jc 5/10/2015 22:22",
 		"disconnect" : "jc 5/12/2015 14:51",
 		"initialize" : "jc 5/13/2015 12:14",
+		"joinMessage" : "jc 5/17/2015 15:38",
+		"joinMessage:" : "jc 5/17/2015 15:39",
 		"oneLoop" : "jc 5/12/2015 14:52",
 		"processLine:from:" : "jc 5/11/2015 12:07",
 		"processNewLinesFrom:" : "jc 5/11/2015 14:31",

@@ -2,4 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"generateReturnValue:" : "jc 5/14/2015 15:01" } }
+		"formatTranscript:" : "jc 5/17/2015 13:28",
+		"generateFormattedTranscript:" : "jc 5/17/2015 14:27",
+		"generateReturnValue:" : "jc 5/15/2015 17:55",
+		"generateTranscriptContent:" : "jc 5/15/2015 16:49",
+		"initialize" : "jc 5/17/2015 14:09",
+		"maxCharCount" : "jc 5/17/2015 12:34",
+		"maxCharCount:" : "jc 5/17/2015 12:34",
+		"maxLineCount" : "jc 5/17/2015 12:33",
+		"maxLineCount:" : "jc 5/17/2015 12:34",
+		"processLine:from:" : "jc 5/17/2015 15:15",
+		"sendFormattedTranscriptFor:" : "jc 5/17/2015 14:33",
+		"sendNextFor:" : "jc 5/17/2015 14:34",
+		"sendReturnValueFor:" : "jc 5/17/2015 14:38",
+		"splitString:each:" : "jc 5/17/2015 13:18" } }

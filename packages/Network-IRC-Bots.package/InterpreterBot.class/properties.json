@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"maxLineCount",
+		"maxCharCount",
+		"currentTranscript" ],
 	"name" : "InterpreterBot",
 	"pools" : [
 		 ],

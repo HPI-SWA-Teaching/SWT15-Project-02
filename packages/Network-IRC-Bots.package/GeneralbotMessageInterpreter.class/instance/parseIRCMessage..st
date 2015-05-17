@@ -19,7 +19,7 @@ parseIRCMessage: nickAndMessage
 		on: Error do: [ :err | 
 			Transcript show: 'An error occured: '; show: (err description). 
 			errorMessage = (err description).
-			self halt.
+			"self halt."
 			^false].
 
 	^true

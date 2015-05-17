@@ -1,4 +1,5 @@
 as yet unclassified
 initialize
 
-	collection := OrderedCollection new.
+	lines := OrderedCollection new.
+	lines add: ''.
