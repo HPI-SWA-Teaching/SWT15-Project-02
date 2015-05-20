@@ -1,0 +1,16 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxLineCount",
+		"maxCharCount",
+		"currentTranscript" ],
+	"name" : "InterpreterBot",
+	"pools" : [
+		 ],
+	"super" : "GeneralBot",
+	"type" : "normal" }

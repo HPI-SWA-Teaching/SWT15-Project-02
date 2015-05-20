@@ -1,0 +1,14 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lines" ],
+	"name" : "TranscriptLogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

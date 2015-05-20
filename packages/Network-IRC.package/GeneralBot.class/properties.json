@@ -9,7 +9,8 @@
 		"connection",
 		"channels",
 		"looping",
-		"loopingProcess" ],
+		"loopingProcess",
+		"joinMessage" ],
 	"name" : "GeneralBot",
 	"pools" : [
 		 ],

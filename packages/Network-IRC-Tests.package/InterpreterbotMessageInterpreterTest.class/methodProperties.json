@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LW 5/18/2015 09:38",
+		"testInterpreterbotAllPropertiesAsOrderedCollection" : "LW 5/19/2015 09:49",
+		"testInterpreterbotClientnick" : "LW 5/18/2015 10:10",
+		"testInterpreterbotCode" : "LW 5/18/2015 10:45",
+		"testInterpreterbotCommand" : "LW 5/18/2015 10:11",
+		"testInterpreterbotEchoBools" : "LW 5/18/2015 10:25",
+		"testInterpreterbotErrorMessage" : "LW 5/19/2015 09:36",
+		"testInterpreterbotInvalidArguments" : "LW 5/18/2015 10:46",
+		"testInterpreterbotResizeValues" : "LW 5/18/2015 10:41" } }

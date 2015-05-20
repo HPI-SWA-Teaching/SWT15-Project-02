@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"processLine:from:" : "jc 5/12/2015 11:47" } }
+		"initialize" : "jc 5/13/2015 12:21",
+		"processLine:from:" : "jc 5/13/2015 12:20" } }

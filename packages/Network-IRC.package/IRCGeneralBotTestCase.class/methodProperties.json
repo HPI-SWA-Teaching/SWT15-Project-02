@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChannels" : "jc 5/18/2015 09:06",
+		"testConnectAndJoin" : "jc 5/17/2015 18:58",
+		"testConnection" : "jc 5/18/2015 11:21",
+		"testInitialize" : "jc 5/17/2015 15:38",
+		"testJoinMessage" : "jc 5/17/2015 19:35" } }

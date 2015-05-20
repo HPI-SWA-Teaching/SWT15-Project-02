@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messages",
+		"responds" ],
+	"name" : "IRCConnectionMessageLogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LW 5/17/2015 20:57",
+		"testLogbotAllPropertiesAsOrderedCollection" : "LW 5/19/2015 09:44",
+		"testLogbotClientnick" : "LW 5/17/2015 22:25",
+		"testLogbotCommand" : "LW 5/18/2015 09:34",
+		"testLogbotErrorMessage" : "LW 5/19/2015 09:36",
+		"testLogbotEvents" : "LW 5/17/2015 21:06",
+		"testLogbotInvalidArguments" : "LW 5/18/2015 09:37",
+		"testLogbotNick" : "LW 5/17/2015 22:27",
+		"testLogbotOrder" : "LW 5/17/2015 22:36",
+		"testLogbotPattern" : "LW 5/17/2015 22:33",
+		"testLogbotTimes" : "LW 5/17/2015 20:55" } }
