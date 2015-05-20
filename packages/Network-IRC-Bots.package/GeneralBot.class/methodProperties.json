@@ -4,7 +4,7 @@
 	"instance" : {
 		"addChannel:" : "jc 5/10/2015 22:15",
 		"channels" : "jc 5/8/2015 20:15",
-		"connectAndJoin" : "jc 5/13/2015 12:14",
+		"connectAndJoin" : "jc 5/18/2015 09:03",
 		"connection" : "jc 5/8/2015 20:10",
 		"connection:" : "jc 5/10/2015 22:22",
 		"disconnect" : "jc 5/12/2015 14:51",
@@ -14,6 +14,6 @@
 		"oneLoop" : "jc 5/12/2015 14:52",
 		"processLine:from:" : "jc 5/11/2015 12:07",
 		"processNewLinesFrom:" : "jc 5/11/2015 14:31",
-		"removeChannel:" : "jc 5/10/2015 22:28",
+		"removeChannel:" : "jc 5/18/2015 09:14",
 		"startLooping" : "jc 5/12/2015 14:40",
 		"stopLooping" : "jc 5/12/2015 14:52" } }
