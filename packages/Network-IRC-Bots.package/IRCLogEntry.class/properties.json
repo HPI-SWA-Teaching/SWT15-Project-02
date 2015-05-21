@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dateAndTime",
+		"message" ],
+	"name" : "IRCLogEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

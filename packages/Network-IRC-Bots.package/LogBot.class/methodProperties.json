@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChannel:" : "jc 5/21/2015 14:16",
+		"completeLogFromName:" : "jc 5/21/2015 16:01",
+		"completeLogFromObserver:" : "jc 5/21/2015 16:01",
+		"formatDateAndTime:" : "jc 5/21/2015 18:15",
+		"initialize" : "jc 5/21/2015 13:52",
+		"log:from:" : "jc 5/21/2015 14:17",
+		"logFromName:begin:end:" : "jc 5/21/2015 16:02",
+		"logFromObserver:begin:end:" : "jc 5/21/2015 16:03",
+		"processLine:from:" : "jc 5/21/2015 16:57",
+		"removeChannel:" : "jc 5/21/2015 14:16" } }

@@ -14,7 +14,7 @@ testConnection
 		server: conProfServer;
 		nick: 'InterpreterBot'.
 
-	con := IRCConnection new. "Causes a dialog. IRCConnection -> initialize -> initializeCurrentProfile -> openDialog"
+	con := IRCConnection initializeHeadless.
 	World startStepping: con.
 	con loadProfile: conProf.
 
