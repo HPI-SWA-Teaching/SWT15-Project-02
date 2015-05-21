@@ -36,6 +36,16 @@ parseCommand: messageParts
 		command := 'resize'.
 		messageParts removeFirst.
 		^true.].
+	
+	(helpcommands includes: (messageParts at: 1)) ifTrue: [
+		command := 'help'.
+		messageParts removeFirst.
+		^true.].
+	
+	(quitcommands includes: (messageParts at: 1)) ifTrue: [
+		command := 'quit'.
+		messageParts removeFirst.
+		^true.].
 
 	"if the command was found in the whole command list, but in none of the special command lists, somethig went wrong"
 

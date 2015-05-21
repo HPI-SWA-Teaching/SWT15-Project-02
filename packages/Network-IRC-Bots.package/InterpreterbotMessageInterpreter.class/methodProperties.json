@@ -5,9 +5,10 @@
 		"allPropertiesAsOrderedCollection" : "LW 5/13/2015 22:21",
 		"charcount" : "LW 5/13/2015 21:52",
 		"code" : "LW 5/13/2015 22:07",
-		"initialize" : "LW 5/13/2015 21:50",
+		"help" : "LW 5/22/2015 00:21",
+		"initialize" : "LW 5/21/2015 21:43",
 		"linecount" : "LW 5/13/2015 21:52",
 		"parseArgument:" : "LW 5/13/2015 21:10",
-		"parseCommand:" : "LW 5/18/2015 10:09",
+		"parseCommand:" : "LW 5/21/2015 21:45",
 		"showreturn" : "LW 5/13/2015 22:07",
 		"showtranscript" : "LW 5/13/2015 21:53" } }

@@ -8,9 +8,10 @@
 		"channel" : "LW 5/13/2015 11:31",
 		"end" : "LW 5/12/2015 16:12",
 		"end:" : "LW 5/12/2015 16:12",
-		"initialize" : "LW 5/13/2015 22:12",
+		"help" : "LW 5/21/2015 22:33",
+		"initialize" : "LW 5/21/2015 21:43",
 		"parseArgument:" : "LW 5/13/2015 21:49",
-		"parseCommand:" : "LW 5/18/2015 09:41",
+		"parseCommand:" : "LW 5/21/2015 21:45",
 		"parseUrlListArgument:for:" : "LW 5/13/2015 11:50",
 		"repo" : "LW 5/13/2015 11:31",
 		"url" : "LW 5/13/2015 11:30" } }

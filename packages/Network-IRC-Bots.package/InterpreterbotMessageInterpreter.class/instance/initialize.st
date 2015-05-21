@@ -10,8 +10,9 @@ initialize
 	nextcommands := #('next' 'n') asOrderedCollection.
 	resizecommands := #('resize' 're' 'rs') asOrderedCollection.
 	helpcommands := #('help' 'h') asOrderedCollection.
+	quitcommands := #('quit' 'q') asOrderedCollection.
 
-	commands := OrderedCollection new, transcriptcommands, returncommands, transcriptreturncommands, nextcommands, resizecommands, helpcommands.
+	commands := OrderedCollection new, transcriptcommands, returncommands, transcriptreturncommands, nextcommands, resizecommands, helpcommands, quitcommands.
 
 	codearguments := #('code' 'c') asOrderedCollection.
 	linecountarguments := #('linecount' 'lc') asOrderedCollection.

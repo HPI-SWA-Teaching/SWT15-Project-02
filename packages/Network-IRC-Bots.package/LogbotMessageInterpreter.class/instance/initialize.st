@@ -15,8 +15,9 @@ initialize
 	orderbyarguments := #('orderby' 'ob') asOrderedCollection.
 	orderarguments := #('order' 'o') asOrderedCollection.
 	helpcommands := #('help' 'h') asOrderedCollection.
+	quitcommands := #('quit' 'q') asOrderedCollection.
 
-	arguments := OrderedCollection new, beginarguments, endarguments, eventsarguments, nickarguments, patternarguments, orderbyarguments, orderarguments, helpcommands.
+	arguments := OrderedCollection new, beginarguments, endarguments, eventsarguments, nickarguments, patternarguments, orderbyarguments, orderarguments, helpcommands, quitcommands.
 
 	orderbyoptions := #('size' 'time' 'nick') asOrderedCollection.
 	orderoptions := #('DSC' 'ASC' 'dsc' 'asc') asOrderedCollection.

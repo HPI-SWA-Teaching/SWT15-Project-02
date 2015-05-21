@@ -15,8 +15,9 @@ initialize
 	repoarguments := #('repo' 'r') asOrderedCollection.
 	channelarguments := #('channel' 'c') asOrderedCollection.
 	helpcommands := #('help' 'h') asOrderedCollection.
+	quitcommands := #('quit' 'q') asOrderedCollection.
 
-	arguments := OrderedCollection new, beginarguments, endarguments, urlarguments, repoarguments, channelarguments, helpcommands.
+	arguments := OrderedCollection new, beginarguments, endarguments, urlarguments, repoarguments, channelarguments, helpcommands, quitcommands.
 
 	useTime := false.
 
