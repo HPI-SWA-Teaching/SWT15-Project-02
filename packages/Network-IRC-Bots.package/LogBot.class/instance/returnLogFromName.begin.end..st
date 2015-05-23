@@ -1,5 +1,5 @@
 private
-logFromName: aChannelName begin: beginDateAndTime end: endDateAndTime
+returnLogFromName: aChannelName begin: beginDateAndTime end: endDateAndTime
 	
 	| result |
 	result := OrderedCollection new.

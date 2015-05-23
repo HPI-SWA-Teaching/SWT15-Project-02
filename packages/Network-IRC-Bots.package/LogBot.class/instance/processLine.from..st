@@ -7,10 +7,10 @@ processLine: aString from: aChannelObserver
 	
 	((parser begin notNil) and: (parser end notNil)) ifTrue: [
 		(connection msgObserver) talkingTo: parser clientnick.
-		(self logFromObserver: aChannelObserver begin: (parser begin) end: (parser end)) do: [ :entry |
+		(self returnLogFromObserver: aChannelObserver begin: (parser begin) end: (parser end)) do: [ :entry |
 			(connection msgObserver) sendMessage: ((self formatDateAndTime: (entry dateAndTime)), ' > ', (entry message)).
 		].
 	].
 
-	self log: aString from: aChannelObserver.
+	self newLogEntry: aString forObserver: aChannelObserver.
 	

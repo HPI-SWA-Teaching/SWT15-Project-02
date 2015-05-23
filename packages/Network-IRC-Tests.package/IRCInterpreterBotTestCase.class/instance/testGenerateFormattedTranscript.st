@@ -12,3 +12,11 @@ testGenerateFormattedTranscript
 			show: ''HELLOWORLDhelloworldXYZ''.'.
 
 	self should: [ result = (#('TEST' 'HELLOWORLD' 'helloworld' 'XYZ') asOrderedCollection) ]. "Line count doesn't matter because we take it in account in output."
+
+	result := ib generateFormattedTranscript: '
+		Transcript show: ''TEST'';
+			cr;
+			show: ''HELLOWORLDhelloworldXYZ'';
+			clear.'.
+
+	self should: [ result = (OrderedCollection new) ].
