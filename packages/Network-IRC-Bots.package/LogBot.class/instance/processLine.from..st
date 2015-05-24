@@ -1,5 +1,6 @@
 private
 processLine: aString from: aChannelObserver
+	"TODO: Refactor when all functions of the LogBot are implemented."
 
 	| parser |
 	parser := LogbotMessageInterpreter new.

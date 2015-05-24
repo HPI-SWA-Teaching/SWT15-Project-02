@@ -6,7 +6,7 @@ startLooping
 	loopingProcess := [
 		[looping = true] whileTrue: [
 			self oneLoop.
-			(Delay forSeconds: 1) wait.
+			(Delay forMilliseconds: loopingWaitTimeInMilliseconds) wait.
 		]
 	] newProcess.
 	loopingProcess resume.

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChannel:" : "jc 5/21/2015 14:16",
+		"addChannel:" : "jc 5/24/2015 23:08",
 		"completeLogFromName:" : "jc 5/21/2015 16:01",
 		"completeLogFromObserver:" : "jc 5/21/2015 16:01",
 		"formatDateAndTime:" : "jc 5/21/2015 18:15",
-		"initialize" : "jc 5/21/2015 13:52",
+		"initialize" : "jc 5/24/2015 23:42",
 		"listOfLogs" : "jc 5/21/2015 22:24",
-		"newLogEntry:forName:" : "jc 5/23/2015 19:30",
-		"newLogEntry:forObserver:" : "jc 5/23/2015 19:30",
-		"processLine:from:" : "jc 5/24/2015 12:48",
-		"removeChannel:" : "jc 5/21/2015 14:16",
-		"returnLogFromName:begin:end:" : "jc 5/23/2015 19:28",
-		"returnLogFromObserver:begin:end:" : "jc 5/23/2015 19:28" } }
+		"newLogEntry:forName:" : "jc 5/24/2015 23:49",
+		"newLogEntry:forObserver:" : "jc 5/24/2015 23:50",
+		"processLine:from:" : "jc 5/24/2015 23:50",
+		"removeChannel:" : "jc 5/24/2015 23:09",
+		"returnLogFromName:begin:end:" : "jc 5/24/2015 23:52",
+		"returnLogFromObserver:begin:end:" : "jc 5/24/2015 23:53" } }

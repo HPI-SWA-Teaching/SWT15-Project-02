@@ -2,6 +2,7 @@ private
 generateTranscriptContent: aString
 
 	| transcriptHelper transcriptLogger |
+
 	transcriptHelper := Transcript.
 	Transcript := TranscriptLogger new.
 	Compiler evaluate: aString.

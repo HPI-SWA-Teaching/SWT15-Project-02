@@ -6,4 +6,5 @@
 		"testConnectAndJoin" : "jc 5/17/2015 18:58",
 		"testConnection" : "jc 5/20/2015 16:47",
 		"testInitialize" : "jc 5/17/2015 15:38",
+		"testIsValidChannelName" : "jc 5/24/2015 23:04",
 		"testJoinMessage" : "jc 5/17/2015 19:35" } }

@@ -4,3 +4,4 @@ initialize
 	
 	channels := OrderedCollection new.
 	joinMessage := 'Hej!'.
+	loopingWaitTimeInMilliseconds := 1000.

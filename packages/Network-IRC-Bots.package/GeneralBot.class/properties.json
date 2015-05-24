@@ -10,7 +10,8 @@
 		"channels",
 		"looping",
 		"loopingProcess",
-		"joinMessage" ],
+		"joinMessage",
+		"loopingWaitTimeInMilliseconds" ],
 	"name" : "GeneralBot",
 	"pools" : [
 		 ],

@@ -2,17 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"formatTranscript:" : "jc 5/17/2015 13:28",
+		"formatTranscript:" : "jc 5/24/2015 23:34",
 		"generateFormattedTranscript:" : "jc 5/17/2015 14:27",
 		"generateReturnValue:" : "jc 5/15/2015 17:55",
-		"generateTranscriptContent:" : "jc 5/15/2015 16:49",
-		"initialize" : "jc 5/17/2015 14:09",
+		"generateTranscriptContent:" : "jc 5/24/2015 23:34",
+		"initialize" : "jc 5/24/2015 23:41",
 		"maxCharCount" : "jc 5/17/2015 12:34",
 		"maxCharCount:" : "jc 5/17/2015 12:34",
 		"maxLineCount" : "jc 5/17/2015 12:33",
 		"maxLineCount:" : "jc 5/17/2015 12:34",
 		"processLine:from:" : "jc 5/24/2015 12:49",
-		"sendFormattedTranscriptFor:" : "jc 5/17/2015 14:33",
-		"sendNextFor:" : "jc 5/17/2015 14:34",
-		"sendReturnValueFor:" : "jc 5/17/2015 14:38",
-		"splitString:each:" : "jc 5/17/2015 13:18" } }
+		"sendFormattedTranscriptFor:" : "jc 5/24/2015 23:37",
+		"sendNextFor:" : "jc 5/24/2015 23:38",
+		"sendReturnValueFor:" : "jc 5/24/2015 23:39",
+		"splitString:each:" : "jc 5/24/2015 23:39" } }
