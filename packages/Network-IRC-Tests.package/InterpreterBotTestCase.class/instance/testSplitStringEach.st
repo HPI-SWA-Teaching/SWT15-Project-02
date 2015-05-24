@@ -1,9 +1,8 @@
-as yet unclassified
+testing
 testSplitStringEach
 
 	| ib |
 	ib := InterpreterBot new.
-	Transcript show: (ib splitString: 'TEST' each: 4).
 	self should: [ (ib splitString: 'TEST' each: 4) = (#('TEST') asOrderedCollection) ]. "Fits perfectly."
 	self should: [ (ib splitString: 'TESTtest' each: 4) = (#('TEST' 'test') asOrderedCollection) ]. "Double size."
 	self should: [ (ib splitString: 'TESTt' each: 4) = (#('TEST' 't') asOrderedCollection) ]. "One character too much."

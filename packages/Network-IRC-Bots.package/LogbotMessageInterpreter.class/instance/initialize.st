@@ -5,7 +5,9 @@ initialize
 	names := #('!logbot' '!lb' '!Logbot' '!LogBot' '!LB') asOrderedCollection.
 	
 	showcommands := #('show' 's' 'Show' 'S') asOrderedCollection.
-	commands := OrderedCollection new, showcommands.
+	helpcommands := #('help' 'h') asOrderedCollection.
+	quitcommands := #('quit' 'q') asOrderedCollection.
+	commands := OrderedCollection new, showcommands, helpcommands, quitcommands.
 
 	beginarguments := #('begin' 'b') asOrderedCollection.
 	endarguments := #('end' 'e') asOrderedCollection.
@@ -14,8 +16,6 @@ initialize
 	patternarguments := #('pattern' 'p') asOrderedCollection.
 	orderbyarguments := #('orderby' 'ob') asOrderedCollection.
 	orderarguments := #('order' 'o') asOrderedCollection.
-	helpcommands := #('help' 'h') asOrderedCollection.
-	quitcommands := #('quit' 'q') asOrderedCollection.
 
 	arguments := OrderedCollection new, beginarguments, endarguments, eventsarguments, nickarguments, patternarguments, orderbyarguments, orderarguments, helpcommands, quitcommands.
 

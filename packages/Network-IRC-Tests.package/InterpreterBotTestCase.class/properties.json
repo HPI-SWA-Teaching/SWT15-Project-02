@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "IRCGeneralBotTestCase",
+	"name" : "InterpreterBotTestCase",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

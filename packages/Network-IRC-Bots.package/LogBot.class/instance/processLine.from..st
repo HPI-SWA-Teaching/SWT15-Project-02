@@ -11,6 +11,8 @@ processLine: aString from: aChannelObserver
 			(connection msgObserver) sendMessage: ((self formatDateAndTime: (entry dateAndTime)), ' > ', (entry message)).
 		].
 	].
+	(((parser command) = 'help') or: ((parser command) = 'h')) ifTrue: [ self sendHelpFor: parser ].
+	(((parser command) = 'quit') or: ((parser command) = 'q')) ifTrue: [ self disconnect ].
 
 	self newLogEntry: aString forObserver: aChannelObserver.
 	

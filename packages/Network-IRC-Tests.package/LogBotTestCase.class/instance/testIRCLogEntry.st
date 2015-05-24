@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testIRCLogEntry
 	"Just test the initialize function. The rest is implicitly covered by the other tests."
 
