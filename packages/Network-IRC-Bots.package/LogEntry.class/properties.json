@@ -8,7 +8,7 @@
 	"instvars" : [
 		"dateAndTime",
 		"message" ],
-	"name" : "IRCLogEntry",
+	"name" : "LogEntry",
 	"pools" : [
 		 ],
 	"super" : "Object",

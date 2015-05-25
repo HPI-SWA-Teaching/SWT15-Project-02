@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testIsBetweenAnd" : "jc 5/25/2015 13:19",
+		"testMessageMatchesRegex" : "jc 5/25/2015 21:12",
+		"testMessageWithoutNick" : "jc 5/25/2015 13:26",
+		"testNickWithoutMessage" : "jc 5/25/2015 13:27",
+		"testSenderHasNick" : "jc 5/25/2015 13:20" } }

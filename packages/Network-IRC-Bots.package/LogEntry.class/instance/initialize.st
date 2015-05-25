@@ -1,5 +1,5 @@
 initialization
 initialize
 
-	dateAndTime := DateAndTime new.
+	dateAndTime := DateAndTime now.
 	message := ''.
