@@ -1,6 +1,7 @@
 private
 sendLogHeaderFrom: aChannelObserver accordingTo: aMessageInterpreter
-	
+	"Sends the header of a log which contains meta information."
+
 	(connection msgObserver) sendMessage: ' '.
 	(connection msgObserver) sendMessage: 'LOG FROM CHANNEL: ', (aChannelObserver channelName).
 
