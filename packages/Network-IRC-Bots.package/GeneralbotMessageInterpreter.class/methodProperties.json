@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"parseIRCMessage:" : "jc 5/27/2015 11:16" },
 	"instance" : {
 		"allPropertiesAsOrderedCollection" : "LW 5/12/2015 15:51",
 		"clientnick" : "LW 5/13/2015 22:20",

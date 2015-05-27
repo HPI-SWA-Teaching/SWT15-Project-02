@@ -2,8 +2,7 @@ private
 processLine: aString from: aChannelObserver
 
 	| parser |
-	parser := InterpreterbotMessageInterpreter new.
-	parser parseIRCMessage: aString.
+	parser := InterpreterbotMessageInterpreter parseIRCMessage: aString.
 	
 	(parser showreturn) ifTrue: [ self sendReturnValueFor: parser ].
 	(parser showtranscript) ifTrue: [ self sendFormattedTranscriptFor: parser ].

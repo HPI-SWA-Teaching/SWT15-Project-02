@@ -10,7 +10,8 @@
 		"listOfLogs" : "jc 5/21/2015 22:24",
 		"newLogEntry:forName:" : "jc 5/25/2015 12:12",
 		"newLogEntry:forObserver:" : "jc 5/24/2015 23:50",
-		"processLine:from:" : "jc 5/24/2015 23:50",
+		"processLine:from:" : "jc 5/27/2015 11:40",
 		"removeChannel:" : "jc 5/24/2015 23:09",
 		"returnLogFromName:begin:end:" : "jc 5/24/2015 23:52",
-		"returnLogFromObserver:begin:end:" : "jc 5/24/2015 23:53" } }
+		"returnLogFromObserver:begin:end:" : "jc 5/24/2015 23:53",
+		"sendBeginEndLogFrom:using:" : "jc 5/27/2015 11:34" } }
