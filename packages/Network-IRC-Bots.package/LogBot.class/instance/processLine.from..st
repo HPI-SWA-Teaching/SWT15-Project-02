@@ -5,11 +5,9 @@ processLine: aString from: aChannelObserver
 	| parser |
 	parser := LogbotMessageInterpreter parseIRCMessage: aString.
 	
-	((parser begin notNil) and: (parser end notNil)) ifTrue: [
-		self sendBeginEndLogFrom: aChannelObserver using: parser.
-	].
-	(((parser command) = 'help') or: ((parser command) = 'h')) ifTrue: [ self sendHelpFor: parser ].
-	(((parser command) = 'quit') or: ((parser command) = 'q')) ifTrue: [ self disconnect ].
+	(parser command = 'show') ifTrue: [ self sendFilteredLogFrom: aChannelObserver accordingTo: parser ].
+	(parser command = 'help') ifTrue: [ self sendHelpFor: parser ].
+	(parser command = 'quit') ifTrue: [ self disconnect ].
 
 	self newLogEntry: aString forObserver: aChannelObserver.
 	

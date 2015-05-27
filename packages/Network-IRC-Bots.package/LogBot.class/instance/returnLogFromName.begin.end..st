@@ -1,4 +1,4 @@
-private
+to be removed soon
 returnLogFromName: aChannelName begin: beginDateAndTime end: endDateAndTime
 	"Filters the ListOfLogs according to channel name, begin and end DateAndTime."	
 

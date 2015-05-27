@@ -1,4 +1,4 @@
-private
+to be removed soon
 sendBeginEndLogFrom: aChannelObserver using: aMessageInterpreter
 
 	(connection msgObserver) talkingTo: aMessageInterpreter clientnick.
