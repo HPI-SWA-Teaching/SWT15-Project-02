@@ -4,6 +4,8 @@ messageWithoutNick
 
 	| splittedMessage |
 
+	(self isEvent) ifTrue: [ ^false ].
+
 	splittedMessage := message findTokens: (Character space).
 	(splittedMessage size < 3) ifTrue: [ ^('') ].
 	splittedMessage removeFirst; removeFirst.

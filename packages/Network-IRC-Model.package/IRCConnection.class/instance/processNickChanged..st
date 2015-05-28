@@ -15,8 +15,9 @@ processNickChanged: aMessage
 				do: [:obs | 
 					obs updateUsers.
 					textMessage _ 'User ' , user , ' has changed nick to: ' , newNick.
+					gui ifNil: [obs addTextToChannelPane: '* ', user, ' has changes nick to: ', newNick ]. "Event logging if no gui (and therefore no frontMost channel) is existent."
 					self
 						sendString: textMessage
 						withNickTag: self serverPrefixMessageNick
 						ifFrontChannelObserverIs: channelName]].
-	user = nick ifTrue: [self nick: newNick]
+	(user = self nick) ifTrue: [self nick: newNick]

@@ -11,7 +11,10 @@ processPart: aMessage
 		removeMember: user.
 	(self channelObservers
 		select: [:each | each channelName = channelName])
-		do: [:obs | obs updateUsers].
+		do: [:obs |
+			obs updateUsers.
+			gui ifNil: [ obs addTextToChannelPane: '* ', user, ' has left the channel.' ]. "Event logging if no gui (and therefore no frontMost channel) is existent."
+		].
 	(IRCOptionsManagement option: #showPartsInChannel)
 		ifTrue: [textMessage := user , ' has left the channel.  '.
 			aMessage arguments size > 1

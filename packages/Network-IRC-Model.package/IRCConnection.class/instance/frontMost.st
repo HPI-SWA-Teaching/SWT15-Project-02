@@ -1,3 +1,4 @@
 factored swapper
 frontMost
-	^ gui frontMost
+	
+	gui ifNil: [ ^nil ] ifNotNil: [ ^ gui frontMost ]

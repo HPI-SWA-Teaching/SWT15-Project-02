@@ -11,7 +11,10 @@ processJoin: aMessage
 		addMember: user.
 	(self channelObservers
 		select: [:each | each channelName = channelName])
-		do: [:obs | obs updateUsers].
+		do: [:obs |
+			obs updateUsers.
+			gui ifNil: [ obs addTextToChannelPane: '* ', user, ' has joined the channel.' ]. "Event logging if no gui (and therefore no frontMost channel) is existent."
+		].
 	user = self nick
 		ifTrue: [^ nil].
 	(IRCOptionsManagement option: #showJoinsInChannel)
