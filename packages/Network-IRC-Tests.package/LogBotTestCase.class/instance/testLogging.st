@@ -15,10 +15,3 @@ testLogging
 
 	self should: [ ((bot listOfLogs at: '#test1') at: 1) message = 'user1 : message1' ].
 	self should: [ ((bot listOfLogs at: '#test2') at: 1) message = 'user2 : message2' ].
-
-	self should: [
-		((bot returnLogFromName: '#test1'
-			begin: begin
-			end: (DateAndTime now))
-			at: 1) message
-		= 'user1 : message1' ].
