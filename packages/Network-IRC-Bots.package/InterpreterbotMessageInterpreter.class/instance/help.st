@@ -2,7 +2,7 @@ accessing
 help
 	
 	^(#('Following commands are available:' 
-	'!interpreterbot {transcript | return | transcriptreturn} code <code>]' 
+	'!interpreterbot {transcript | return | transcriptreturn} code <code>' 
 	'!interpreterbot next' 
 	'!interpreterbot resize [linecount <number>] [charcount <number>]' 
 	'Explanation of options:' 

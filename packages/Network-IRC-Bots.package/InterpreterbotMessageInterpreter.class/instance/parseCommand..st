@@ -1,50 +1,43 @@
 parsing
-parseCommand: messageParts
+parseCommand: cmd
 	"check if the given command is recognised, if not recognised, throw error"
 	
-	(commands includes: (messageParts at: 1)) ifFalse: [
+	(commands includes: cmd) ifFalse: [
 		Error new signal: 'Command not understood.'.
 		^false].
 
-	"if found in whole command list, check each command (this architecture is mainly useful for multiple commands)"
+	"if found in whole command list, check each command"
 
-	(transcriptcommands includes: (messageParts at: 1)) ifTrue: [
+	(transcriptcommands includes: cmd) ifTrue: [
 		command := 'do'.
 		showtranscript := true.
-		messageParts removeFirst.
 		^true.].
 
-	(returncommands includes: (messageParts at: 1)) ifTrue: [
+	(returncommands includes: cmd) ifTrue: [
 		command := 'do'.
 		showreturn := true.
-		messageParts removeFirst.
 		^true.].
 
-	(transcriptreturncommands includes: (messageParts at: 1)) ifTrue: [
+	(transcriptreturncommands includes: cmd) ifTrue: [
 		command := 'do'.
 		showtranscript := true.
 		showreturn := true.
-		messageParts removeFirst.
 		^true.].
 
-	(nextcommands includes: (messageParts at: 1)) ifTrue: [
+	(nextcommands includes: cmd) ifTrue: [
 		command := 'next'.
-		messageParts removeFirst.
 		^true.].
 
-	(resizecommands includes: (messageParts at: 1)) ifTrue: [
+	(resizecommands includes: cmd) ifTrue: [
 		command := 'resize'.
-		messageParts removeFirst.
 		^true.].
 	
-	(helpcommands includes: (messageParts at: 1)) ifTrue: [
+	(helpcommands includes: cmd) ifTrue: [
 		command := 'help'.
-		messageParts removeFirst.
 		^true.].
 	
-	(quitcommands includes: (messageParts at: 1)) ifTrue: [
+	(quitcommands includes: cmd) ifTrue: [
 		command := 'quit'.
-		messageParts removeFirst.
 		^true.].
 
 	"if the command was found in the whole command list, but in none of the special command lists, somethig went wrong"

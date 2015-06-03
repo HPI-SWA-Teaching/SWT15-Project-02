@@ -1,33 +1,28 @@
 parsing
-parseCommand: messageParts
+parseCommand: cmd
 	"check if the given command is recognised, if not recognised, throw error"
 	
-	(commands includes: (messageParts at: 1)) ifFalse: [
+	(commands includes: cmd) ifFalse: [
 		Error new signal: 'Command not understood.'.
 		^false].
 
-	"if found in whole command list, check each command (this architecture is mainly useful for multiple commands)"
+	"if found in whole command list, check each command"
 
-	(showcommands includes: (messageParts at: 1)) ifTrue: [
+	(showcommands includes: cmd) ifTrue: [
 		command := 'show'.
 		useTime := true.
-		messageParts removeFirst.
 		^true.].
 
-	(addcommands includes: (messageParts at: 1)) ifTrue: [
+	(addcommands includes: cmd) ifTrue: [
 		command := 'add'.
-		useTime := false.
-		messageParts removeFirst.
 		^true.].
 	
-	(helpcommands includes: (messageParts at: 1)) ifTrue: [
+	(helpcommands includes: cmd) ifTrue: [
 		command := 'help'.
-		messageParts removeFirst.
 		^true.].
 	
-	(quitcommands includes: (messageParts at: 1)) ifTrue: [
+	(quitcommands includes: cmd) ifTrue: [
 		command := 'quit'.
-		messageParts removeFirst.
 		^true.].
 
 	"if the command was found in the whole command list, but in none of the special command lists, somethig went wrong"

@@ -22,7 +22,8 @@
 		"nick",
 		"pattern",
 		"orderby",
-		"order" ],
+		"order",
+		"clearcommands" ],
 	"name" : "LogbotMessageInterpreter",
 	"pools" : [
 		 ],

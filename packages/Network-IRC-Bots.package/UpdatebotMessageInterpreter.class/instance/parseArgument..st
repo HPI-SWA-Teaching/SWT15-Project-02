@@ -28,5 +28,4 @@ parseArgument: messageParts
 		returnValue := self parseTextArgument: messageParts for: channelarguments.
 		returnValue ifNotNil: [channel := returnValue. ^true]].
 
-	Error new signal: 'Internal error while parsing arguments'.
-	^false
+	Error new signal: 'Invalid argument for chosen command.'.

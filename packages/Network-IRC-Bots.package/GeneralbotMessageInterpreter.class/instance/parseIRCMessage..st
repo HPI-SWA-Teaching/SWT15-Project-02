@@ -1,25 +1,20 @@
 parsing
-parseIRCMessage: nickAndMessage
+parseIRCMessage: ircMessage
 	"parsing a message received from IRC"
 	
-	| message splitposition |
-
-	"split message in nickname and message"
+	| message |
 	
-	splitposition := nickAndMessage indexOf: $:.
-	((splitposition > 2) & (splitposition + 1 < (nickAndMessage size))) ifFalse: [
-		Transcript show: 'Invalid input (Nickname, colon or message missing)';show: splitposition. ^false].
-	clientnick := nickAndMessage copyFrom: 1 to: (splitposition - 2).
-	message := nickAndMessage copyFrom: (splitposition + 2) to: (nickAndMessage size).
+	"self halt."
 
-	"parse the message, catch errors"
+	(self checkForEvent: ircMessage) ifTrue: [^false].
+	
+	message := self splitIRCMessage: ircMessage.
+	message ifNil: [^false].
 
 	[self parseMessage: message.
 	(self useTime) ifTrue: [self fixTimes.]]
-		on: Error do: [ :err | 
-			"Transcript show: 'An error occured: '; show: (err description). "
-			errorMessage := (err description).
-			"self halt."
-			^false].
+	on: Error do: [ :err | 
+		errorMessage := (err description).
+		^false].
 
 	^true

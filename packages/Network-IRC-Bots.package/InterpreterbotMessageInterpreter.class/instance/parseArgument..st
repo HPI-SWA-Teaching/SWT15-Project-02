@@ -23,4 +23,3 @@ parseArgument: messageParts
 		returnValue ifNotNil: [charcount := returnValue. ^true]].
 
 	Error new signal: 'Invalid argument for chosen command.'.
-	^false

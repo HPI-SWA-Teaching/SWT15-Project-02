@@ -33,5 +33,4 @@ parseArgument: messageParts
 		returnValue := self parseEnumArgument: messageParts for: orderarguments enums: orderoptions.
 		returnValue ifNotNil: [order := (returnValue asUppercase). ^true]].
 
-	Error new signal: 'Internal error while parsing arguments'.
-	^false
+	Error new signal: 'Invalid argument for chosen command.'.

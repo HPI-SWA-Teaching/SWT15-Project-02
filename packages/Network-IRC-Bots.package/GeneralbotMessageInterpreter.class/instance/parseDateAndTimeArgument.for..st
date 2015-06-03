@@ -4,26 +4,19 @@ parseDateAndTimeArgument: messageParts for: argumentList
 
 	| returnValue |
 	
-	(argumentList includes: (messageParts at: 1)) ifTrue: [
+	(argumentList includes: (messageParts at: 1)) ifFalse: 
+		[^nil].
 
-		"try parsing a DateAndTime value"
+	"try parsing a DateAndTime value"
+		
+	returnValue := self parseDateAndTimeArgument: messageParts.
+	returnValue ifNotNil:
+		[^returnValue].
 
-		[(messageParts size > 2) ifTrue: [
-			returnValue := self parseDate: (messageParts at: 2) time: (messageParts at: 3).
-			returnValue ifNotNil:
-				[messageParts removeFirst: 3. 
-				^returnValue]]] 
-		on: NumberParserError do: [].
+	"try parsing a Time value"
 
-		"try parsing a Time value"
+	returnValue := self parseTimeArgument: messageParts.
+	returnValue ifNotNil:
+		[^returnValue].
 
-		[(messageParts size > 1) ifTrue: [
-			returnValue := self parseTime: (messageParts at: 2).
-			returnValue ifNotNil:
-				[messageParts removeFirst: 2. 
-				^returnValue]]]
-		on: NumberParserError do: [].
-
-		Error new signal: 'Error while parsing time.'.].
-
-	^nil
+	Error new signal: 'Error while parsing time.'

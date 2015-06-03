@@ -2,20 +2,15 @@ parsing
 parseUrlListArgument: messageParts for: argumentList
 	"parse all remaining arguments as url of repos"
 
-	| urlList index |
+	| urlList |
 
-	(argumentList includes: (messageParts at: 1)) ifTrue: [
+	(argumentList includes: (messageParts at: 1)) ifFalse: [^nil].
 
-		index := 2.
+	self checkForSize: messageParts.
 		
-		urlList := OrderedCollection new.
+	urlList := OrderedCollection new.
 
-		[index <= (messageParts size)]
-		whileTrue: [urlList addLast: (messageParts at: index).
-			index := index + 1.].
+	[(messageParts size) > 0]
+		whileTrue: [urlList addLast: (messageParts removeFirst)].
 
-		messageParts removeAll.
-
-		^urlList].
-
-	^nil
+	^urlList
