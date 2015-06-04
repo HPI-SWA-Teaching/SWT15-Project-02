@@ -4,6 +4,7 @@ help
 	^(#('Following commands are available:' 
 	'!updatebot add repo <repository url> channel <channel>' 
 	'!updatebot show [begin {<YYYY-MM-DD HH:MM> | <HH:MM>} [end {<YYYY-MM-DD HH:MM> | <HH:MM>}]] url <list of urls, divided by space>' 
+	'!updatebot quit'
 	'Explanation of options:' 
 	'!updatebot or !ub : Calls the bot.' 
 	'add or a : Adds a new repository to the watchlist.' 

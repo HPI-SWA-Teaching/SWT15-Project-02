@@ -4,6 +4,7 @@ help
 	^(#('Following commands are available:'  
 	'!logbot show [begin {<YYYY-MM-DD HH:MM> | <HH:MM>} [end {<YYYY-MM-DD HH:MM> | <HH:MM>}]] [events] [nick <nickname>] [pattern <pattern>] [orderby {size | time | nick} order {dsc, asc}]'
 	'!logbot clear'
+	'!logbot quit'
 	'Explanation of options:' 
 	'!logbot or !lb : Calls the bot.' 
 	'show or s : Shows the log.' 

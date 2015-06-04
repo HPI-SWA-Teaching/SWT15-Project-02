@@ -5,6 +5,7 @@ help
 	'!interpreterbot {transcript | return | transcriptreturn} code <code>' 
 	'!interpreterbot next' 
 	'!interpreterbot resize [linecount <number>] [charcount <number>]' 
+	'!interpreterbot quit'
 	'Explanation of options:' 
 	'!interpreterbot or !ib : Calls the bot.' 
 	'transcript or t : Runs the code, shows the transcript output.' 
