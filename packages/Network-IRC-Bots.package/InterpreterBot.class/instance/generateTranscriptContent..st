@@ -1,14 +1,14 @@
 private
 generateTranscriptContent: aString
 
-	| transcriptHelper transcriptLogger |
+	| transcriptLogger transcriptHelper |
 
 	transcriptHelper := Transcript.
 	[
-	Transcript := TranscriptLogger new.
+	Transcript := (TranscriptLogger new) initialize.
 	Compiler evaluate: aString.
 	transcriptLogger := Transcript.
-	] on: Error do: [ Transcript := transcriptHelper ].
+	] on: Error do: [ Transcript := transcriptHelper. ].
 	Transcript := transcriptHelper.
 	
 	transcriptLogger ifNil: [ ^( #('') asOrderedCollection ) ].
