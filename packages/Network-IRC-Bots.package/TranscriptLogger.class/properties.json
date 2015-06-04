@@ -10,5 +10,5 @@
 	"name" : "TranscriptLogger",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TranscriptStream",
 	"type" : "normal" }
