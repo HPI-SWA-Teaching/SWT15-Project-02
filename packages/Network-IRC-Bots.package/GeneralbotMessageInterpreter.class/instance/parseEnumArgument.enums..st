@@ -1,9 +1,6 @@
 parsing
-parseEnumArgument: messageParts for: argumentList enums: enums
+parseEnumArgument: messageParts enums: enums
 	"parser for enumerator arguments, needs the list of possible enums"
-	
-	(argumentList includes: (messageParts at: 1)) ifFalse: 
-		[^nil].
 	
 	(messageParts size > 1) ifFalse: 
 		[Error new signal: ((messageParts at: 1), ' was found, but no value was specified.')].

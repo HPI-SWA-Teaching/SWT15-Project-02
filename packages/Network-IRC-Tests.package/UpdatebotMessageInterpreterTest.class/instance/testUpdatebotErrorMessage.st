@@ -6,4 +6,4 @@ testUpdatebotErrorMessage
 	updatebot := UpdatebotMessageInterpreter new.
 	
 	self assert: (updatebot parseIRCMessage: 'client : !lb') equals: false.
-	self assert: (updatebot errorMessage) equals: 'Error: NotCalled'
+	self assert: (updatebot errorMessage) equals: nil

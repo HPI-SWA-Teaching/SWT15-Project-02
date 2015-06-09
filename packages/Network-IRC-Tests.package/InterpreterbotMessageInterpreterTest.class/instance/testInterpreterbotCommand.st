@@ -4,7 +4,8 @@ testInterpreterbotCommand
 	
 	interpreterbot := InterpreterbotMessageInterpreter new.
 	
-	self assert: (interpreterbot parseIRCMessage: 'client : !ib abc') equals: false.
+	self assert: (interpreterbot parseIRCMessage: 'client : !ib abc') equals: true.
+	self assert: (interpreterbot command) equals: 'help'.
 	
 	interpreterbot := InterpreterbotMessageInterpreter new.
 	

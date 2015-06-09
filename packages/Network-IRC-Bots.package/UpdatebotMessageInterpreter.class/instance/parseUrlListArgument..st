@@ -1,10 +1,8 @@
 parsing
-parseUrlListArgument: messageParts for: argumentList
+parseUrlListArgument: messageParts
 	"parse all remaining arguments as url of repos"
 
 	| urlList |
-
-	(argumentList includes: (messageParts at: 1)) ifFalse: [^nil].
 
 	self checkForSize: messageParts.
 		

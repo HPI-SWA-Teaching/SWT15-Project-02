@@ -1,11 +1,8 @@
 parsing
-parseDateAndTimeArgument: messageParts for: argumentList
+parseDateAndTimeOrTimeArgument: messageParts
 	"parser for DayAndTime or Time arguments"
 
 	| returnValue |
-	
-	(argumentList includes: (messageParts at: 1)) ifFalse: 
-		[^nil].
 
 	"try parsing a DateAndTime value"
 		

@@ -8,13 +8,11 @@
 	"instvars" : [
 		"clientnick",
 		"names",
-		"commands",
-		"helpcommands",
-		"quitcommands",
-		"arguments",
 		"command",
 		"useTime",
-		"errorMessage" ],
+		"errorMessage",
+		"commandDictionary",
+		"argumentCollection" ],
 	"name" : "GeneralbotMessageInterpreter",
 	"pools" : [
 		 ],

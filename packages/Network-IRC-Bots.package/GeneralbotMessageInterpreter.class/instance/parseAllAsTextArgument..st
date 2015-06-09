@@ -1,9 +1,6 @@
 parsing
-parseAllAsTextArgument: messageParts for: argumentList
+parseAllAsTextArgument: messageParts
 	"parses all remaining arguments into an ordered collection"
-
-	(argumentList includes: (messageParts at: 1)) 
-	ifFalse: [^nil].
 	
 	self checkForSize: messageParts.
 	

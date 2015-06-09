@@ -6,11 +6,6 @@
 		 ],
 	"commentStamp" : "LW 5/18/2015 10:11",
 	"instvars" : [
-		"transcriptcommands",
-		"returncommands",
-		"transcriptreturncommands",
-		"nextcommands",
-		"resizecommands",
 		"codearguments",
 		"linecountarguments",
 		"charcountarguments",

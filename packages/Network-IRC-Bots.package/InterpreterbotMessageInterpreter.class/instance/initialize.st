@@ -2,6 +2,6 @@ initialization
 initialize
 	
 	self initializeNames.
-	self initializeCommands.
-	self initializeArguments.
+	self initializeCommandDictionary.
+	self initializeArgumentCollection.
 	self initializeVariables.

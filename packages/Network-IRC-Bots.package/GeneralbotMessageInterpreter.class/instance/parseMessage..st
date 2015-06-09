@@ -4,16 +4,15 @@ parseMessage: message
 
 	| messageParts |
 
-	"self halt."
-
 	messageParts := message findTokens: ' '.
 
-	self parseName: (messageParts removeFirst).
+	(self parseName: (messageParts removeFirst)) ifFalse: [^false].
 
 	self parseCommand: (messageParts removeFirst).
 
-	[messageParts size > 0] whileTrue: [
-		(self parseArgument: messageParts)].
+	[[messageParts size > 0] whileTrue: [self parseArgument: messageParts].
+	(self useTime) ifTrue: [self fixTimes.]] 
+		on: Error do: [ :err | errorMessage := (err description). ^false].
 
 	^true
 	

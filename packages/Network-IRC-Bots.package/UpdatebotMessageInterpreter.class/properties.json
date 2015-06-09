@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "LW 5/18/2015 10:11",
 	"instvars" : [
-		"showcommands",
 		"beginarguments",
 		"endarguments",
 		"begin",
 		"end",
-		"addcommands",
 		"urlarguments",
 		"url",
 		"repoarguments",

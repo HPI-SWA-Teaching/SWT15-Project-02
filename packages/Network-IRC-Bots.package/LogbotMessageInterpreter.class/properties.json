@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "LW 5/17/2015 21:00",
 	"instvars" : [
-		"showcommands",
 		"beginarguments",
 		"endarguments",
 		"eventsarguments",
@@ -22,8 +21,7 @@
 		"nick",
 		"pattern",
 		"orderby",
-		"order",
-		"clearcommands" ],
+		"order" ],
 	"name" : "LogbotMessageInterpreter",
 	"pools" : [
 		 ],
