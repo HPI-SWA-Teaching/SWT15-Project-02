@@ -9,6 +9,8 @@ parseMessage: message
 	(self parseName: (messageParts removeFirst)) ifFalse: [^false].
 
 	self parseCommand: (messageParts removeFirst).
+	
+	(command = 'help') ifTrue: [^true].
 
 	[[messageParts size > 0] whileTrue: [self parseArgument: messageParts].
 	(self useTime) ifTrue: [self fixTimes.]] 
