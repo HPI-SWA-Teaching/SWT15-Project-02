@@ -8,4 +8,6 @@ sendMessagesToSocket
 			IRCConnection trace: 'sendBufer: "' , buffer , '"'.
 			[buffer size > 0]
 				whileTrue: [amount := self socket sendSomeData: buffer.
-								buffer := buffer copyFrom: amount + 1 to: buffer size]]
+								buffer := buffer copyFrom: amount + 1 to: buffer size].
+			(Delay forMilliseconds: floodProtectionTimeMillis) wait.
+		]

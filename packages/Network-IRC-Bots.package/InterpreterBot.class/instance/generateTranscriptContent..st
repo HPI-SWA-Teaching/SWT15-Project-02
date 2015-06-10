@@ -8,8 +8,8 @@ generateTranscriptContent: aString
 	Transcript := (TranscriptLogger new) initialize.
 	Compiler evaluate: aString.
 	transcriptLogger := Transcript.
-	] on: Error do: [ Transcript := transcriptHelper. ].
+	] on: Error do: [ :e | Transcript := transcriptHelper. e printVerboseOn: Transcript.].
 	Transcript := transcriptHelper.
-	
+
 	transcriptLogger ifNil: [ ^( #('') asOrderedCollection ) ].
 	^(transcriptLogger lines)

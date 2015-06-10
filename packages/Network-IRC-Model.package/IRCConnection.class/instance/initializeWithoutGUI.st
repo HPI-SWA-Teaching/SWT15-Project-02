@@ -7,3 +7,4 @@ initializeWithoutGUI
 	protocolMessageSubscribers := IdentitySet new.
 	self initializeConsoleText.
 	channelObservers := OrderedCollection new.
+	floodProtectionTimeMillis := 0.

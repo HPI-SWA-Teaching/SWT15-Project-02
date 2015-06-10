@@ -29,7 +29,8 @@
 		"dropped",
 		"gui",
 		"recentChannelName",
-		"connectedInLastLoop" ],
+		"connectedInLastLoop",
+		"floodProtectionTimeMillis" ],
 	"name" : "IRCConnection",
 	"pools" : [
 		 ],

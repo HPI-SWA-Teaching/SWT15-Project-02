@@ -4,7 +4,7 @@ show: aString
 
 	| splittedString lastLine |
 	aString ifNil: [^false].
-	splittedString := aString findTokens: (Character cr).
+	splittedString := aString asString findTokens: (Character cr).
 	lastLine := lines removeLast.
 	lines addLast: (lastLine, splittedString removeFirst).
 	splittedString do: [ :each | lines addLast: each ].
