@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"formatReturnValue:" : "jc 6/10/2015 22:45",
 		"formatTranscript:" : "jc 5/24/2015 23:34",
 		"generateFormattedTranscript:" : "jc 6/10/2015 18:00",
 		"generateReturnValue:" : "jc 5/15/2015 17:55",
@@ -12,7 +13,7 @@
 		"maxLineCount" : "jc 5/17/2015 12:33",
 		"maxLineCount:" : "jc 5/17/2015 12:34",
 		"processLine:from:" : "jc 6/10/2015 17:31",
-		"sendFormattedTranscriptFor:" : "jc 6/10/2015 18:02",
-		"sendNextFor:" : "jc 5/24/2015 23:38",
-		"sendReturnValueFor:" : "jc 5/24/2015 23:39",
+		"sendFormattedTranscriptFor:" : "jc 6/10/2015 23:11",
+		"sendNextFor:" : "jc 6/10/2015 23:12",
+		"sendReturnValueFor:" : "jc 6/10/2015 23:11",
 		"splitString:each:" : "jc 5/24/2015 23:39" } }
