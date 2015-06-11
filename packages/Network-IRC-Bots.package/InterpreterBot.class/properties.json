@@ -8,6 +8,7 @@
 	"instvars" : [
 		"maxLineCount",
 		"maxCharCount",
+		"currentBuffer",
 		"currentTranscript",
 		"currentReturnValue" ],
 	"name" : "InterpreterBot",

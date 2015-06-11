@@ -1,4 +1,4 @@
-private
+to be removed soon
 sendReturnValueFor: anInterpreter
 	"Retrieves the returnValue of the given code and sends it as a direct message to the client."
 	

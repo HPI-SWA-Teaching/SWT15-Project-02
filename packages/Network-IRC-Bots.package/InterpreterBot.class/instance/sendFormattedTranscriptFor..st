@@ -1,4 +1,4 @@
-private
+to be removed soon
 sendFormattedTranscriptFor: anInterpreter
 	"Generates a formatted Transcript, stores it in currentTranscript and sends the first maxLineCount lines as a direct message to the client."
 	
