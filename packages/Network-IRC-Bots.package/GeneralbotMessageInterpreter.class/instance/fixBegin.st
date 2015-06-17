@@ -1,6 +1,6 @@
 parsing
 fixBegin
-	
-	self begin ifNil: [Error new signal: 'No begin date/time specified'].
+
+	self begin ifNil: [self begin: DateAndTime new].
 	
 	self checkBeginClass
