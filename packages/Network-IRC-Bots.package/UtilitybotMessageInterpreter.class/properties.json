@@ -1,0 +1,15 @@
+{
+	"category" : "Network-IRC-Bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"logbot",
+		"interpreterbot" ],
+	"name" : "UtilitybotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "GeneralbotMessageInterpreter",
+	"type" : "normal" }

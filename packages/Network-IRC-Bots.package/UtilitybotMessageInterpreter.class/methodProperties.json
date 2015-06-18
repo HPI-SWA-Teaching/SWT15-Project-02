@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 6/18/2015 11:39",
+		"help" : "LW 6/18/2015 12:02",
+		"initialize" : "LW 6/18/2015 11:02",
+		"initializeArgumentCollection" : "LW 6/18/2015 11:52",
+		"initializeCommandDictionary" : "LW 6/18/2015 11:25",
+		"initializeNames" : "LW 6/18/2015 11:11",
+		"initializeVariables" : "LW 6/18/2015 11:36",
+		"interpreterbot" : "LW 6/18/2015 11:40",
+		"logbot" : "LW 6/18/2015 11:39" } }
