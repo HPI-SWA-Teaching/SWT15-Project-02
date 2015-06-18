@@ -2,5 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "jc 5/13/2015 12:21",
-		"processLine:from:" : "jc 5/13/2015 12:20" } }
+		"disconnect" : "jc 6/18/2015 22:19",
+		"initialize" : "jc 6/18/2015 22:32",
+		"processLine:from:" : "jc 6/18/2015 22:51",
+		"sendDateAndTimeFor:" : "jc 6/18/2015 22:51",
+		"sendDateFor:" : "jc 6/18/2015 22:40",
+		"sendStatusFor:" : "jc 6/18/2015 22:51",
+		"sendTimeFor:" : "jc 6/18/2015 22:40",
+		"startInterpreterBot:" : "jc 6/18/2015 22:28",
+		"startLogBot:" : "jc 6/18/2015 22:28",
+		"stopInterpreterBot" : "jc 6/18/2015 22:16",
+		"stopLogBot" : "jc 6/18/2015 22:17" } }

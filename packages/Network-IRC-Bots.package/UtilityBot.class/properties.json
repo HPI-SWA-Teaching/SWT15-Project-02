@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"interpreterBot",
+		"logBot",
+		"interpreterBotRunning",
+		"logBotRunning" ],
 	"name" : "UtilityBot",
 	"pools" : [
 		 ],
