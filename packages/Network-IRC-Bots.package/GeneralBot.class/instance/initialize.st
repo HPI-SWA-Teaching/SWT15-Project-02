@@ -4,5 +4,5 @@ initialize
 	
 	channels := OrderedCollection new.
 	joinMessage := 'Hej!'.
-	loopingWaitTimeInMilliseconds := 1000.
+	loopingWaitTimeInMilliseconds := 200.
 	IRCOptionsManagement option: #showJoinsInChannel value: false.
