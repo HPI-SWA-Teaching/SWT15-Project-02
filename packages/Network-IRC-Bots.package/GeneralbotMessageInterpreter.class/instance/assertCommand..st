@@ -1,5 +1,5 @@
 parsing
 assertCommand: cmd
 
-	(cmd = command) ifFalse: 
+	(cmd includes: command) ifFalse: 
 		[Error new signal: 'Invalid argument for chosen command.']

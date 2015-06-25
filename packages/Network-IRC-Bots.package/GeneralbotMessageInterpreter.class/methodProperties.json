@@ -4,7 +4,7 @@
 	"instance" : {
 		"addMultipleKeysToCommandDictionary:block:" : "LW 6/4/2015 14:24",
 		"allPropertiesAsOrderedCollection" : "LW 5/12/2015 15:51",
-		"assertCommand:" : "LW 6/9/2015 11:15",
+		"assertCommand:" : "LW 6/25/2015 13:37",
 		"checkBeginClass" : "LW 6/3/2015 12:25",
 		"checkEndClass" : "LW 6/2/2015 11:48",
 		"checkForEvent:" : "LW 6/4/2015 11:11",
@@ -20,7 +20,7 @@
 		"help" : "LW 5/21/2015 21:46",
 		"initialize" : "LW 5/12/2015 15:28",
 		"parseAllAsTextArgument:" : "LW 6/9/2015 13:41",
-		"parseArgument:" : "LW 6/25/2015 11:30",
+		"parseArgument:" : "LW 6/25/2015 13:52",
 		"parseCharOrStringArgument:" : "LW 6/25/2015 11:39",
 		"parseCommand:" : "LW 6/4/2015 19:57",
 		"parseDate:time:" : "LW 5/12/2015 15:16",
