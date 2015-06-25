@@ -4,6 +4,8 @@ help
 	^(#('Following commands are available:'
 	'!utilitybot {start | stop | status} [logbot | interpreterbot | all]'
 	'!utilitybot {date | time | dateandtime}'
+	'!utilitybot play hangman'
+	'!utilitybot try {<aCharacter> | <aString>}'
 	'Explanation of options:'
 	'!utilitybot or !ub : Calls the bot.'
 	'start : Starts a bot.'
@@ -14,4 +16,6 @@ help
 	'all or a : Starts/stops/checks all bots.'
 	'date or d : Shows the current date.'
 	'time or t : Shows the current time.'
-	'dateandtime or dt : Shows the current date and time.') asOrderedCollection)
+	'dateandtime or dt : Shows the current date and time.'
+	'play or p : starts a game'
+	'try : places a guess for hangman') asOrderedCollection)
