@@ -8,8 +8,9 @@
 	"instvars" : [
 		"interpreterBot",
 		"logBot",
-		"interpreterBotRunning",
-		"logBotRunning" ],
+		"hangmanWord",
+		"alreadyTriedCharacters",
+		"requiredCharacters" ],
 	"name" : "UtilityBot",
 	"pools" : [
 		 ],

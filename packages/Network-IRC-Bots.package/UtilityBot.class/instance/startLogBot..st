@@ -2,8 +2,7 @@ private
 startLogBot: aChannelName
 	"Starts the LogBot if it is not already started."
 
-	logBotRunning ifTrue: [ ^false ].
-	logBotRunning := true.
+	self logBotRunning ifTrue: [ ^false ].
 
 	logBot := LogBot
 					startWithServer: (self connection server address)

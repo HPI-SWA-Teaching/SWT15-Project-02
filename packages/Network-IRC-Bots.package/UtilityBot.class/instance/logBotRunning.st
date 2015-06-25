@@ -1,4 +1,4 @@
 access
-logBotRunning 
+logBotRunning
 
-	^logBotRunning
+	^( ( logBot notNil ) and: [ logBot connection notNil ] and: [ logBot connection connected ] )
