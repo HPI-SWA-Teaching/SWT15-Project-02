@@ -1,5 +1,7 @@
 parsing
 parseArgument: messageParts
+
+	(self parseSpecialArgument: messageParts) ifTrue: [^true].
 	
 	argumentCollection do: [ :argumentEntry |
 		((argumentEntry at: 1) includes: (messageParts at: 1)) ifTrue: [

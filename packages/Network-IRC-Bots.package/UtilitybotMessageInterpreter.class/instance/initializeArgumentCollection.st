@@ -19,4 +19,6 @@ initializeArgumentCollection
 	
 	argumentCollection add: ((OrderedCollection new) add: (#('all' 'a') asOrderedCollection); add: 'stop'; add: [ :messageParts | messageParts removeFirst. logbot := true. interpreterbot := true]; asOrderedCollection).
 	
-	argumentCollection add: ((OrderedCollection new) add: (#('all' 'a') asOrderedCollection); add: 'status'; add: [ :messageParts | messageParts removeFirst. logbot := true. interpreterbot := true]; asOrderedCollection)
+	argumentCollection add: ((OrderedCollection new) add: (#('all' 'a') asOrderedCollection); add: 'status'; add: [ :messageParts | messageParts removeFirst. logbot := true. interpreterbot := true]; asOrderedCollection).
+	
+	argumentCollection add: ((OrderedCollection new) add: (#('hangman' 'h') asOrderedCollection); add: 'play'; add: [ :messageParts | messageParts removeFirst. hangman := true]; asOrderedCollection)

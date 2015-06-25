@@ -18,11 +18,14 @@ initializeCommandDictionary
 	self addMultipleKeysToCommandDictionary: #('time' 't') asOrderedCollection
 		block: [command := 'time'].
 		
-	self addMultipleKeysToCommandDictionary: #('dateandtime' 'datetime' 'dt' 'td') asOrderedCollection
+	self addMultipleKeysToCommandDictionary: #('dateandtime' 'datetime' 'dt' 'td' 'dat') asOrderedCollection
 		block: [command := 'dateandtime'].
 		
-	self addMultipleKeysToCommandDictionary: #('hangman' 'h' 'hm') asOrderedCollection
-		block: [command := 'hangman'].
+	self addMultipleKeysToCommandDictionary: #('play' 'p') asOrderedCollection
+		block: [command := 'play'].
+		
+	self addMultipleKeysToCommandDictionary: #('try') asOrderedCollection
+		block: [command := 'try'].
 		
 	self addMultipleKeysToCommandDictionary: #('help' 'h') asOrderedCollection
 		block: [command := 'help'].

@@ -1,5 +1,5 @@
 testing
-testUpdatebotErrorMessage
+testUtilitybotErrorMessage
 	
 	| updatebot |
 	

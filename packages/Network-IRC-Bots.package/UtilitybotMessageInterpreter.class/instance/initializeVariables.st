@@ -6,4 +6,6 @@ initializeVariables
 	command := nil.
 	errorMessage := nil.
 	logbot := false.
-	interpreterbot := false
+	interpreterbot := false.
+	hangman := false.
+	try := nil

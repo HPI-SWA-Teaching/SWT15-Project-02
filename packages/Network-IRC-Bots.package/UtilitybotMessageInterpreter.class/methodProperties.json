@@ -2,12 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"allPropertiesAsOrderedCollection" : "LW 6/18/2015 11:39",
+		"allPropertiesAsOrderedCollection" : "LW 6/25/2015 11:34",
+		"hangman" : "LW 6/25/2015 11:33",
 		"help" : "LW 6/18/2015 12:02",
 		"initialize" : "LW 6/18/2015 11:02",
-		"initializeArgumentCollection" : "LW 6/18/2015 11:52",
-		"initializeCommandDictionary" : "LW 6/18/2015 11:25",
+		"initializeArgumentCollection" : "LW 6/25/2015 11:10",
+		"initializeCommandDictionary" : "LW 6/25/2015 11:31",
 		"initializeNames" : "LW 6/18/2015 11:11",
-		"initializeVariables" : "LW 6/18/2015 11:36",
+		"initializeVariables" : "LW 6/25/2015 11:38",
 		"interpreterbot" : "LW 6/18/2015 11:40",
-		"logbot" : "LW 6/18/2015 11:39" } }
+		"logbot" : "LW 6/18/2015 11:39",
+		"parseSpecialArgument:" : "LW 6/25/2015 11:22",
+		"try" : "LW 6/25/2015 11:34" } }

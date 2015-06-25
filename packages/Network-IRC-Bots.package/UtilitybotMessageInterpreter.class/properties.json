@@ -7,7 +7,9 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"logbot",
-		"interpreterbot" ],
+		"interpreterbot",
+		"hangman",
+		"try" ],
 	"name" : "UtilitybotMessageInterpreter",
 	"pools" : [
 		 ],

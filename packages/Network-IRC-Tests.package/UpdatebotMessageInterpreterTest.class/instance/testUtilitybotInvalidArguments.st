@@ -1,5 +1,5 @@
 testing
-testUpdatebotInvalidArguments
+testUtilitybotInvalidArguments
 	| updatebot |
 	
 	updatebot := UpdatebotMessageInterpreter new.

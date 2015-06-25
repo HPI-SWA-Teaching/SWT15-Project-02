@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"setUp" : "LW 5/19/2015 09:37",
-		"testUpdatebotAllPropertiesAsOrderedCollection" : "LW 5/19/2015 10:30",
 		"testUpdatebotChannel" : "LW 5/19/2015 10:11",
-		"testUpdatebotClientnick" : "LW 5/19/2015 10:05",
-		"testUpdatebotCommand" : "LW 6/4/2015 20:07",
-		"testUpdatebotErrorMessage" : "LW 6/4/2015 20:08",
-		"testUpdatebotHelp" : "jc 5/24/2015 13:21",
-		"testUpdatebotInvalidArguments" : "LW 5/19/2015 10:19",
 		"testUpdatebotRepo" : "LW 5/19/2015 10:15",
-		"testUpdatebotTimes" : "LW 5/19/2015 10:10",
-		"testUpdatebotUrl" : "LW 5/19/2015 10:21" } }
+		"testUpdatebotTimes" : "LW 6/18/2015 17:12",
+		"testUpdatebotUrl" : "LW 5/19/2015 10:21",
+		"testUtilitybotAllPropertiesAsOrderedCollection" : "LW 6/23/2015 14:33",
+		"testUtilitybotClientnick" : "LW 6/23/2015 14:34",
+		"testUtilitybotCommand" : "LW 6/23/2015 14:38",
+		"testUtilitybotErrorMessage" : "LW 6/23/2015 14:40",
+		"testUtilitybotHelp" : "LW 6/23/2015 14:42",
+		"testUtilitybotInvalidArguments" : "LW 6/23/2015 14:44" } }

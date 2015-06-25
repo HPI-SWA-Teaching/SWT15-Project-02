@@ -1,5 +1,5 @@
 testing
-testUpdatebotClientnick
+testUtilitybotClientnick
 	| updatebot |
 	
 	updatebot := UpdatebotMessageInterpreter new.

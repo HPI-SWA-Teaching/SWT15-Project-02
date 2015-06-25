@@ -1,5 +1,5 @@
 testing
-testUpdatebotCommand
+testUtilitybotCommand
 	| updatebot |
 	
 	updatebot := UpdatebotMessageInterpreter new.

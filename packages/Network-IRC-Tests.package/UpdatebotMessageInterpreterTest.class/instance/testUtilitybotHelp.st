@@ -1,5 +1,5 @@
 testing
-testUpdatebotHelp
+testUtilitybotHelp
 
 	| updatebot |
 

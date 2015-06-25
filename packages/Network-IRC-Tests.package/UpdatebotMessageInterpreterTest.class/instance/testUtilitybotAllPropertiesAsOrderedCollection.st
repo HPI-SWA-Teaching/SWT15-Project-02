@@ -1,5 +1,5 @@
 testing
-testUpdatebotAllPropertiesAsOrderedCollection
+testUtilitybotAllPropertiesAsOrderedCollection
 	| updatebot testCollection |
 	
 	updatebot := UpdatebotMessageInterpreter new.
