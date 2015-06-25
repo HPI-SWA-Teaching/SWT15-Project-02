@@ -8,4 +8,5 @@ initializeVariables
 	logbot := false.
 	interpreterbot := false.
 	hangman := false.
-	try := nil
+	try := nil.
+	isFinalSolution := false.

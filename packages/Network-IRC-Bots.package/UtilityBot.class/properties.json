@@ -10,7 +10,10 @@
 		"logBot",
 		"hangmanWord",
 		"alreadyTriedCharacters",
-		"requiredCharacters" ],
+		"requiredCharacters",
+		"numberOfTries",
+		"maxNumberOfTries",
+		"hangmanGameRunning" ],
 	"name" : "UtilityBot",
 	"pools" : [
 		 ],
