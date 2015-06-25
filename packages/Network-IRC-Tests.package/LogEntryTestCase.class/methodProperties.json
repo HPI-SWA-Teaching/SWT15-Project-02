@@ -6,5 +6,6 @@
 		"testIsMessageIsEvent" : "jc 6/1/2015 08:53",
 		"testMessageMatchesRegex" : "jc 5/25/2015 22:00",
 		"testMessageWithoutNick" : "jc 5/25/2015 13:26",
+		"testNewMessage" : "jc 6/20/2015 22:10",
 		"testNickWithoutMessage" : "jc 5/25/2015 13:27",
 		"testSenderHasNick" : "jc 5/25/2015 21:59" } }

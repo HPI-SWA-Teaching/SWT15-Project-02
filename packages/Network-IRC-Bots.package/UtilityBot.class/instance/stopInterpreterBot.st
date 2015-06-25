@@ -5,4 +5,5 @@ stopInterpreterBot
 	interpreterBotRunning ifFalse: [ ^false ].
 
 	interpreterBot disconnect.
+	interpreterBotRunning := false.
 	^true

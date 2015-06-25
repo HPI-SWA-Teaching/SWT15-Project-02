@@ -3,13 +3,16 @@
 		 },
 	"instance" : {
 		"disconnect" : "jc 6/18/2015 22:19",
+		"hangmanWords" : "jc 6/24/2015 17:45",
 		"initialize" : "jc 6/18/2015 22:32",
-		"processLine:from:" : "jc 6/18/2015 22:51",
+		"interpreterBotRunning" : "jc 6/20/2015 22:11",
+		"logBotRunning" : "jc 6/20/2015 22:11",
+		"processLine:from:" : "jc 6/24/2015 16:47",
 		"sendDateAndTimeFor:" : "jc 6/18/2015 22:51",
 		"sendDateFor:" : "jc 6/18/2015 22:40",
 		"sendStatusFor:" : "jc 6/18/2015 22:51",
 		"sendTimeFor:" : "jc 6/18/2015 22:40",
-		"startInterpreterBot:" : "jc 6/18/2015 22:28",
-		"startLogBot:" : "jc 6/18/2015 22:28",
-		"stopInterpreterBot" : "jc 6/18/2015 22:16",
-		"stopLogBot" : "jc 6/18/2015 22:17" } }
+		"startInterpreterBot:" : "jc 6/24/2015 16:32",
+		"startLogBot:" : "jc 6/24/2015 16:32",
+		"stopInterpreterBot" : "jc 6/24/2015 16:44",
+		"stopLogBot" : "jc 6/24/2015 16:44" } }

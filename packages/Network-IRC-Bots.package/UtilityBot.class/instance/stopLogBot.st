@@ -5,4 +5,5 @@ stopLogBot
 	logBotRunning ifFalse: [ ^false ].
 
 	logBot disconnect.
+	logBotRunning := false.
 	^true

@@ -1,0 +1,4 @@
+access
+logBotRunning 
+
+	^logBotRunning

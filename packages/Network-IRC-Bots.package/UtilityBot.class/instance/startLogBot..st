@@ -6,8 +6,8 @@ startLogBot: aChannelName
 	logBotRunning := true.
 
 	logBot := LogBot
-					startWithServer: (self connection serverAsString)
-					port: (self connection port)
+					startWithServer: (self connection server address)
+					port: (self connection server port)
 					nick: 'SquLogBot'
 					channel: aChannelName.
 

@@ -4,11 +4,11 @@
 		"setupIRCConnection:" : "jc 6/4/2015 14:02",
 		"setupIRCConnectionProfileWithServer:nick:" : "jc 6/4/2015 14:00",
 		"setupIRCServer:port:" : "jc 6/4/2015 13:58",
-		"startWithServer:port:nick:channel:" : "jc 6/4/2015 14:07" },
+		"startWithServer:port:nick:channel:" : "jc 6/19/2015 16:06" },
 	"instance" : {
 		"addChannel:" : "jc 5/24/2015 23:10",
 		"channels" : "jc 5/8/2015 20:15",
-		"connectAndJoin" : "jc 5/24/2015 23:20",
+		"connectAndJoin" : "jc 6/19/2015 16:10",
 		"connection" : "jc 5/8/2015 20:10",
 		"connection:" : "jc 5/10/2015 22:22",
 		"disableFloodProtectionWaiting" : "jc 6/10/2015 17:17",

@@ -4,10 +4,10 @@ startInterpreterBot: aChannelName
 
 	interpreterBotRunning ifTrue: [ ^false ].
 	interpreterBotRunning := true.
-
+	
 	interpreterBot := InterpreterBot
-							startWithServer: (self connection serverAsString)
-							port: (self connection port)
+							startWithServer: (self connection server address)
+							port: (self connection server port)
 							nick: 'SquInterpreterBot'
 							channel: aChannelName.
 

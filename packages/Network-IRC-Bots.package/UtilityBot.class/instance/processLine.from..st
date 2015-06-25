@@ -4,6 +4,10 @@ processLine: aString from: aChannelObserver
 	| parser |
 	parser := UtilitybotMessageInterpreter parseIRCMessage: aString.
 
+	Transcript cr; show: '[DEBUG] parser command = ', (parser command); cr.
+	Transcript show: '[DEBUG] parser interpreterbot  = ', (parser interpreterbot asString); cr.
+	Transcript show: '[DEBUG] parser logbot  = ', (parser logbot asString); cr.
+
 	( (parser command = 'start') and: (parser interpreterbot) ) ifTrue: [ self startInterpreterBot: (aChannelObserver channelName) ].
 	( (parser command = 'start') and: (parser logbot) ) ifTrue: [ self startLogBot: (aChannelObserver channelName) ].
 	( (parser command = 'stop') and: (parser interpreterbot) ) ifTrue: [ self stopInterpreterBot ].
