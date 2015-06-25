@@ -9,7 +9,8 @@
 		"logbot",
 		"interpreterbot",
 		"hangman",
-		"try" ],
+		"try",
+		"isFinalSolution" ],
 	"name" : "UtilitybotMessageInterpreter",
 	"pools" : [
 		 ],

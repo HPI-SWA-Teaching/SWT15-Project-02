@@ -1,3 +1,3 @@
 accessing
 allPropertiesAsOrderedCollection
-	^({clientnick. command. logbot. interpreterbot. hangman. try} asOrderedCollection)
+	^({clientnick. command. logbot. interpreterbot. hangman. try. isFinalSolution} asOrderedCollection)
