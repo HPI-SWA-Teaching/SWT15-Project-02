@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEvents" : "jc 6/26/2015 16:15",
+		"testGameLost" : "jc 6/26/2015 16:21",
+		"testGameWon" : "jc 6/26/2015 16:17",
+		"testInitialize" : "jc 6/26/2015 15:53",
+		"testMaskedWord" : "jc 6/27/2015 12:48",
+		"testTriedCharacter" : "jc 6/26/2015 16:26",
+		"testWords" : "jc 6/26/2015 15:55" } }

@@ -6,11 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interpreterBot",
-		"logBot",
-		"hangmanGame" ],
-	"name" : "UtilityBot",
+		"word",
+		"numberOfTries",
+		"maxNumberOfTries",
+		"triedCharacters",
+		"requiredCharacters",
+		"isRunning" ],
+	"name" : "HangmanGame",
 	"pools" : [
 		 ],
-	"super" : "GeneralBot",
+	"super" : "Object",
 	"type" : "normal" }

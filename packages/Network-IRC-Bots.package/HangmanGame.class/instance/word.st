@@ -1,0 +1,4 @@
+access
+word
+
+	^word

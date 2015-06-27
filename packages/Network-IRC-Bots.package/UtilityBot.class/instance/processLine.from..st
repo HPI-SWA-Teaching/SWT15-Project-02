@@ -14,9 +14,9 @@ processLine: aString from: aChannelObserver
 	( parser command = 'time' ) ifTrue: [ self sendTimeFor: parser ].
 	( parser command = 'dateandtime' ) ifTrue: [ self sendDateAndTimeFor: parser ].
 
-	( ( parser command = 'play' ) and: ( parser hangman ) ) ifTrue: [ self startHangmanGame: aChannelObserver ].
-	( ( parser command = 'try' ) and: ( parser isFinalSolution ) ) ifTrue: [ self evaluateHangmanSolutionFrom: parser on: aChannelObserver ].
-	( ( parser command = 'try' ) and: ( parser isFinalSolution not ) ) ifTrue: [ self evaluateHangmanGuessForm: parser on: aChannelObserver ].
+	( ( parser command = 'play' ) and: ( parser hangman ) ) ifTrue: [ self handlePlayHangmanOn: aChannelObserver ].
+	( ( parser command = 'try' ) and: ( parser isFinalSolution ) ) ifTrue: [ self handleTrySolutionFrom: parser on: aChannelObserver ].
+	( ( parser command = 'try' ) and: ( parser isFinalSolution not ) ) ifTrue: [ self handleTryCharacterFrom: parser on: aChannelObserver ].
 
 	( parser command = 'help' ) ifTrue: [ self sendHelpFor: parser ].
 	( parser command = 'quit' ) ifTrue: [ self disconnect ].

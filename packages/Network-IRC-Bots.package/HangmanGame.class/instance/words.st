@@ -1,5 +1,5 @@
 access
-hangmanWords
+words
 	"Returns the words used for the hangman game."
 
 	^( #(
