@@ -11,4 +11,6 @@
 		"testLogEntry" : "jc 5/25/2015 21:56",
 		"testLogging" : "jc 6/1/2015 11:02",
 		"testOrderLog" : "jc 6/5/2015 17:58",
-		"testOrderLogByLength" : "jc 6/4/2015 17:09" } }
+		"testOrderLogByLength" : "jc 6/4/2015 17:09",
+		"testSendErrorMessage" : "jc 6/29/2015 12:07",
+		"testSendLogFooter" : "jc 6/29/2015 12:04" } }
