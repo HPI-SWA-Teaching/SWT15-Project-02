@@ -4,7 +4,7 @@ initialize
 
 	word := ''.
 	numberOfTries := 0.
-	maxNumberOfTries := 10.
+	maxNumberOfTries := 7.
 	requiredCharacters := Set new.
 	triedCharacters := Set new.
 	isRunning := false.
