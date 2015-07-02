@@ -8,4 +8,12 @@ words
 			'Tunnel' 'Bridge' 'Door' 'Window' 'Roof'
 			'Chair' 'Desk' 'Bottle' 'Computer' 'Tree'
 			'Jacket' 'Hair' 'Hare' 'Wall' 'Gras'
+			
+			'Monticello' 'Workspace' 'Browser' 'Transcript'
+			'Collection' 'Array' 'Character' 'String'
+			'Compiler' 'Morphic' 'Refactoring' 'Vivide' 'squIRC'
+			'Software' 'Development' 'Engineering' 'Requirements'
+			'Practices' 'Programming' 'Process' 'Technique'
+			'Responsibility' 'Scrum' 'Debugging' 'Configuration'
+			'Management' 'Architecture' 'Squeak' 'Smalltalk'
 		) asOrderedCollection )
