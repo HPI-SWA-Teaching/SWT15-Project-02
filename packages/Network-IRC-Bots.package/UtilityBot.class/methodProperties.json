@@ -4,8 +4,8 @@
 	"instance" : {
 		"disconnect" : "jc 6/18/2015 22:19",
 		"handlePlayHangmanOn:" : "jc 6/27/2015 15:53",
-		"handleTryCharacterFrom:on:" : "jc 6/27/2015 16:19",
-		"handleTrySolutionFrom:on:" : "jc 6/27/2015 16:35",
+		"handleTryCharacterFrom:on:" : "jc 7/2/2015 13:29",
+		"handleTrySolutionFrom:on:" : "jc 7/2/2015 13:29",
 		"hangmanGame" : "jc 6/27/2015 21:19",
 		"initialize" : "jc 6/27/2015 16:42",
 		"interpreterBotRunning" : "jc 6/27/2015 21:20",
@@ -13,6 +13,7 @@
 		"processLine:from:" : "jc 6/27/2015 16:40",
 		"sendDateAndTimeFor:" : "jc 6/18/2015 22:51",
 		"sendDateFor:" : "jc 6/18/2015 22:40",
+		"sendHangmanOn:" : "jc 7/2/2015 16:09",
 		"sendStatusFor:" : "jc 6/25/2015 14:56",
 		"sendTimeFor:" : "jc 6/18/2015 22:40",
 		"startInterpreterBot:" : "jc 6/25/2015 14:54",

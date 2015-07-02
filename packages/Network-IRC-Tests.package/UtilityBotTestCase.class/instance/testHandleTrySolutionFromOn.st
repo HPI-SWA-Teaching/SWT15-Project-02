@@ -8,9 +8,9 @@ testHandleTrySolutionFromOn
 
 	spy clearMessages.
 	bot handleTrySolutionFrom: parser on: spy.
-	self should: [ spy messages asArray = #( #sendMessage: ) ].
+	self should: [ (spy messages at: 1) = #sendMessage: ].
 
 	bot handlePlayHangmanOn: spy.
 	spy clearMessages.
 	bot handleTrySolutionFrom: parser on: spy.
-	self should: [ spy messages asArray = #( #sendMessage: ) ].
+	self should: [ (spy messages at: 1) = #sendMessage: ].

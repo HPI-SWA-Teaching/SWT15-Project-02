@@ -10,6 +10,7 @@ handleTrySolutionFrom: aMessageInterpreter on: aChannelObserver
 	] ifFalse: [
 		aChannelObserver sendMessage:
 			'[', hangmanGame numberOfTries, '/', hangmanGame maxNumberOfTries, '] Sorry, "', aMessageInterpreter try, '" is wrong: ', hangmanGame maskedWord.
+		self sendHangmanOn: aChannelObserver.
 	].
 
 	hangmanGame gameLost ifTrue: [ aChannelObserver sendMessage: 'Oh no! You lost. Correct solution is: "', hangmanGame word, '"'. hangmanGame stopGame. ].

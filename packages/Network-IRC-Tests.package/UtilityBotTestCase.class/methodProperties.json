@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"testDisconnect" : "jc 6/28/2015 11:38",
-		"testHandleTryCharacterFromOn" : "jc 6/28/2015 11:50",
-		"testHandleTrySolutionFromOn" : "jc 6/28/2015 11:50",
+		"testHandleTryCharacterFromOn" : "jc 7/2/2015 14:55",
+		"testHandleTrySolutionFromOn" : "jc 7/2/2015 14:55",
 		"testHangmanGame" : "jc 6/27/2015 21:33",
 		"testInitialize" : "jc 6/27/2015 21:24",
 		"testInterpreterBotRunning" : "jc 6/28/2015 11:34",

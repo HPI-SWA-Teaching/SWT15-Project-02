@@ -16,6 +16,7 @@ handleTryCharacterFrom: aMessageInterpreter on: aChannelObserver
 	] ifFalse: [
 		aChannelObserver sendMessage:
 			'[', hangmanGame numberOfTries, '/', hangmanGame maxNumberOfTries, '] "', aMessageInterpreter try, '" was wrong: ', hangmanGame maskedWord.
+		self sendHangmanOn: aChannelObserver.
 	].
 
 	hangmanGame gameWon ifTrue: [ aChannelObserver sendMessage: 'Congratulation! You won the game.'. hangmanGame stopGame. ].

@@ -4,7 +4,7 @@
 	"instance" : {
 		"deepFindSubmorph:in:" : "ld 7/8/2014 14:42",
 		"enterText:into:of:" : "js 7/25/2014 15:28",
-		"expectedFailures" : "jc 7/1/2015 15:56",
+		"expectedFailures" : "jc 7/2/2015 14:04",
 		"findWindowNamed:" : "ld 7/8/2014 14:17",
 		"pressButton:of:" : "ld 7/8/2014 14:49",
 		"setUp" : "ld 7/8/2014 10:00",
