@@ -13,7 +13,7 @@ baseline: spec
             spec
                group: 'default' with: #('squIRC-base');
 		   group: 'bots' with: #('squIRC-bots');
-               group: 'Tests' with: #('squIRC-base-tests squIRC-bots-tests');
+               group: 'Tests' with: #('squIRC-base-tests' 'squIRC-bots-tests');
                group: 'TravisCI' with: #('Tests').
 
 				spec
