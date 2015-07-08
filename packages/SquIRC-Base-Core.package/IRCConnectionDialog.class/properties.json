@@ -1,0 +1,16 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection",
+		"profilesIndex",
+		"configurationPane" ],
+	"name" : "IRCConnectionDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

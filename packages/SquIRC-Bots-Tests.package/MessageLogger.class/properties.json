@@ -1,0 +1,15 @@
+{
+	"category" : "SquIRC-Bots-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messages",
+		"responds" ],
+	"name" : "MessageLogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

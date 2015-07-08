@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSquIRC",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSquIRC",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

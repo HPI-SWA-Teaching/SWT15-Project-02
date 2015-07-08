@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clearMessages" : "jc 5/17/2015 17:05",
+		"clearResponds" : "jc 5/17/2015 17:05",
+		"doesNotUnderstand:" : "jc 5/17/2015 16:11",
+		"initialize" : "jc 5/17/2015 15:53",
+		"messages" : "jc 5/17/2015 15:44",
+		"mustBeBoolean" : "jc 7/9/2015 00:06",
+		"respondTo:with:" : "jc 5/17/2015 16:09" } }

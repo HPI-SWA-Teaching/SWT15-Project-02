@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 5/13/2015 22:21",
+		"charcount" : "LW 5/13/2015 21:52",
+		"code" : "LW 5/13/2015 22:07",
+		"help" : "jc 6/4/2015 14:28",
+		"initialize" : "LW 6/9/2015 13:58",
+		"initializeArgumentCollection" : "LW 6/25/2015 13:38",
+		"initializeCommandDictionary" : "LW 6/4/2015 19:25",
+		"initializeNames" : "LW 6/2/2015 12:04",
+		"initializeVariables" : "LW 6/2/2015 12:05",
+		"linecount" : "LW 5/13/2015 21:52",
+		"showreturn" : "LW 5/13/2015 22:07",
+		"showtranscript" : "LW 5/13/2015 21:53" } }

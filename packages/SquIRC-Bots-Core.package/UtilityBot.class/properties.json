@@ -1,0 +1,16 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interpreterBot",
+		"logBot",
+		"hangmanGame" ],
+	"name" : "UtilityBot",
+	"pools" : [
+		 ],
+	"super" : "GeneralBot",
+	"type" : "normal" }

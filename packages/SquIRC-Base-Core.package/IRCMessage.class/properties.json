@@ -1,0 +1,16 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"sender",
+		"recipient",
+		"text" ],
+	"name" : "IRCMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"word",
+		"numberOfTries",
+		"maxNumberOfTries",
+		"triedCharacters",
+		"requiredCharacters",
+		"isRunning" ],
+	"name" : "HangmanGame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keysInputPane" ],
+	"name" : "PluggableIRCTextMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"type" : "normal" }

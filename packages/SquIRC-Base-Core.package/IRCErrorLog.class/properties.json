@@ -1,0 +1,14 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IRCErrorLog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dateAndTime",
+		"message" ],
+	"name" : "LogEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

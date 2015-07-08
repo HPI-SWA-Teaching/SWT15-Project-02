@@ -1,0 +1,18 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"prefix",
+		"command",
+		"arguments",
+		"isSpecial",
+		"isLocal" ],
+	"name" : "IRCProtocolMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

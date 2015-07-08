@@ -1,0 +1,15 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RollbackLimit" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playBack",
+		"index" ],
+	"name" : "IRCMessagePlayback",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

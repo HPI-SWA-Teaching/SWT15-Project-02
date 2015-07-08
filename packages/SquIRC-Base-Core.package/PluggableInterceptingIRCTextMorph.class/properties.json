@@ -1,0 +1,14 @@
+{
+	"category" : "SquIRC-Base-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PluggableInterceptingIRCTextMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"type" : "normal" }

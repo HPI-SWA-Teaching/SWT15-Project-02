@@ -1,0 +1,20 @@
+{
+	"category" : "SquIRC-Base-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"serverAddress",
+		"port",
+		"socket",
+		"recieveBuffer",
+		"waitingForConnection",
+		"run",
+		"nickEncountered" ],
+	"name" : "IRCTestServer",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

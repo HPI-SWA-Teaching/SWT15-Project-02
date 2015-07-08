@@ -1,0 +1,20 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clientnick",
+		"names",
+		"command",
+		"useTime",
+		"errorMessage",
+		"commandDictionary",
+		"argumentCollection" ],
+	"name" : "GeneralbotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+private
+shouldGetStepsFrom: aWorld
+
+	^ true
