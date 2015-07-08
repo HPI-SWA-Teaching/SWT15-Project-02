@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPropertiesAsOrderedCollection" : "LW 6/25/2015 14:11",
+		"checkFinalSolution" : "LW 6/25/2015 14:12",
+		"hangman" : "LW 6/25/2015 11:33",
+		"help" : "LW 6/25/2015 12:03",
+		"initialize" : "LW 6/18/2015 11:02",
+		"initializeArgumentCollection" : "LW 6/25/2015 13:46",
+		"initializeCommandDictionary" : "LW 6/25/2015 11:31",
+		"initializeNames" : "LW 6/18/2015 11:11",
+		"initializeVariables" : "jc 6/25/2015 16:15",
+		"interpreterbot" : "LW 6/18/2015 11:40",
+		"isFinalSolution" : "LW 6/25/2015 14:12",
+		"logbot" : "LW 6/18/2015 11:39",
+		"parseSpecialArgument:" : "LW 6/25/2015 14:11",
+		"try" : "LW 6/25/2015 11:34" } }

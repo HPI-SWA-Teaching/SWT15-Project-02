@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "UpdatingThreePhaseIRCButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "UpdatingThreePhaseButtonMorph",
+	"type" : "normal" }

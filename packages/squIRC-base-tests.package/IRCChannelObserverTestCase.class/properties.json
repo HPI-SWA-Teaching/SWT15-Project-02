@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-base-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"channelObserver" ],
+	"name" : "IRCChannelObserverTestCase",
+	"pools" : [
+		 ],
+	"super" : "IRCTestCase",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection",
+		"chatTextLines",
+		"talkingTo",
+		"messagePlayback" ],
+	"name" : "IRCDirectMessagesObserver",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

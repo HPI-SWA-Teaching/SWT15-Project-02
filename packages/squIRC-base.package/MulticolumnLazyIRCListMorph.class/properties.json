@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MulticolumnLazyIRCListMorph",
+	"pools" : [
+		 ],
+	"super" : "MulticolumnLazyListMorph",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lines" ],
+	"name" : "TranscriptLogger",
+	"pools" : [
+		 ],
+	"super" : "TranscriptStream",
+	"type" : "normal" }

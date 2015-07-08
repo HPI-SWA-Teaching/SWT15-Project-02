@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tagWhenEmpty" ],
+	"name" : "PluggableIRCTextEntryMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testChannels" : "jc 5/21/2015 22:41",
+		"testFilterLogBeginEnd" : "jc 5/30/2015 20:02",
+		"testFilterLogNick" : "jc 5/30/2015 20:07",
+		"testFilterLogPattern" : "jc 5/30/2015 19:58",
+		"testFilterLogToEvents" : "jc 5/30/2015 20:12",
+		"testFormatDateAndTime" : "jc 5/21/2015 22:49",
+		"testLogEntry" : "jc 5/25/2015 21:56",
+		"testLogging" : "jc 6/1/2015 11:02",
+		"testOrderLog" : "jc 6/5/2015 17:58",
+		"testOrderLogByLength" : "jc 6/4/2015 17:09",
+		"testSendErrorMessage" : "jc 6/29/2015 12:07",
+		"testSendLogFooter" : "jc 6/29/2015 12:04" } }

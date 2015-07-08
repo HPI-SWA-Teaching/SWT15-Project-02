@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-base-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "IRCServerTestCase",
+	"pools" : [
+		 ],
+	"super" : "IRCTestCase",
+	"type" : "normal" }

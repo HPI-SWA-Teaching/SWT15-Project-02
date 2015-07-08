@@ -1,0 +1,29 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LW 5/17/2015 21:00",
+	"instvars" : [
+		"beginarguments",
+		"endarguments",
+		"eventsarguments",
+		"nickarguments",
+		"patternarguments",
+		"orderbyarguments",
+		"orderarguments",
+		"orderbyoptions",
+		"orderoptions",
+		"begin",
+		"end",
+		"events",
+		"nick",
+		"pattern",
+		"orderby",
+		"order" ],
+	"name" : "LogbotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "GeneralbotMessageInterpreter",
+	"type" : "normal" }

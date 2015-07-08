@@ -1,0 +1,19 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection",
+		"channels",
+		"looping",
+		"loopingProcess",
+		"joinMessage",
+		"loopingWaitTimeInMilliseconds" ],
+	"name" : "GeneralBot",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

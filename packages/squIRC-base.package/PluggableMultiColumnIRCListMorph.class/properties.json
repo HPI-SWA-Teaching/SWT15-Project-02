@@ -1,0 +1,16 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"headerStrings",
+		"headerHeight",
+		"headerBackColor" ],
+	"name" : "PluggableMultiColumnIRCListMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableMultiColumnListMorphByItem",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ListOfLogs" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LogBot",
+	"pools" : [
+		 ],
+	"super" : "GeneralBot",
+	"type" : "normal" }

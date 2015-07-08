@@ -1,0 +1,18 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"connection",
+		"name",
+		"topic",
+		"members",
+		"subscribers" ],
+	"name" : "IRCChannelInfo",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

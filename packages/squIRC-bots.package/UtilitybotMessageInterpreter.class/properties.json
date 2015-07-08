@@ -1,0 +1,18 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"logbot",
+		"interpreterbot",
+		"hangman",
+		"try",
+		"isFinalSolution" ],
+	"name" : "UtilitybotMessageInterpreter",
+	"pools" : [
+		 ],
+	"super" : "GeneralbotMessageInterpreter",
+	"type" : "normal" }

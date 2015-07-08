@@ -1,0 +1,18 @@
+{
+	"category" : "squIRC-bots",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxLineCount",
+		"maxCharCount",
+		"currentBuffer",
+		"currentTranscript",
+		"currentReturnValue" ],
+	"name" : "InterpreterBot",
+	"pools" : [
+		 ],
+	"super" : "GeneralBot",
+	"type" : "normal" }

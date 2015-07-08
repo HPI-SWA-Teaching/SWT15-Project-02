@@ -1,0 +1,15 @@
+{
+	"category" : "squIRC-base-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messages",
+		"responds" ],
+	"name" : "IRCConnectionMessageLogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

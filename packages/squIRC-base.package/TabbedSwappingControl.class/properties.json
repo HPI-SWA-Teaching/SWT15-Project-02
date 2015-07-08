@@ -1,0 +1,20 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"frontMost",
+		"tabs",
+		"swapper",
+		"tabFeedbackColor",
+		"paneFocusedColor",
+		"defaultPaneName",
+		"showMover" ],
+	"name" : "TabbedSwappingControl",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "squIRC-base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastSelectedProfile",
+		"Profiles",
+		"ProfilesSorted",
+		"ProfilesSortedValid" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"nick",
+		"server",
+		"options",
+		"fullName",
+		"userName" ],
+	"name" : "IRCConnectionProfile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
