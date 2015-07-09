@@ -17,5 +17,5 @@
 	"name" : "InterpreterbotMessageInterpreter",
 	"pools" : [
 		 ],
-	"super" : "GeneralbotMessageInterpreter",
+	"super" : "BotMessageParser",
 	"type" : "normal" }

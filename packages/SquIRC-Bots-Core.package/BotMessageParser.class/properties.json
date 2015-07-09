@@ -13,7 +13,7 @@
 		"errorMessage",
 		"commandDictionary",
 		"argumentCollection" ],
-	"name" : "GeneralbotMessageInterpreter",
+	"name" : "BotMessageParser",
 	"pools" : [
 		 ],
 	"super" : "Object",

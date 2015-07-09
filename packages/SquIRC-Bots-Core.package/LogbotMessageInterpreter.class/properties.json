@@ -25,5 +25,5 @@
 	"name" : "LogbotMessageInterpreter",
 	"pools" : [
 		 ],
-	"super" : "GeneralbotMessageInterpreter",
+	"super" : "BotMessageParser",
 	"type" : "normal" }
