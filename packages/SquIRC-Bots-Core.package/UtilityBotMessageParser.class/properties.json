@@ -11,7 +11,7 @@
 		"hangman",
 		"try",
 		"isFinalSolution" ],
-	"name" : "UtilitybotMessageInterpreter",
+	"name" : "UtilityBotMessageParser",
 	"pools" : [
 		 ],
 	"super" : "BotMessageParser",

@@ -4,7 +4,7 @@ testSendDateFor
 	| bot parser spy |
 	bot := UtilityBot new.
 	spy := MessageLogger new.
-	parser := UtilitybotMessageInterpreter parseIRCMessage: 'nick : !ub date'.
+	parser := UtilityBotMessageParser parseIRCMessage: 'nick : !ub date'.
 
 	bot connection: spy.
 	spy clearMessages.

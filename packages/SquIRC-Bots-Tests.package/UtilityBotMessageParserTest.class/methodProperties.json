@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LW 6/23/2015 14:28",
+		"testUtilitybotAllPropertiesAsOrderedCollection" : "LW 7/9/2015 12:14",
+		"testUtilitybotClientnick" : "LW 7/9/2015 12:14",
+		"testUtilitybotCommand" : "LW 7/9/2015 12:14",
+		"testUtilitybotErrorMessage" : "LW 7/9/2015 12:14",
+		"testUtilitybotHangman" : "LW 7/9/2015 12:14",
+		"testUtilitybotHelp" : "LW 7/9/2015 12:14",
+		"testUtilitybotInterpreterbot" : "LW 7/9/2015 12:14",
+		"testUtilitybotInvalidArguments" : "LW 7/9/2015 12:14",
+		"testUtilitybotLogbot" : "LW 7/9/2015 12:14",
+		"testUtilitybotTry" : "LW 7/9/2015 12:14" } }

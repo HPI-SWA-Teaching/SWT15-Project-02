@@ -4,7 +4,7 @@ testHandleTryCharacterFromOn
 	| bot parser spy |
 	bot := UtilityBot new.
 	spy := MessageLogger new.
-	parser := UtilitybotMessageInterpreter parseIRCMessage: 'nick : !ub try a'.
+	parser := UtilityBotMessageParser parseIRCMessage: 'nick : !ub try a'.
 
 	spy clearMessages.
 	bot handleTryCharacterFrom: parser on: spy.

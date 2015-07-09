@@ -4,7 +4,7 @@ testHandleTrySolutionFromOn
 	| bot parser spy |
 	bot := UtilityBot new.
 	spy := MessageLogger new.
-	parser := UtilitybotMessageInterpreter parseIRCMessage: 'nick : !ub try xyz'.
+	parser := UtilityBotMessageParser parseIRCMessage: 'nick : !ub try xyz'.
 
 	spy clearMessages.
 	bot handleTrySolutionFrom: parser on: spy.

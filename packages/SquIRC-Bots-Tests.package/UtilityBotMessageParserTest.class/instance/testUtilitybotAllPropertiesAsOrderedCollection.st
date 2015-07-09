@@ -2,7 +2,7 @@ testing
 testUtilitybotAllPropertiesAsOrderedCollection
 	| utilitybot testCollection |
 	
-	utilitybot := UtilitybotMessageInterpreter new.
+	utilitybot := UtilityBotMessageParser new.
 	
 	self assert: (utilitybot parseIRCMessage: 'client : !ub start all') equals: true.
 	
@@ -10,7 +10,7 @@ testUtilitybotAllPropertiesAsOrderedCollection
 	
 	self assert: (utilitybot allPropertiesAsOrderedCollection) equals: testCollection.
 	
-	utilitybot := UtilitybotMessageInterpreter new.
+	utilitybot := UtilityBotMessageParser new.
 	
 	self assert: (utilitybot parseIRCMessage: 'client : !ub date') equals: true.
 	

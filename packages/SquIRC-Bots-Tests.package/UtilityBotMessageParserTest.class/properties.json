@@ -22,7 +22,7 @@
 		"orderStringInvalid",
 		"beginTime",
 		"beginTimeStringShort" ],
-	"name" : "UtilitybotMessageInterpreterTest",
+	"name" : "UtilityBotMessageParserTest",
 	"pools" : [
 		 ],
 	"super" : "ClassTestCase",

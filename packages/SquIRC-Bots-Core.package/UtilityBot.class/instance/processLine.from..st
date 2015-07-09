@@ -2,7 +2,7 @@ private
 processLine: aString from: aChannelObserver
 
 	| parser |
-	parser := UtilitybotMessageInterpreter parseIRCMessage: aString.
+	parser := UtilityBotMessageParser parseIRCMessage: aString.
 
 	( (parser command = 'start') and: (parser interpreterbot) ) ifTrue: [ self startInterpreterBot: (aChannelObserver channelName) ].
 	( (parser command = 'start') and: (parser logbot) ) ifTrue: [ self startLogBot: (aChannelObserver channelName) ].

@@ -3,7 +3,7 @@ testUtilitybotHelp
 
 	| utilitybot |
 
-	utilitybot := UtilitybotMessageInterpreter new.
+	utilitybot := UtilityBotMessageParser new.
 
 	self should: [ utilitybot help class = OrderedCollection ].
 	self should: [ utilitybot help size > 0 ].
