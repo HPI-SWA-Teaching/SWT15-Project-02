@@ -4,7 +4,7 @@ testSendFormattedTranscriptValueFor
 	| bot parser spy |
 	bot := InterpreterBot new.
 	spy := MessageLogger new.
-	parser := InterpreterbotMessageInterpreter parseIRCMessage: 'nick : !ib transcript code "Transcript show: ''Hello World.''"'.
+	parser := InterpreterBotMessageParser parseIRCMessage: 'nick : !ib transcript code "Transcript show: ''Hello World.''"'.
 
 	bot connection: spy.
 

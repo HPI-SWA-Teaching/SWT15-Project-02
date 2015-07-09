@@ -4,7 +4,7 @@ testSendNextFor
 	| bot parser spy |
 	bot := InterpreterBot new.
 	spy := MessageLogger new.
-	parser := InterpreterbotMessageInterpreter parseIRCMessage: 'nick : !ib next'.
+	parser := InterpreterBotMessageParser parseIRCMessage: 'nick : !ib next'.
 
 	bot connection: spy.
 

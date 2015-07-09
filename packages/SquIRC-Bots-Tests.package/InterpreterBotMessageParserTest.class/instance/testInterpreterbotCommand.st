@@ -2,22 +2,22 @@ testing
 testInterpreterbotCommand
 	| interpreterbot |
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib abc') equals: true.
 	self assert: (interpreterbot command) equals: 'help'.
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib t') equals: true.
 	self assert: (interpreterbot command) equals: 'do'.
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib n') equals: true.
 	self assert: (interpreterbot command) equals: 'next'.
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib rs') equals: true.
 	self assert: (interpreterbot command) equals: 'resize'.

@@ -2,7 +2,7 @@ testing
 testInterpreterbotResizeValues
 	| interpreterbot |
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib rs lc 123 cc 456') equals: true.
 	self assert: (interpreterbot linecount) equals: 123.

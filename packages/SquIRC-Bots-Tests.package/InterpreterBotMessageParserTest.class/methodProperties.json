@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "LW 5/18/2015 09:38",
+		"testInterpreterbotAllPropertiesAsOrderedCollection" : "LW 7/9/2015 11:55",
+		"testInterpreterbotClientnick" : "LW 7/9/2015 11:55",
+		"testInterpreterbotCode" : "LW 7/9/2015 11:55",
+		"testInterpreterbotCommand" : "LW 7/9/2015 11:55",
+		"testInterpreterbotEchoBools" : "LW 7/9/2015 11:55",
+		"testInterpreterbotErrorMessage" : "LW 7/9/2015 11:56",
+		"testInterpreterbotHelp" : "LW 7/9/2015 11:56",
+		"testInterpreterbotInvalidArguments" : "LW 7/9/2015 11:56",
+		"testInterpreterbotResizeValues" : "LW 7/9/2015 11:56" } }

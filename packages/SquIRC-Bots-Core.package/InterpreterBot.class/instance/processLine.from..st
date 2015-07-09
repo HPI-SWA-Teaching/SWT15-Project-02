@@ -2,7 +2,7 @@ private
 processLine: aString from: aChannelObserver
 
 	| parser |
-	parser := InterpreterbotMessageInterpreter parseIRCMessage: aString.
+	parser := InterpreterBotMessageParser parseIRCMessage: aString.
 
 	( (parser showreturn) or: (parser showtranscript) ) ifTrue: [ self sendBufferFor: parser ].
 	(((parser command) = 'next') or: ((parser command) = 'n')) ifTrue: [ self sendNextFor: parser ].

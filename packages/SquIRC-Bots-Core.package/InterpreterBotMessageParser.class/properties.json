@@ -14,7 +14,7 @@
 		"code",
 		"linecount",
 		"charcount" ],
-	"name" : "InterpreterbotMessageInterpreter",
+	"name" : "InterpreterBotMessageParser",
 	"pools" : [
 		 ],
 	"super" : "BotMessageParser",

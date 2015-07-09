@@ -2,7 +2,7 @@ testing
 testInterpreterbotAllPropertiesAsOrderedCollection
 	| interpreterbot testCollection |
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib tr c "line1. line2. line3"') equals: true.
 	
@@ -10,7 +10,7 @@ testInterpreterbotAllPropertiesAsOrderedCollection
 	
 	self assert: (interpreterbot allPropertiesAsOrderedCollection) equals: testCollection.
 	
-	interpreterbot := InterpreterbotMessageInterpreter new.
+	interpreterbot := InterpreterBotMessageParser new.
 	
 	self assert: (interpreterbot parseIRCMessage: 'client : !ib rs lc 123 cc 456') equals: true.
 	
