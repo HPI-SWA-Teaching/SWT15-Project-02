@@ -12,7 +12,7 @@ testOrderLog
 		addLast: (LogEntry newMessage: '* should be recognized as event' at: (DateAndTime year: 2000 month: 10 day: 10 hour: 10 minute: 10 second: 40) ).
 
 	"nick ASC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby nick order asc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby nick order asc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 4 ].
@@ -22,7 +22,7 @@ testOrderLog
 	self should: [ (result at: 4) message = 'nickD : abc' ].
 
 	"nick DSC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby nick order dsc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby nick order dsc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 4 ].
@@ -32,7 +32,7 @@ testOrderLog
 	self should: [ (result at: 1) message = 'nickD : abc' ].
 
 	"size ASC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby size order asc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby size order asc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 4 ].
@@ -42,7 +42,7 @@ testOrderLog
 	self should: [ (result at: 4) message = 'nickA : message' ].
 
 	"size DSC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby size order dsc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby size order dsc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 4 ].
@@ -52,7 +52,7 @@ testOrderLog
 	self should: [ (result at: 1) message = 'nickA : message' ].
 
 	"time ASC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby time order asc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby time order asc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 5 ].
@@ -63,7 +63,7 @@ testOrderLog
 	self should: [ (result at: 5) message = '* should be recognized as event' ].
 
 	"time DSC"
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show orderby time order dsc'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show orderby time order dsc'.
 	result := (LogBot new) orderLog: log accordingTo: parser.	
 	self should: [ result class = SortedCollection ].
 	self should: [ result size = 5 ].

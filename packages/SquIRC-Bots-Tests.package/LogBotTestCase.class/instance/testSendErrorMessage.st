@@ -3,7 +3,7 @@ testSendErrorMessage
 
 	| bot parser spy |
 	bot := LogBot new.
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb show begin'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb show begin'.
 	spy := MessageLogger new.
 
 	bot connection: spy.

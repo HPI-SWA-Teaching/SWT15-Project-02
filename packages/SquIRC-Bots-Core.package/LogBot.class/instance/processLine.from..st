@@ -2,7 +2,7 @@ private
 processLine: aString from: aChannelObserver
 
 	| parser |
-	parser := LogbotMessageInterpreter parseIRCMessage: aString.
+	parser := LogBotMessageParser parseIRCMessage: aString.
 	
 	(parser errorMessage) ifNotNil: [
 		self sendErrorMessage: parser

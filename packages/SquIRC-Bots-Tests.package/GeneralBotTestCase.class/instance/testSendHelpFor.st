@@ -5,7 +5,7 @@ testSendHelpFor
 	bot := Bot new.
 
 	"LBMI because GeneralbotMessageInterpreter>>help is in subclassResponsibility."
-	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb help'.
+	parser := LogBotMessageParser parseIRCMessage: 'nick : !lb help'.
 
 	spy := MessageLogger new.
 

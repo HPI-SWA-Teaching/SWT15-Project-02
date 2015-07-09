@@ -22,7 +22,7 @@
 		"pattern",
 		"orderby",
 		"order" ],
-	"name" : "LogbotMessageInterpreter",
+	"name" : "LogBotMessageParser",
 	"pools" : [
 		 ],
 	"super" : "BotMessageParser",
