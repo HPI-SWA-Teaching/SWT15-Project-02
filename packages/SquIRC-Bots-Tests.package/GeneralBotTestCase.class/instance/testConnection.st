@@ -18,7 +18,7 @@ testConnection
 	World startStepping: con.
 	con loadProfile: conProf.
 
-	gb := GeneralBot new.
+	gb := Bot new.
 	gb connection: con.
 
 	self should: [gb connection = con].

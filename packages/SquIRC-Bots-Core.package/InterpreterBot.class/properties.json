@@ -14,5 +14,5 @@
 	"name" : "InterpreterBot",
 	"pools" : [
 		 ],
-	"super" : "GeneralBot",
+	"super" : "Bot",
 	"type" : "normal" }

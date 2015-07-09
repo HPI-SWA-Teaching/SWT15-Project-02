@@ -18,7 +18,7 @@ testFloodProtection
 	World startStepping: con.
 	con loadProfile: conProf.
 
-	gb := GeneralBot new.
+	gb := Bot new.
 	gb connection: con.
 
 	gb enableFloodProtectionWaiting.	

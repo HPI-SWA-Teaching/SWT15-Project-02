@@ -7,7 +7,7 @@ testSetupIRCConnectionProfileWithServerNick
 		address: 'chat.freenode.net';
 		port: 6666.
 
-	profile := GeneralBot setupIRCConnectionProfileWithServer: server nick: 'nick'.
+	profile := Bot setupIRCConnectionProfileWithServer: server nick: 'nick'.
 	
 	self should: [ profile class = IRCConnectionProfile ].
 	self should: [ profile nick = 'nick' ].

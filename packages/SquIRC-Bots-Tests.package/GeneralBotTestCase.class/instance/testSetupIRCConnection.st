@@ -14,7 +14,7 @@ testSetupIRCConnection
 		fullName: 'fullName';
 		server: server.
 
-	connection := GeneralBot setupIRCConnection: profile.
+	connection := Bot setupIRCConnection: profile.
 
 	self should: [ connection class = IRCConnection ].
 	self should: [ connection currentProfile server address = 'chat.freenode.net' ].

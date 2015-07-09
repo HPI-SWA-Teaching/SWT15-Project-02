@@ -12,7 +12,7 @@
 		"loopingProcess",
 		"joinMessage",
 		"loopingWaitTimeInMilliseconds" ],
-	"name" : "GeneralBot",
+	"name" : "Bot",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -2,7 +2,7 @@ testing
 testConnectAndJoin
 
 	| gb icml |
-	gb := GeneralBot new.
+	gb := Bot new.
 	icml := MessageLogger new.
 	icml respondTo: #connected with: false.
 	gb connection: icml.

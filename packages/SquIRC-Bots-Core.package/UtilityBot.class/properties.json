@@ -12,5 +12,5 @@
 	"name" : "UtilityBot",
 	"pools" : [
 		 ],
-	"super" : "GeneralBot",
+	"super" : "Bot",
 	"type" : "normal" }

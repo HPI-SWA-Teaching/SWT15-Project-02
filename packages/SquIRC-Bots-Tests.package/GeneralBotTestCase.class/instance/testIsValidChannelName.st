@@ -2,7 +2,7 @@ testing
 testIsValidChannelName
 
 	| gb |
-	gb := GeneralBot new.
+	gb := Bot new.
 	
 	self should: [ gb isValidChannelName: '#test' ].
 	self should: [ gb isValidChannelName: '#abc' ].

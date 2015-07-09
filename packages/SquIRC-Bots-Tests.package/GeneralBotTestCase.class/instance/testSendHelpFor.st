@@ -2,7 +2,7 @@ testing
 testSendHelpFor
 
 	| bot parser spy |
-	bot := GeneralBot new.
+	bot := Bot new.
 
 	"LBMI because GeneralbotMessageInterpreter>>help is in subclassResponsibility."
 	parser := LogbotMessageInterpreter parseIRCMessage: 'nick : !lb help'.

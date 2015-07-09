@@ -2,7 +2,7 @@ testing
 testChannels
 
 	| gb |
-	gb := GeneralBot new.
+	gb := Bot new.
 	self should: [gb channels = #()].
 	gb addChannel: '#testA'.
 	self should: [gb channels =#('#testA')].

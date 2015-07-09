@@ -2,7 +2,7 @@ testing
 testJoinMessage
 
 	| gb |
-	gb := GeneralBot new.
+	gb := Bot new.
 	gb joinMessage: ''.
 	self should: [gb joinMessage = ''].
 	gb joinMessage: 'something'.
