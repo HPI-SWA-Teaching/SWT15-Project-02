@@ -9,6 +9,7 @@
 		"testInitialize" : "jc 6/27/2015 21:24",
 		"testInterpreterBotRunning" : "jc 6/28/2015 11:34",
 		"testLogBotRunning" : "jc 6/28/2015 11:35",
+		"testMessageParserClass" : "jc 7/10/2015 20:01",
 		"testSendDateAndTimeFor" : "LW 7/9/2015 12:13",
 		"testSendDateFor" : "LW 7/9/2015 12:13",
 		"testSendStatusFor" : "LW 7/9/2015 12:13",

@@ -1,0 +1,4 @@
+accessing parallel hierarchy
+messageParserClass
+
+	^UtilityBotMessageParser

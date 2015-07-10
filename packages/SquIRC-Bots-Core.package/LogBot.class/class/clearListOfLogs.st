@@ -1,4 +1,4 @@
-as yet unclassified
+private
 clearListOfLogs
 
 	ListOfLogs := Dictionary new. 

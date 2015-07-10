@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"messageParserClass" : "jc 7/10/2015 19:54",
 		"setupBotWithConnection:channel:" : "jc 6/4/2015 14:04",
 		"setupIRCConnection:" : "jc 6/4/2015 14:02",
 		"setupIRCConnectionProfileWithServer:nick:" : "jc 6/4/2015 14:00",
@@ -22,7 +23,7 @@
 		"joinMessage:" : "jc 5/17/2015 15:39",
 		"oneLoop" : "jc 5/24/2015 23:24",
 		"openChannels" : "jc 5/24/2015 23:25",
-		"processLine:from:" : "jc 5/24/2015 23:25",
+		"processLine:from:" : "jc 7/10/2015 19:58",
 		"processNewLinesFrom:" : "jc 5/11/2015 14:31",
 		"removeChannel:" : "jc 5/24/2015 23:27",
 		"sendChannelJoinMessages" : "jc 5/24/2015 23:28",

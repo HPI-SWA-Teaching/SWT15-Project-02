@@ -9,6 +9,7 @@
 		"testInitialize" : "LW 7/9/2015 11:34",
 		"testIsValidChannelName" : "LW 7/9/2015 11:34",
 		"testJoinMessage" : "LW 7/9/2015 11:34",
+		"testMessageParserClass" : "jc 7/10/2015 19:58",
 		"testSendHelpFor" : "LW 7/9/2015 12:03",
 		"testSetupIRCConnection" : "LW 7/9/2015 11:34",
 		"testSetupIRCConnectionProfileWithServerNick" : "LW 7/9/2015 11:35",

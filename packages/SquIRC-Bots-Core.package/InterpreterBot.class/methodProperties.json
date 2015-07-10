@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"messageParserClass" : "jc 7/10/2015 19:56" },
 	"instance" : {
 		"createBufferFor:" : "jc 6/11/2015 14:26",
 		"formatReturnValue:" : "jc 6/11/2015 14:26",
@@ -14,7 +14,7 @@
 		"maxCharCount:" : "jc 5/17/2015 12:34",
 		"maxLineCount" : "jc 5/17/2015 12:33",
 		"maxLineCount:" : "jc 5/17/2015 12:34",
-		"processLine:from:" : "LW 7/9/2015 11:55",
+		"processLine:from:" : "jc 7/10/2015 19:49",
 		"sendBufferFor:" : "jc 6/11/2015 14:27",
 		"sendFormattedTranscriptFor:" : "jc 6/10/2015 23:11",
 		"sendNextFor:" : "jc 6/11/2015 13:49",
