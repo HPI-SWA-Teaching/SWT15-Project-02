@@ -1,0 +1,18 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ButtonGroup",
+		"NewBotButton",
+		"RestartAllButton",
+		"StopAllButton",
+		"BotList" ],
+	"name" : "IRCBotManagerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
