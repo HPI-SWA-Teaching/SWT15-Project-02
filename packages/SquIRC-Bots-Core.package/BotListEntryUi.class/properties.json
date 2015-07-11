@@ -1,0 +1,26 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"NameAndButtonRow",
+		"BotName",
+		"RestartButton",
+		"StopButton",
+		"ServerRow",
+		"ServerLabel",
+		"Server",
+		"PortRow",
+		"PortLabel",
+		"Port",
+		"ChannelRow",
+		"ChannelLabel",
+		"Channel" ],
+	"name" : "BotListEntryUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
