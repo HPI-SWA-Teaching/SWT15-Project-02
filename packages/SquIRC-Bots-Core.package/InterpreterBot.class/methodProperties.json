@@ -2,12 +2,13 @@
 	"class" : {
 		"messageParserClass" : "jc 7/10/2015 19:56" },
 	"instance" : {
-		"createBufferFor:" : "jc 6/11/2015 14:26",
+		"createBufferFor:" : "jc 7/12/2015 11:45",
 		"formatReturnValue:" : "jc 6/11/2015 14:26",
 		"formatTranscript:" : "jc 5/24/2015 23:34",
 		"generateFormattedReturnValue:" : "jc 6/11/2015 14:26",
 		"generateFormattedTranscript:" : "jc 6/10/2015 18:00",
 		"generateReturnValue:" : "jc 6/11/2015 14:26",
+		"generateReturnValueAndTranscriptContent:" : "jc 7/12/2015 11:35",
 		"generateTranscriptContent:" : "jc 6/10/2015 17:58",
 		"initialize" : "jc 6/11/2015 13:49",
 		"maxCharCount" : "jc 5/17/2015 12:34",

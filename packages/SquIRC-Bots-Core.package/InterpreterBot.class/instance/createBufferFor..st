@@ -2,16 +2,17 @@ private
 createBufferFor: anInterpreter
 	"Sends the currentBuffer to the client given via anInterpreter."
 	
+	self generateReturnValueAndTranscriptContent: (anInterpreter code).
 	currentBuffer := OrderedCollection new.
 
 	(anInterpreter showreturn) ifTrue: [
 		currentBuffer
 			addLast: 'RETURN VALUE:';
-			addAllLast: (self generateFormattedReturnValue: (anInterpreter code)).
+			addAllLast: (self formatReturnValue: currentReturnValue).
 	].
 
 	(anInterpreter showtranscript ) ifTrue: [
 		currentBuffer
 			addLast: 'TRANSCRIPT:';
-			addAllLast: (self generateFormattedTranscript: (anInterpreter code)).
+			addAllLast: (self formatTranscript: currentTranscript).
 	].
