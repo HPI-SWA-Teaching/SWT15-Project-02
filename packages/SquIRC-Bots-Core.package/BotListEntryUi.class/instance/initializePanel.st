@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	panel color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -54,7 +54,7 @@ initializePanel
 	NameAndButtonRow frameFractions: (0@0 corner: 1@1).
 	NameAndButtonRow frameOffsets: (0@0 corner: 0@0).
 	NameAndButtonRow balloonText: (nil).
-	NameAndButtonRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	NameAndButtonRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	NameAndButtonRow color: (Color transparent).
 	NameAndButtonRow borderWidth: (0).
 	NameAndButtonRow borderStyle2: (#simple).
@@ -82,7 +82,7 @@ initializePanel
 	BotName frameFractions: (0@0 corner: 1@1).
 	BotName frameOffsets: (0@0 corner: 0@0).
 	BotName balloonText: ('').
-	BotName balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	BotName balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	BotName text: ('squIRC_Example_Bot').
 	BotName setProperty: #formByDesigner toValue: 'nil'.
 	BotName form: (nil).
@@ -109,7 +109,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	unnamedMorph1 color: (Color blue).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -138,7 +138,7 @@ initializePanel
 	RestartButton frameFractions: (0@0 corner: 1@1).
 	RestartButton frameOffsets: (0@0 corner: 0@0).
 	RestartButton balloonText: (nil).
-	RestartButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	RestartButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	RestartButton enabled: (true).
 	RestartButton setProperty: #iconByDesigner toValue: 'nil'.
 	RestartButton icon: (nil).
@@ -171,7 +171,7 @@ initializePanel
 	StopButton frameFractions: (0@0 corner: 1@1).
 	StopButton frameOffsets: (0@0 corner: 0@0).
 	StopButton balloonText: ('').
-	StopButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	StopButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	StopButton enabled: (true).
 	StopButton setProperty: #iconByDesigner toValue: 'nil'.
 	StopButton icon: (nil).
@@ -205,7 +205,7 @@ initializePanel
 	ServerRow frameFractions: (0@0 corner: 1@1).
 	ServerRow frameOffsets: (0@0 corner: 0@0).
 	ServerRow balloonText: (nil).
-	ServerRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	ServerRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	ServerRow color: (Color transparent).
 	ServerRow borderWidth: (0).
 	ServerRow borderStyle2: (#simple).
@@ -213,9 +213,9 @@ initializePanel
 	ServerRow setProperty: #objectName toValue: 'ServerRow'.
 	ServerLabel := UiLabel new.
 	ServerLabel changeTableLayout.
-	ServerLabel extent: (43@18).
+	ServerLabel extent: (60@18).
 	ServerLabel position: (4@30).
-	ServerLabel hResizing: (#shrinkWrap).
+	ServerLabel hResizing: (#rigid).
 	ServerLabel vResizing: (#shrinkWrap).
 	ServerLabel minWidth: (2).
 	ServerLabel minHeight: (2).
@@ -233,7 +233,7 @@ initializePanel
 	ServerLabel frameFractions: (0@0 corner: 1@1).
 	ServerLabel frameOffsets: (0@0 corner: 0@0).
 	ServerLabel balloonText: ('').
-	ServerLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	ServerLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	ServerLabel text: ('Server:').
 	ServerLabel setProperty: #formByDesigner toValue: 'nil'.
 	ServerLabel form: (nil).
@@ -242,7 +242,7 @@ initializePanel
 	Server := UiLabel new.
 	Server changeTableLayout.
 	Server extent: (92@18).
-	Server position: (51@30).
+	Server position: (68@30).
 	Server hResizing: (#shrinkWrap).
 	Server vResizing: (#shrinkWrap).
 	Server minWidth: (2).
@@ -261,7 +261,7 @@ initializePanel
 	Server frameFractions: (0@0 corner: 1@1).
 	Server frameOffsets: (0@0 corner: 0@0).
 	Server balloonText: (nil).
-	Server balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	Server balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	Server text: ('irc.example.org').
 	Server setProperty: #formByDesigner toValue: 'nil'.
 	Server form: (nil).
@@ -290,7 +290,7 @@ initializePanel
 	PortRow frameFractions: (0@0 corner: 1@1).
 	PortRow frameOffsets: (0@0 corner: 0@0).
 	PortRow balloonText: ('').
-	PortRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	PortRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	PortRow color: (Color transparent).
 	PortRow borderWidth: (0).
 	PortRow borderStyle2: (#simple).
@@ -298,9 +298,9 @@ initializePanel
 	PortRow setProperty: #objectName toValue: 'PortRow'.
 	PortLabel := UiLabel new.
 	PortLabel changeTableLayout.
-	PortLabel extent: (27@18).
+	PortLabel extent: (60@18).
 	PortLabel position: (4@52).
-	PortLabel hResizing: (#shrinkWrap).
+	PortLabel hResizing: (#rigid).
 	PortLabel vResizing: (#shrinkWrap).
 	PortLabel minWidth: (2).
 	PortLabel minHeight: (2).
@@ -318,7 +318,7 @@ initializePanel
 	PortLabel frameFractions: (0@0 corner: 1@1).
 	PortLabel frameOffsets: (0@0 corner: 0@0).
 	PortLabel balloonText: (nil).
-	PortLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	PortLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	PortLabel text: ('Port:').
 	PortLabel setProperty: #formByDesigner toValue: 'nil'.
 	PortLabel form: (nil).
@@ -327,7 +327,7 @@ initializePanel
 	Port := UiLabel new.
 	Port changeTableLayout.
 	Port extent: (32@18).
-	Port position: (35@52).
+	Port position: (68@52).
 	Port hResizing: (#shrinkWrap).
 	Port vResizing: (#shrinkWrap).
 	Port minWidth: (2).
@@ -346,7 +346,7 @@ initializePanel
 	Port frameFractions: (0@0 corner: 1@1).
 	Port frameOffsets: (0@0 corner: 0@0).
 	Port balloonText: (nil).
-	Port balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	Port balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	Port text: ('6667').
 	Port setProperty: #formByDesigner toValue: 'nil'.
 	Port form: (nil).
@@ -375,7 +375,7 @@ initializePanel
 	ChannelRow frameFractions: (0@0 corner: 1@1).
 	ChannelRow frameOffsets: (0@0 corner: 0@0).
 	ChannelRow balloonText: ('').
-	ChannelRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	ChannelRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	ChannelRow color: (Color transparent).
 	ChannelRow borderWidth: (0).
 	ChannelRow borderStyle2: (#simple).
@@ -383,9 +383,9 @@ initializePanel
 	ChannelRow setProperty: #objectName toValue: 'ChannelRow'.
 	ChannelLabel := UiLabel new.
 	ChannelLabel changeTableLayout.
-	ChannelLabel extent: (50@18).
+	ChannelLabel extent: (60@18).
 	ChannelLabel position: (4@74).
-	ChannelLabel hResizing: (#shrinkWrap).
+	ChannelLabel hResizing: (#rigid).
 	ChannelLabel vResizing: (#shrinkWrap).
 	ChannelLabel minWidth: (2).
 	ChannelLabel minHeight: (2).
@@ -403,7 +403,7 @@ initializePanel
 	ChannelLabel frameFractions: (0@0 corner: 1@1).
 	ChannelLabel frameOffsets: (0@0 corner: 0@0).
 	ChannelLabel balloonText: ('').
-	ChannelLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	ChannelLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	ChannelLabel text: ('Channel:').
 	ChannelLabel setProperty: #formByDesigner toValue: 'nil'.
 	ChannelLabel form: (nil).
@@ -412,7 +412,7 @@ initializePanel
 	Channel := UiLabel new.
 	Channel changeTableLayout.
 	Channel extent: (50@18).
-	Channel position: (58@74).
+	Channel position: (68@74).
 	Channel hResizing: (#shrinkWrap).
 	Channel vResizing: (#shrinkWrap).
 	Channel minWidth: (2).
@@ -431,7 +431,7 @@ initializePanel
 	Channel frameFractions: (0@0 corner: 1@1).
 	Channel frameOffsets: (0@0 corner: 0@0).
 	Channel balloonText: ('').
-	Channel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	Channel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	Channel text: ('#squIRC').
 	Channel setProperty: #formByDesigner toValue: 'nil'.
 	Channel form: (nil).

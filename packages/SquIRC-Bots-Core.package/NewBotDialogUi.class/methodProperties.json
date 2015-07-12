@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"BotTypeLabel" : "LW 7/12/2015 14:46",
+		"BotTypeRow" : "LW 7/12/2015 14:46",
+		"BotTypeSelect" : "LW 7/12/2015 14:46",
+		"ButtonRow" : "LW 7/12/2015 14:46",
+		"ChannelEdit" : "LW 7/12/2015 14:46",
+		"ChannelLabel" : "LW 7/12/2015 14:46",
+		"ChannelRow" : "LW 7/12/2015 14:46",
+		"CreateButton" : "LW 7/12/2015 14:46",
+		"NameEdit" : "LW 7/12/2015 14:46",
+		"NameLabel" : "LW 7/12/2015 14:46",
+		"NameRow" : "LW 7/12/2015 14:46",
+		"PortEdit" : "LW 7/12/2015 14:46",
+		"PortLabel" : "LW 7/12/2015 14:46",
+		"PortRow" : "LW 7/12/2015 14:46",
+		"ServerEdit" : "LW 7/12/2015 14:46",
+		"ServerEditRow" : "LW 7/12/2015 14:46",
+		"ServerLabel" : "LW 7/12/2015 14:46",
+		"initializePanel" : "LW 7/12/2015 14:46" } }

@@ -1,0 +1,30 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"BotTypeRow",
+		"BotTypeLabel",
+		"BotTypeSelect",
+		"NameRow",
+		"NameLabel",
+		"NameEdit",
+		"ServerEditRow",
+		"ServerLabel",
+		"ServerEdit",
+		"PortRow",
+		"PortLabel",
+		"PortEdit",
+		"ChannelRow",
+		"ChannelLabel",
+		"ChannelEdit",
+		"ButtonRow",
+		"CreateButton" ],
+	"name" : "NewBotDialogUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
