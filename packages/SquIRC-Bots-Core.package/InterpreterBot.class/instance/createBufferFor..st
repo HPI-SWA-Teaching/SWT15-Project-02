@@ -1,6 +1,6 @@
 private
 createBufferFor: anInterpreter
-	"Sends the currentBuffer to the client given via anInterpreter."
+	"Creates the buffer for the code given via anInterpreter."
 	
 	self generateReturnValueAndTranscriptContent: (anInterpreter code).
 	currentBuffer := OrderedCollection new.

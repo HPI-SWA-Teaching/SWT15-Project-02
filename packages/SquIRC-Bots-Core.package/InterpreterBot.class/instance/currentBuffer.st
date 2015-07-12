@@ -1,0 +1,4 @@
+access
+currentBuffer
+
+	^currentBuffer
