@@ -13,7 +13,7 @@
 		"connection" : "jc 5/8/2015 20:10",
 		"connection:" : "jc 5/10/2015 22:22",
 		"disableFloodProtectionWaiting" : "jc 6/10/2015 17:17",
-		"disconnect" : "LW 7/13/2015 21:50",
+		"disconnect" : "LW 7/14/2015 00:34",
 		"enableFloodProtectionWaiting" : "jc 6/10/2015 17:16",
 		"floodProtectionTimeMillis" : "jc 6/10/2015 17:18",
 		"floodProtectionTimeMillis:" : "jc 6/10/2015 17:18",
@@ -31,4 +31,4 @@
 		"sendChannelJoinMessages" : "jc 5/24/2015 23:28",
 		"sendHelpFor:" : "jc 5/24/2015 23:29",
 		"startLooping" : "jc 5/24/2015 23:31",
-		"stopLooping" : "jc 5/24/2015 23:30" } }
+		"stopLooping" : "LW 7/14/2015 00:27" } }
