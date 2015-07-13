@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"ui",
+		"bots",
+		"newBotDialog" ],
 	"name" : "IRCBotManager",
 	"pools" : [
 		 ],

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"StopAllButton",
-		"RestartAllButton",
 		"NewBotButton",
+		"RestartAllButton",
+		"StopAllButton",
 		"BotListCanvas",
 		"BotListSlider" ],
 	"name" : "IRCBotManagerUi",
