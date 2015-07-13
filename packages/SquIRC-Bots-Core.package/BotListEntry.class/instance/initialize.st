@@ -6,5 +6,5 @@ initialize
 	requestedStop := false.
 	requestedRestart := false.
 
-	self connect: ui StopButton signal: #clicked: toSelector: #requestStop.
-	self connect: ui RestartButton signal: #clicked: toSelector: #requestRestart.
+	self connect: ui StopButton signal: #clicked: toSelector: #stopBot.
+	self connect: ui RestartButton signal: #clicked: toSelector: #restartBot.

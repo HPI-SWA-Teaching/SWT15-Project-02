@@ -6,3 +6,4 @@ restartAll
 		((bots at: botNr) at: 1) disconnect.
 		(bots at: botNr put: (self startBot: (bots at: botNr))).].
 	self removeStoppedBots.
+	ui RestartAllButton checked: false.
