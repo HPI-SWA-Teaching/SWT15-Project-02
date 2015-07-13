@@ -1,5 +1,5 @@
 accessing
-ButtonGroup
+TimeoutRow
 	"No description given."
 	
-	^ ButtonGroup
+	^ TimeoutRow

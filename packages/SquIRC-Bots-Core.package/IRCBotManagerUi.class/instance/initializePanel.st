@@ -2,14 +2,14 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	|  |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (285@302).
+	panel extent: (333@341).
 	panel position: (0@0).
-	panel hResizing: (#spaceFill).
-	panel vResizing: (#spaceFill).
+	panel hResizing: (#shrinkWrap).
+	panel vResizing: (#shrinkWrap).
 	panel minWidth: (2).
 	panel minHeight: (2).
 	panel cellInset: (4).
@@ -32,104 +32,37 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	ButtonGroup := UiButtonGroup new.
-	ButtonGroup changeTableLayout.
-	ButtonGroup extent: (277@27).
-	ButtonGroup position: (4@4).
-	ButtonGroup hResizing: (#spaceFill).
-	ButtonGroup vResizing: (#shrinkWrap).
-	ButtonGroup minWidth: (2).
-	ButtonGroup minHeight: (2).
-	ButtonGroup cellInset: (3).
-	ButtonGroup cellPositioning: (#center).
-	ButtonGroup cellSpacing: (#none).
-	ButtonGroup layoutInset: (3).
-	ButtonGroup listCentering: (#topLeft).
-	ButtonGroup listDirection: (#leftToRight).
-	ButtonGroup listSpacing: (#none).
-	ButtonGroup maxCellSize: (1073741823).
-	ButtonGroup minCellSize: (0).
-	ButtonGroup wrapCentering: (#topLeft).
-	ButtonGroup wrapDirection: (#none).
-	ButtonGroup frameFractions: (0@0 corner: 1@1).
-	ButtonGroup frameOffsets: (0@0 corner: 0@0).
-	ButtonGroup balloonText: ('').
-	ButtonGroup balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
-	ButtonGroup color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	ButtonGroup borderWidth: (0).
-	ButtonGroup borderStyle2: (#simple).
-	ButtonGroup borderColor: (Color black).
-	ButtonGroup setProperty: #objectName toValue: 'ButtonGroup'.
-	NewBotButton := UiPushButton new.
-	NewBotButton changeTableLayout.
-	NewBotButton extent: (63@20).
-	NewBotButton position: (7@7).
-	NewBotButton hResizing: (#shrinkWrap).
-	NewBotButton vResizing: (#shrinkWrap).
-	NewBotButton minWidth: (2).
-	NewBotButton minHeight: (2).
-	NewBotButton cellInset: (4).
-	NewBotButton cellPositioning: (#center).
-	NewBotButton cellSpacing: (#none).
-	NewBotButton layoutInset: (2@0 corner: 2@0).
-	NewBotButton listCentering: (#topLeft).
-	NewBotButton listDirection: (#leftToRight).
-	NewBotButton listSpacing: (#none).
-	NewBotButton maxCellSize: (1073741823).
-	NewBotButton minCellSize: (0).
-	NewBotButton wrapCentering: (#topLeft).
-	NewBotButton wrapDirection: (#none).
-	NewBotButton frameFractions: (0@0 corner: 1@1).
-	NewBotButton frameOffsets: (0@0 corner: 0@0).
-	NewBotButton balloonText: (nil).
-	NewBotButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
-	NewBotButton enabled: (true).
-	NewBotButton setProperty: #iconByDesigner toValue: 'nil'.
-	NewBotButton icon: (nil).
-	NewBotButton text: ('New Bot...').
-	NewBotButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	NewBotButton checkable: (true).
-	NewBotButton checked: (false).
-	NewBotButton autoExclusive: (true).
-	NewBotButton setProperty: #objectName toValue: 'NewBotButton'.
-	ButtonGroup addChild: NewBotButton.
-	RestartAllButton := UiPushButton new.
-	RestartAllButton changeTableLayout.
-	RestartAllButton extent: (67@20).
-	RestartAllButton position: (75@7).
-	RestartAllButton hResizing: (#shrinkWrap).
-	RestartAllButton vResizing: (#shrinkWrap).
-	RestartAllButton minWidth: (2).
-	RestartAllButton minHeight: (2).
-	RestartAllButton cellInset: (4).
-	RestartAllButton cellPositioning: (#center).
-	RestartAllButton cellSpacing: (#none).
-	RestartAllButton layoutInset: (2@0 corner: 2@0).
-	RestartAllButton listCentering: (#topLeft).
-	RestartAllButton listDirection: (#leftToRight).
-	RestartAllButton listSpacing: (#none).
-	RestartAllButton maxCellSize: (1073741823).
-	RestartAllButton minCellSize: (0).
-	RestartAllButton wrapCentering: (#topLeft).
-	RestartAllButton wrapDirection: (#none).
-	RestartAllButton frameFractions: (0@0 corner: 1@1).
-	RestartAllButton frameOffsets: (0@0 corner: 0@0).
-	RestartAllButton balloonText: ('').
-	RestartAllButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
-	RestartAllButton enabled: (true).
-	RestartAllButton setProperty: #iconByDesigner toValue: 'nil'.
-	RestartAllButton icon: (nil).
-	RestartAllButton text: ('Restart all').
-	RestartAllButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	RestartAllButton checkable: (true).
-	RestartAllButton checked: (false).
-	RestartAllButton autoExclusive: (true).
-	RestartAllButton setProperty: #objectName toValue: 'RestartAllButton'.
-	ButtonGroup addChild: RestartAllButton.
+	unnamedMorph1 := UiContainer new.
+	unnamedMorph1 changeTableLayout.
+	unnamedMorph1 extent: (195@21).
+	unnamedMorph1 position: (4@4).
+	unnamedMorph1 hResizing: (#shrinkWrap).
+	unnamedMorph1 vResizing: (#shrinkWrap).
+	unnamedMorph1 minWidth: (2).
+	unnamedMorph1 minHeight: (2).
+	unnamedMorph1 cellInset: (4).
+	unnamedMorph1 cellPositioning: (#center).
+	unnamedMorph1 cellSpacing: (#none).
+	unnamedMorph1 layoutInset: (0).
+	unnamedMorph1 listCentering: (#topLeft).
+	unnamedMorph1 listDirection: (#leftToRight).
+	unnamedMorph1 listSpacing: (#none).
+	unnamedMorph1 maxCellSize: (1073741823).
+	unnamedMorph1 minCellSize: (0).
+	unnamedMorph1 wrapCentering: (#topLeft).
+	unnamedMorph1 wrapDirection: (#none).
+	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph1 balloonText: (nil).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph1 color: (Color transparent).
+	unnamedMorph1 borderWidth: (0).
+	unnamedMorph1 borderStyle2: (#simple).
+	unnamedMorph1 borderColor: (Color black).
 	StopAllButton := UiPushButton new.
 	StopAllButton changeTableLayout.
 	StopAllButton extent: (52@20).
-	StopAllButton position: (147@7).
+	StopAllButton position: (4@4).
 	StopAllButton hResizing: (#shrinkWrap).
 	StopAllButton vResizing: (#shrinkWrap).
 	StopAllButton minWidth: (2).
@@ -148,7 +81,7 @@ initializePanel
 	StopAllButton frameFractions: (0@0 corner: 1@1).
 	StopAllButton frameOffsets: (0@0 corner: 0@0).
 	StopAllButton balloonText: (nil).
-	StopAllButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	StopAllButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	StopAllButton enabled: (true).
 	StopAllButton setProperty: #iconByDesigner toValue: 'nil'.
 	StopAllButton icon: (nil).
@@ -158,43 +91,159 @@ initializePanel
 	StopAllButton checked: (false).
 	StopAllButton autoExclusive: (true).
 	StopAllButton setProperty: #objectName toValue: 'StopAllButton'.
-	ButtonGroup addChild: StopAllButton.
-	panel addChild: ButtonGroup.
-	BotList := UiListWidget new.
-	BotList extent: (277@262).
-	BotList position: (4@36).
-	BotList hResizing: (#spaceFill).
-	BotList vResizing: (#spaceFill).
-	BotList minWidth: (2).
-	BotList minHeight: (2).
-	BotList cellInset: (0).
-	BotList cellPositioning: (#center).
-	BotList cellSpacing: (#none).
-	BotList layoutInset: (0).
-	BotList listCentering: (#topLeft).
-	BotList listDirection: (#topToBottom).
-	BotList listSpacing: (#none).
-	BotList maxCellSize: (1073741823).
-	BotList minCellSize: (0).
-	BotList wrapCentering: (#topLeft).
-	BotList wrapDirection: (#none).
-	BotList frameFractions: (0@0 corner: 1@1).
-	BotList frameOffsets: (0@0 corner: 0@0).
-	BotList balloonText: ('').
-	BotList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
-	BotList widgetResizable: (true).
-	BotList horizontalScrollBarPolicy: (#alwaysOff).
-	BotList verticalScrollBarPolicy: (#asNeeded).
-	BotList outerBorderWidth: (0).
-	BotList scrollBarThickness: (9).
-	BotList modelClass: (UiPropertyItemNode).
-	BotList horizontalHeaderVisible: (false).
-	BotList verticalHeaderVisible: (false).
-	BotList selectionBehavior: (#selectRows).
-	BotList selectionMode: (UiViewSingleSelection).
-	BotList listOrientation: (#default).
-	BotList hAlignment: (#left).
-	BotList vAlignment: (#top).
-	BotList setProperty: #objectName toValue: 'BotList'.
-	panel addChild: BotList.
+	unnamedMorph1 addChild: StopAllButton.
+	RestartAllButton := UiPushButton new.
+	RestartAllButton changeTableLayout.
+	RestartAllButton extent: (67@20).
+	RestartAllButton position: (62@4).
+	RestartAllButton hResizing: (#shrinkWrap).
+	RestartAllButton vResizing: (#shrinkWrap).
+	RestartAllButton minWidth: (2).
+	RestartAllButton minHeight: (2).
+	RestartAllButton cellInset: (4).
+	RestartAllButton cellPositioning: (#center).
+	RestartAllButton cellSpacing: (#none).
+	RestartAllButton layoutInset: (2@0 corner: 2@0).
+	RestartAllButton listCentering: (#topLeft).
+	RestartAllButton listDirection: (#leftToRight).
+	RestartAllButton listSpacing: (#none).
+	RestartAllButton maxCellSize: (1073741823).
+	RestartAllButton minCellSize: (0).
+	RestartAllButton wrapCentering: (#topLeft).
+	RestartAllButton wrapDirection: (#none).
+	RestartAllButton frameFractions: (0@0 corner: 1@1).
+	RestartAllButton frameOffsets: (0@0 corner: 0@0).
+	RestartAllButton balloonText: ('').
+	RestartAllButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	RestartAllButton enabled: (true).
+	RestartAllButton setProperty: #iconByDesigner toValue: 'nil'.
+	RestartAllButton icon: (nil).
+	RestartAllButton text: ('Restart all').
+	RestartAllButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	RestartAllButton checkable: (true).
+	RestartAllButton checked: (false).
+	RestartAllButton autoExclusive: (true).
+	RestartAllButton setProperty: #objectName toValue: 'RestartAllButton'.
+	unnamedMorph1 addChild: RestartAllButton.
+	NewBotButton := UiPushButton new.
+	NewBotButton changeTableLayout.
+	NewBotButton extent: (63@20).
+	NewBotButton position: (135@4).
+	NewBotButton hResizing: (#shrinkWrap).
+	NewBotButton vResizing: (#shrinkWrap).
+	NewBotButton minWidth: (2).
+	NewBotButton minHeight: (2).
+	NewBotButton cellInset: (4).
+	NewBotButton cellPositioning: (#center).
+	NewBotButton cellSpacing: (#none).
+	NewBotButton layoutInset: (2@0 corner: 2@0).
+	NewBotButton listCentering: (#topLeft).
+	NewBotButton listDirection: (#leftToRight).
+	NewBotButton listSpacing: (#none).
+	NewBotButton maxCellSize: (1073741823).
+	NewBotButton minCellSize: (0).
+	NewBotButton wrapCentering: (#topLeft).
+	NewBotButton wrapDirection: (#none).
+	NewBotButton frameFractions: (0@0 corner: 1@1).
+	NewBotButton frameOffsets: (0@0 corner: 0@0).
+	NewBotButton balloonText: (nil).
+	NewBotButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	NewBotButton enabled: (true).
+	NewBotButton setProperty: #iconByDesigner toValue: 'nil'.
+	NewBotButton icon: (nil).
+	NewBotButton text: ('New Bot...').
+	NewBotButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	NewBotButton checkable: (true).
+	NewBotButton checked: (false).
+	NewBotButton autoExclusive: (true).
+	NewBotButton setProperty: #objectName toValue: 'NewBotButton'.
+	unnamedMorph1 addChild: NewBotButton.
+	panel addChild: unnamedMorph1.
+	unnamedMorph2 := UiContainer new.
+	unnamedMorph2 changeTableLayout.
+	unnamedMorph2 extent: (324@306).
+	unnamedMorph2 position: (4@30).
+	unnamedMorph2 hResizing: (#spaceFill).
+	unnamedMorph2 vResizing: (#spaceFill).
+	unnamedMorph2 minWidth: (2).
+	unnamedMorph2 minHeight: (2).
+	unnamedMorph2 cellInset: (4).
+	unnamedMorph2 cellPositioning: (#center).
+	unnamedMorph2 cellSpacing: (#none).
+	unnamedMorph2 layoutInset: (0).
+	unnamedMorph2 listCentering: (#topLeft).
+	unnamedMorph2 listDirection: (#leftToRight).
+	unnamedMorph2 listSpacing: (#none).
+	unnamedMorph2 maxCellSize: (1073741823).
+	unnamedMorph2 minCellSize: (0).
+	unnamedMorph2 wrapCentering: (#topLeft).
+	unnamedMorph2 wrapDirection: (#none).
+	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph2 balloonText: (nil).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph2 color: (Color transparent).
+	unnamedMorph2 borderWidth: (0).
+	unnamedMorph2 borderStyle2: (#simple).
+	unnamedMorph2 borderColor: (Color black).
+	BotListCanvas := RectangleMorph new.
+	BotListCanvas extent: (300@306).
+	BotListCanvas position: (4@30).
+	BotListCanvas hResizing: (#rigid).
+	BotListCanvas vResizing: (#spaceFill).
+	BotListCanvas minWidth: (2).
+	BotListCanvas minHeight: (2).
+	BotListCanvas cellInset: (0).
+	BotListCanvas cellPositioning: (#center).
+	BotListCanvas cellSpacing: (#none).
+	BotListCanvas layoutInset: (0).
+	BotListCanvas listCentering: (#topLeft).
+	BotListCanvas listDirection: (#topToBottom).
+	BotListCanvas listSpacing: (#none).
+	BotListCanvas maxCellSize: (1073741823).
+	BotListCanvas minCellSize: (0).
+	BotListCanvas wrapCentering: (#topLeft).
+	BotListCanvas wrapDirection: (#none).
+	BotListCanvas frameFractions: (0@0 corner: 1@1).
+	BotListCanvas frameOffsets: (0@0 corner: 0@0).
+	BotListCanvas balloonText: (nil).
+	BotListCanvas balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	BotListCanvas setProperty: #objectName toValue: 'BotListCanvas'.
+	unnamedMorph2 addChild: BotListCanvas.
+	BotListSlider := UiScrollBar new.
+	BotListSlider changeTableLayout.
+	BotListSlider extent: (20@306).
+	BotListSlider position: (308@30).
+	BotListSlider hResizing: (#spaceFill).
+	BotListSlider vResizing: (#spaceFill).
+	BotListSlider minWidth: (2).
+	BotListSlider minHeight: (2).
+	BotListSlider cellInset: (0).
+	BotListSlider cellPositioning: (#center).
+	BotListSlider cellSpacing: (#none).
+	BotListSlider layoutInset: (0).
+	BotListSlider listCentering: (#center).
+	BotListSlider listDirection: (#topToBottom).
+	BotListSlider listSpacing: (#none).
+	BotListSlider maxCellSize: (1073741823).
+	BotListSlider minCellSize: (0).
+	BotListSlider wrapCentering: (#topLeft).
+	BotListSlider wrapDirection: (#none).
+	BotListSlider frameFractions: (0@0 corner: 1@1).
+	BotListSlider frameOffsets: (0@0 corner: 0@0).
+	BotListSlider balloonText: ('').
+	BotListSlider balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	BotListSlider orientation: (#vertical).
+	BotListSlider minimum: (0).
+	BotListSlider maximum: (100).
+	BotListSlider currentValue: (0).
+	BotListSlider sliderPosition: (0).
+	BotListSlider tracking: (true).
+	BotListSlider singleStep: (1).
+	BotListSlider pageStep: (10).
+	BotListSlider truncate: (true).
+	BotListSlider buttonMode: (#none).
+	BotListSlider setProperty: #objectName toValue: 'BotListSlider'.
+	unnamedMorph2 addChild: BotListSlider.
+	panel addChild: unnamedMorph2.
 	panel setProperty: #uiClassName toValue: 'IRCBotManager'.

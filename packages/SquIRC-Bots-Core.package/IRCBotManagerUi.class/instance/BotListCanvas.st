@@ -1,5 +1,5 @@
 accessing
-NameAndButtonRow
+BotListCanvas
 	"No description given."
 	
-	^ NameAndButtonRow
+	^ BotListCanvas

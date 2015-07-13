@@ -1,5 +1,5 @@
 accessing
-ChannelRow
+TimeoutCheckbox
 	"No description given."
 	
-	^ ChannelRow
+	^ TimeoutCheckbox

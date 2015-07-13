@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ButtonGroup",
-		"NewBotButton",
-		"RestartAllButton",
 		"StopAllButton",
-		"BotList" ],
+		"RestartAllButton",
+		"NewBotButton",
+		"BotListCanvas",
+		"BotListSlider" ],
 	"name" : "IRCBotManagerUi",
 	"pools" : [
 		 ],

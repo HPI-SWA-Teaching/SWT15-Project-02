@@ -1,5 +1,5 @@
 accessing
-ServerRow
+BotListSlider
 	"No description given."
 	
-	^ ServerRow
+	^ BotListSlider
