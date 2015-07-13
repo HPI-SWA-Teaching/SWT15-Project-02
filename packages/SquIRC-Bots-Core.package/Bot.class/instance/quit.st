@@ -1,0 +1,4 @@
+signals
+quit
+	
+	self emit.

@@ -14,6 +14,8 @@ initialize
 	newBotDialog := nil.
 
 	self connect: self ui NewBotButton signal: #clicked: toSelector: #openNewBotDialog.
+	self connect: self ui StopAllButton signal: #clicked: toSelector: #stopAll.
+	self connect: self ui RestartAllButton signal: #clicked: toSelector: #restartAll.
 
 
 	

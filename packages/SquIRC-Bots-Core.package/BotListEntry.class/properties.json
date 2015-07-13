@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"ui",
+		"requestedRestart",
+		"requestedStop" ],
 	"name" : "BotListEntry",
 	"pools" : [
 		 ],

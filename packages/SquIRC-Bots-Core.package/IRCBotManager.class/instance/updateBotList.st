@@ -11,4 +11,6 @@ updateBotList
 		ble ui Channel theText: (bot at: 6).
 		nr := bots indexOf: bot.
 		ble position: (blc position + (0@(nr - 1 * 92))).
-		blc addMorph: ble asElementNumber: nr].
+		blc addMorph: ble asElementNumber: nr.
+		self connect: ble signal: #requestStop toSelector: #stopBots.
+		self connect: ble signal: #requestRestart toSelector: #restartBots].

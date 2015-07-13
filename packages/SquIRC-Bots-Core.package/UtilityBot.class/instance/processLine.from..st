@@ -19,4 +19,4 @@ processLine: aString from: aChannelObserver
 	( ( parser command = 'try' ) and: ( parser isFinalSolution not ) ) ifTrue: [ self handleTryCharacterFrom: parser on: aChannelObserver ].
 
 	( parser command = 'help' ) ifTrue: [ self sendHelpFor: parser ].
-	( parser command = 'quit' ) ifTrue: [ self disconnect ].
+	( parser command = 'quit' ) ifTrue: [ self disconnect. self quit ].
