@@ -1,4 +1,4 @@
-as yet unclassified
+private
 restartBot
 	requestedRestart := true.
 	self requestRestart.

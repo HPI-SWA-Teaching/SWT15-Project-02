@@ -1,4 +1,4 @@
-as yet unclassified
+private
 restartAll
 	| botNr |
 	ui BotListCanvas submorphs do: [ :s | 

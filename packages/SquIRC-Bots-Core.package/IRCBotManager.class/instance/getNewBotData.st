@@ -1,4 +1,4 @@
-as yet unclassified
+private
 getNewBotData
 	| type nick server port channel fpwaiting |
 	

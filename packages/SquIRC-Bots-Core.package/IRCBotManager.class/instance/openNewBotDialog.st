@@ -1,4 +1,4 @@
-as yet unclassified
+private
 openNewBotDialog
 	newBotDialog ifNotNil: [newBotDialog owner delete].
 	newBotDialog := NewBotDialog new. 

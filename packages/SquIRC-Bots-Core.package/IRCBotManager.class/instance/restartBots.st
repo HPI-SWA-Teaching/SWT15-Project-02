@@ -1,4 +1,4 @@
-as yet unclassified
+private
 restartBots
 	| botNr |
 	ui BotListCanvas submorphs do: [ :s | s requestedRestart ifTrue: [

@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 open
    self openInWindowLabeled: 'BotListEntry'.
