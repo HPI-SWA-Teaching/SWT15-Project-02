@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"BotTypeLabel" : "LW 7/17/2015 16:21",
+		"BotTypeRow" : "LW 7/17/2015 16:21",
+		"BotTypeSelect" : "LW 7/17/2015 16:21",
+		"ButtonRow" : "LW 7/17/2015 16:21",
+		"ChannelEdit" : "LW 7/17/2015 16:21",
+		"ChannelLabel" : "LW 7/17/2015 16:21",
+		"ChannelRow" : "LW 7/17/2015 16:21",
+		"CreateButton" : "LW 7/17/2015 16:21",
+		"FloodProtectionCheckbox" : "LW 7/17/2015 16:21",
+		"FloodProtectionEdit" : "LW 7/17/2015 16:21",
+		"FloodProtectionRow" : "LW 7/17/2015 16:21",
+		"NameEdit" : "LW 7/17/2015 16:21",
+		"NameLabel" : "LW 7/17/2015 16:21",
+		"NameRow" : "LW 7/17/2015 16:21",
+		"PortEdit" : "LW 7/17/2015 16:21",
+		"PortLabel" : "LW 7/17/2015 16:21",
+		"PortRow" : "LW 7/17/2015 16:21",
+		"ServerEdit" : "LW 7/17/2015 16:21",
+		"ServerEditRow" : "LW 7/17/2015 16:21",
+		"ServerLabel" : "LW 7/17/2015 16:21",
+		"initializePanel" : "LW 7/17/2015 16:21" } }

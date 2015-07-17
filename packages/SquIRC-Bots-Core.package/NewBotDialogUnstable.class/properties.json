@@ -1,0 +1,14 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "NewBotDialogUnstable",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

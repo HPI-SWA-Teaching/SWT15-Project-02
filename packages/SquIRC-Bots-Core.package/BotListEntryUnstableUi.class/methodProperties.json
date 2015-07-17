@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"BotName" : "LW 7/17/2015 16:23",
+		"Channel" : "LW 7/17/2015 16:23",
+		"ChannelLabel" : "LW 7/17/2015 16:23",
+		"Port" : "LW 7/17/2015 16:23",
+		"PortLabel" : "LW 7/17/2015 16:23",
+		"RestartButton" : "LW 7/17/2015 16:23",
+		"Server" : "LW 7/17/2015 16:23",
+		"ServerLabel" : "LW 7/17/2015 16:23",
+		"StopButton" : "LW 7/17/2015 16:23",
+		"initializePanel" : "LW 7/17/2015 16:23" } }

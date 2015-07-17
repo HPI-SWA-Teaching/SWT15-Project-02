@@ -1,0 +1,4 @@
+signals
+requestRestart
+	
+	self emit.
