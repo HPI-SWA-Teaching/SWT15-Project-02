@@ -1,3 +1,3 @@
 accessing
 ui
-  ^ ui ifNil: [ui := IRCBotManagerUi new]
+  ^ ui ifNil: [ui := IRCBotManagerUnstableUi new]

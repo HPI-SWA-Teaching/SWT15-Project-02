@@ -8,7 +8,8 @@
 	"instvars" : [
 		"ui",
 		"bots",
-		"newBotDialog" ],
+		"newBotDialog",
+		"botType" ],
 	"name" : "IRCBotManagerUnstable",
 	"pools" : [
 		 ],

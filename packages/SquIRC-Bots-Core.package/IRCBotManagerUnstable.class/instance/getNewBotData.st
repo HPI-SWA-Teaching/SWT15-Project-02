@@ -2,17 +2,13 @@ private
 getNewBotData
 	| type nick server port channel fpwaiting |
 	
-	type := newBotDialog ui BotTypeSelect currentText.
-	type = 'LogBot' ifTrue: [type := LogBot]
-		ifFalse: [type = 'InterpreterBot' ifTrue: [type := InterpreterBot]
-		ifFalse: [type = 'UtilityBot' ifTrue: [type := UtilityBot]
-		ifFalse: [Error new signal: 'Invalid bot type']]].
+	type := botType at: (newBotDialog ui BotTypeSelect currentText) ifAbsent: [Error new signal: 'Invalid bot type'].
 	nick := newBotDialog ui NameEdit theText asString.
 	server := newBotDialog ui ServerEdit theText asString.
-	port := newBotDialog ui PortEdit theText asNumber.
+	[port := newBotDialog ui PortEdit theText asNumber] on: Error do: [port := 6667].
 	channel := newBotDialog ui ChannelEdit theText asString.
 	newBotDialog ui FloodProtectionCheckbox checked ifTrue:
-		[fpwaiting := newBotDialog ui FloodProtectionEdit theText asString]
+		[[fpwaiting := newBotDialog ui FloodProtectionEdit theText asNumber] on: Error do: [fpwaiting := 300]]
 	ifFalse: 
 		[fpwaiting := nil].
 	

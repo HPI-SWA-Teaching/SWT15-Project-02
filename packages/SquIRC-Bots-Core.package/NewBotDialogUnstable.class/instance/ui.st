@@ -1,3 +1,3 @@
 accessing
 ui
-  ^ ui ifNil: [ui := NewBotDialogUi new]
+  ^ ui ifNil: [ui := NewBotDialogUnstableUi new]

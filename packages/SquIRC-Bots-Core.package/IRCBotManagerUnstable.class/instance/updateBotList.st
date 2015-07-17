@@ -4,7 +4,7 @@ updateBotList
 
 	blc := ui BotListCanvas.
 	blc submorphsDo: [:m | m delete].
-	bots do: [ :bot | ble := BotListEntry new.
+	bots do: [ :bot | ble := BotListEntryUnstable new.
 		ble ui BotName theText: (bot at: 3).
 		ble ui Server theText: (bot at: 4).
 		ble ui Port theText: (bot at: 5) asString.

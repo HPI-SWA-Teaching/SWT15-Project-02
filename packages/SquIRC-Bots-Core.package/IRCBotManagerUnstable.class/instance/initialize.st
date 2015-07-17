@@ -12,6 +12,10 @@ initialize
 
 	bots := OrderedCollection new.
 	newBotDialog := nil.
+	botType := Dictionary new.
+	botType at: 'LogBot' put: LogBot.
+	botType at: 'InterpreterBot' put: InterpreterBot.
+	botType at: 'UtilityBot' put: UtilityBot.
 
 	self connect: self ui NewBotButton signal: #clicked: toSelector: #openNewBotDialog.
 	self connect: self ui StopAllButton signal: #clicked: toSelector: #stopAll.

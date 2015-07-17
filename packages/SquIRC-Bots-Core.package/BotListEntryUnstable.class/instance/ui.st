@@ -1,3 +1,3 @@
 accessing
 ui
-  ^ ui ifNil: [ui := BotListEntryUi new]
+  ^ ui ifNil: [ui := BotListEntryUnstableUi new]
