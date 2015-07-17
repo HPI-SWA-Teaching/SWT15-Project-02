@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"parseIRCMessage:" : "jc 5/27/2015 11:16" },
+		"parseIRCMessage:" : "jc 5/27/2015 11:16",
+		"parseIRCMessage:forNick:" : "LW 7/17/2015 13:47",
+		"parseIRCMessage:onlyForNick:" : "LW 7/17/2015 13:48" },
 	"instance" : {
 		"addMultipleKeysToCommandDictionary:block:" : "LW 6/4/2015 14:24",
 		"allPropertiesAsOrderedCollection" : "LW 5/12/2015 15:51",
