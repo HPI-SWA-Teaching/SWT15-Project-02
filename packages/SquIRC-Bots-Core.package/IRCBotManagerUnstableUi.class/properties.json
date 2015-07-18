@@ -9,8 +9,7 @@
 		"NewBotButton",
 		"RestartAllButton",
 		"StopAllButton",
-		"BotListCanvas",
-		"BotListSlider" ],
+		"BotList" ],
 	"name" : "IRCBotManagerUnstableUi",
 	"pools" : [
 		 ],

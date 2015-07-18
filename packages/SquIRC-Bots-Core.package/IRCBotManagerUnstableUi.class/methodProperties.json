@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"BotListCanvas" : "LW 7/17/2015 16:22",
-		"BotListSlider" : "LW 7/17/2015 16:22",
-		"NewBotButton" : "LW 7/17/2015 16:22",
-		"RestartAllButton" : "LW 7/17/2015 16:22",
-		"StopAllButton" : "LW 7/17/2015 16:22",
-		"initializePanel" : "LW 7/17/2015 16:22" } }
+		"BotList" : "LW 7/18/2015 19:59",
+		"NewBotButton" : "LW 7/18/2015 19:59",
+		"RestartAllButton" : "LW 7/18/2015 19:59",
+		"StopAllButton" : "LW 7/18/2015 19:59",
+		"initializePanel" : "LW 7/18/2015 19:59" } }

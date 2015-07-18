@@ -1,5 +1,5 @@
 accessing
-BotListCanvas
+BotList
 	"No description given."
 	
-	^ BotListCanvas
+	^ BotList

@@ -2,11 +2,11 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (341@349).
+	panel extent: (260@266).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -159,91 +159,33 @@ initializePanel
 	StopAllButton setProperty: #objectName toValue: 'StopAllButton'.
 	unnamedMorph1 addChild: StopAllButton.
 	panel addChild: unnamedMorph1.
-	unnamedMorph2 := UiContainer new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (332@314).
-	unnamedMorph2 position: (4@30).
-	unnamedMorph2 hResizing: (#spaceFill).
-	unnamedMorph2 vResizing: (#spaceFill).
-	unnamedMorph2 minWidth: (2).
-	unnamedMorph2 minHeight: (2).
-	unnamedMorph2 cellInset: (4).
-	unnamedMorph2 cellPositioning: (#center).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (0).
-	unnamedMorph2 listCentering: (#topLeft).
-	unnamedMorph2 listDirection: (#leftToRight).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
-	unnamedMorph2 color: (Color transparent).
-	unnamedMorph2 borderWidth: (0).
-	unnamedMorph2 borderStyle2: (#simple).
-	unnamedMorph2 borderColor: (Color black).
-	BotListCanvas := RectangleMorph new.
-	BotListCanvas extent: (300@314).
-	BotListCanvas position: (4@30).
-	BotListCanvas hResizing: (#rigid).
-	BotListCanvas vResizing: (#spaceFill).
-	BotListCanvas minWidth: (2).
-	BotListCanvas minHeight: (2).
-	BotListCanvas cellInset: (0).
-	BotListCanvas cellPositioning: (#center).
-	BotListCanvas cellSpacing: (#none).
-	BotListCanvas layoutInset: (0).
-	BotListCanvas listCentering: (#topLeft).
-	BotListCanvas listDirection: (#topToBottom).
-	BotListCanvas listSpacing: (#none).
-	BotListCanvas maxCellSize: (1073741823).
-	BotListCanvas minCellSize: (0).
-	BotListCanvas wrapCentering: (#topLeft).
-	BotListCanvas wrapDirection: (#none).
-	BotListCanvas frameFractions: (0@0 corner: 1@1).
-	BotListCanvas frameOffsets: (0@0 corner: 0@0).
-	BotListCanvas balloonText: (nil).
-	BotListCanvas balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
-	BotListCanvas setProperty: #objectName toValue: 'BotListCanvas'.
-	unnamedMorph2 addChild: BotListCanvas.
-	BotListSlider := UiScrollBar new.
-	BotListSlider changeTableLayout.
-	BotListSlider extent: (28@314).
-	BotListSlider position: (308@30).
-	BotListSlider hResizing: (#spaceFill).
-	BotListSlider vResizing: (#spaceFill).
-	BotListSlider minWidth: (2).
-	BotListSlider minHeight: (2).
-	BotListSlider cellInset: (0).
-	BotListSlider cellPositioning: (#center).
-	BotListSlider cellSpacing: (#none).
-	BotListSlider layoutInset: (0).
-	BotListSlider listCentering: (#center).
-	BotListSlider listDirection: (#topToBottom).
-	BotListSlider listSpacing: (#none).
-	BotListSlider maxCellSize: (1073741823).
-	BotListSlider minCellSize: (0).
-	BotListSlider wrapCentering: (#topLeft).
-	BotListSlider wrapDirection: (#none).
-	BotListSlider frameFractions: (0@0 corner: 1@1).
-	BotListSlider frameOffsets: (0@0 corner: 0@0).
-	BotListSlider balloonText: ('').
-	BotListSlider balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
-	BotListSlider orientation: (#vertical).
-	BotListSlider minimum: (0).
-	BotListSlider maximum: (100).
-	BotListSlider currentValue: (0).
-	BotListSlider sliderPosition: (0).
-	BotListSlider tracking: (true).
-	BotListSlider singleStep: (1).
-	BotListSlider pageStep: (10).
-	BotListSlider truncate: (true).
-	BotListSlider buttonMode: (#none).
-	BotListSlider setProperty: #objectName toValue: 'BotListSlider'.
-	unnamedMorph2 addChild: BotListSlider.
-	panel addChild: unnamedMorph2.
-	panel setProperty: #uiClassName toValue: 'IRCBotManager'.
+	BotList := UiScrollArea new.
+	BotList extent: (252@232).
+	BotList position: (4@30).
+	BotList hResizing: (#spaceFill).
+	BotList vResizing: (#spaceFill).
+	BotList minWidth: (2).
+	BotList minHeight: (2).
+	BotList cellInset: (0).
+	BotList cellPositioning: (#center).
+	BotList cellSpacing: (#none).
+	BotList layoutInset: (0).
+	BotList listCentering: (#topLeft).
+	BotList listDirection: (#topToBottom).
+	BotList listSpacing: (#none).
+	BotList maxCellSize: (1073741823).
+	BotList minCellSize: (0).
+	BotList wrapCentering: (#topLeft).
+	BotList wrapDirection: (#none).
+	BotList frameFractions: (0@0 corner: 1@1).
+	BotList frameOffsets: (0@0 corner: 0@0).
+	BotList balloonText: ('').
+	BotList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	BotList widgetResizable: (false).
+	BotList horizontalScrollBarPolicy: (#alwaysOff).
+	BotList verticalScrollBarPolicy: (#alwaysOn).
+	BotList outerBorderWidth: (0).
+	BotList scrollBarThickness: (9).
+	BotList setProperty: #objectName toValue: 'BotList'.
+	panel addChild: BotList.
+	panel setProperty: #uiClassName toValue: 'IRCBotManagerUnstable'.
