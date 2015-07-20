@@ -1,4 +1,0 @@
-signals
-requestRestart
-	
-	self emit.
