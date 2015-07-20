@@ -3,15 +3,15 @@
 		"open" : "LW 7/17/2015 16:21" },
 	"instance" : {
 		"createNewBot" : "LW 7/17/2015 16:21",
-		"getNewBotData" : "LW 7/17/2015 18:52",
-		"initialize" : "LW 7/17/2015 18:41",
+		"getNewBotData" : "LW 7/20/2015 12:02",
+		"initialize" : "LW 7/20/2015 11:38",
 		"open" : "LW 7/17/2015 16:21",
 		"openNewBotDialog" : "LW 7/17/2015 18:44",
 		"removeStoppedBots" : "LW 7/17/2015 16:21",
-		"restartAll" : "LW 7/17/2015 16:21",
-		"restartBots" : "LW 7/17/2015 16:21",
-		"startBot:" : "LW 7/17/2015 18:49",
-		"stopAll" : "LW 7/17/2015 16:21",
-		"stopBots" : "LW 7/17/2015 16:21",
+		"restartAll" : "LW 7/20/2015 19:24",
+		"restartBots" : "LW 7/20/2015 19:30",
+		"startBot:" : "LW 7/20/2015 12:04",
+		"stopAll" : "LW 7/20/2015 19:35",
+		"stopBots" : "LW 7/20/2015 19:31",
 		"ui" : "LW 7/17/2015 18:49",
-		"updateBotList" : "LW 7/17/2015 18:50" } }
+		"updateBotList" : "LW 7/20/2015 19:28" } }

@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"botID" : "LW 7/20/2015 19:27",
+		"botID:" : "LW 7/20/2015 19:27",
 		"initialize" : "LW 7/17/2015 16:23",
 		"open" : "LW 7/17/2015 16:23",
 		"requestRestart" : "LW 7/17/2015 16:23",

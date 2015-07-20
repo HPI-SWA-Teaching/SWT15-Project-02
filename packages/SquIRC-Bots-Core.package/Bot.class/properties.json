@@ -11,7 +11,8 @@
 		"looping",
 		"loopingProcess",
 		"joinMessage",
-		"loopingWaitTimeInMilliseconds" ],
+		"loopingWaitTimeInMilliseconds",
+		"reactTo" ],
 	"name" : "Bot",
 	"pools" : [
 		 ],

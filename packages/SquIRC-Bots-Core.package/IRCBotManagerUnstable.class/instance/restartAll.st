@@ -1,9 +1,7 @@
 private
 restartAll
-	| botNr |
-	ui BotListCanvas submorphs do: [ :s | 
-		botNr := ui BotListCanvas submorphIndexOf: s.
-		((bots at: botNr) at: 1) disconnect.
-		(bots at: botNr put: (self startBot: (bots at: botNr))).].
+	bots do: [ :b | 
+		(b at: 1) disconnect.
+		(b := (self startBot: b)).].
 	self removeStoppedBots.
 	ui RestartAllButton checked: false.

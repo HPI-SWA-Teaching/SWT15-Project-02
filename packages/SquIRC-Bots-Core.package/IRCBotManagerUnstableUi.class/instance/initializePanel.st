@@ -2,14 +2,14 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (260@266).
+	panel extent: (318@266).
 	panel position: (0@0).
-	panel hResizing: (#shrinkWrap).
-	panel vResizing: (#shrinkWrap).
+	panel hResizing: (#spaceFill).
+	panel vResizing: (#spaceFill).
 	panel minWidth: (2).
 	panel minHeight: (2).
 	panel cellInset: (4).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -159,9 +159,39 @@ initializePanel
 	StopAllButton setProperty: #objectName toValue: 'StopAllButton'.
 	unnamedMorph1 addChild: StopAllButton.
 	panel addChild: unnamedMorph1.
+	unnamedMorph2 := UiSeparator new.
+	unnamedMorph2 extent: (310@1).
+	unnamedMorph2 position: (4@30).
+	unnamedMorph2 hResizing: (#spaceFill).
+	unnamedMorph2 vResizing: (#rigid).
+	unnamedMorph2 minWidth: (2).
+	unnamedMorph2 minHeight: (2).
+	unnamedMorph2 cellInset: (0).
+	unnamedMorph2 cellPositioning: (#center).
+	unnamedMorph2 cellSpacing: (#none).
+	unnamedMorph2 layoutInset: (0).
+	unnamedMorph2 listCentering: (#topLeft).
+	unnamedMorph2 listDirection: (#topToBottom).
+	unnamedMorph2 listSpacing: (#none).
+	unnamedMorph2 maxCellSize: (1073741823).
+	unnamedMorph2 minCellSize: (0).
+	unnamedMorph2 wrapCentering: (#topLeft).
+	unnamedMorph2 wrapDirection: (#none).
+	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph2 balloonText: (nil).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph2 orientation: (#horizontal).
+	unnamedMorph2 breadth: (1).
+	unnamedMorph2 dashColor: (Color gray).
+	unnamedMorph2 dashLength: (1).
+	unnamedMorph2 backgroundColor: (Color transparent).
+	unnamedMorph2 backgroundDashLength: (0).
+	unnamedMorph2 startingOffset: (0).
+	panel addChild: unnamedMorph2.
 	BotList := UiScrollArea new.
-	BotList extent: (252@232).
-	BotList position: (4@30).
+	BotList extent: (310@226).
+	BotList position: (4@36).
 	BotList hResizing: (#spaceFill).
 	BotList vResizing: (#spaceFill).
 	BotList minWidth: (2).
@@ -180,12 +210,12 @@ initializePanel
 	BotList frameFractions: (0@0 corner: 1@1).
 	BotList frameOffsets: (0@0 corner: 0@0).
 	BotList balloonText: ('').
-	BotList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	BotList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	BotList widgetResizable: (false).
 	BotList horizontalScrollBarPolicy: (#alwaysOff).
 	BotList verticalScrollBarPolicy: (#alwaysOn).
 	BotList outerBorderWidth: (0).
-	BotList scrollBarThickness: (9).
+	BotList scrollBarThickness: (10).
 	BotList setProperty: #objectName toValue: 'BotList'.
 	panel addChild: BotList.
 	panel setProperty: #uiClassName toValue: 'IRCBotManagerUnstable'.

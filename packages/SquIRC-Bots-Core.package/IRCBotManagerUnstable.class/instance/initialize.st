@@ -1,14 +1,7 @@
 initialization
 initialize
-	| blc |
 	super initialize.
 	self ui setupUi: self.
-
-	blc := ui BotListCanvas.
-	blc borderWidth: 1.
-	blc color: Color white.
-	blc clipSubmorphs: true.
-	blc clipLayoutCells: true.
 
 	bots := OrderedCollection new.
 	newBotDialog := nil.
@@ -17,9 +10,9 @@ initialize
 	botType at: 'InterpreterBot' put: InterpreterBot.
 	botType at: 'UtilityBot' put: UtilityBot.
 
-	self connect: self ui NewBotButton signal: #clicked: toSelector: #openNewBotDialog.
-	self connect: self ui StopAllButton signal: #clicked: toSelector: #stopAll.
-	self connect: self ui RestartAllButton signal: #clicked: toSelector: #restartAll.
+	ui BotList verticalScrollBar color: (Color gray: 0.8).
 
-
-	
+	self connect: ui NewBotButton signal: #clicked: toSelector: #openNewBotDialog.
+	self connect: ui StopAllButton signal: #clicked: toSelector: #stopAll.
+	self connect: ui RestartAllButton signal: #clicked: toSelector: #restartAll.
+	self connect: ui BotList signal: #extentChanged: toSelector: #updateBotList
