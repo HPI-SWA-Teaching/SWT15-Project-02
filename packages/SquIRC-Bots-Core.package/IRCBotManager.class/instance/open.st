@@ -1,3 +1,4 @@
 initialization
 open
-	self openInWindowLabeled: 'SquIRC Bot Manager'.
+	self openInIRCBotManagerWindowLabeled: 'SquIRC Bot Manager' inWorld: self currentWorld.
+	self connect: owner signal: #stopAllBots toSelector: #stopAll
