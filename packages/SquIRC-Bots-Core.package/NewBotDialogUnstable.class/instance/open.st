@@ -1,3 +1,3 @@
 initialization
 open
-   self openInWindowLabeled: 'Create a new bot'.
+   self openInWindowLabeled: 'Create new bot'.

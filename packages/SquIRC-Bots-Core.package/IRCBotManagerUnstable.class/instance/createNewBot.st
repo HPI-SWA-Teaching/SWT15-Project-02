@@ -1,8 +1,5 @@
 private
 createNewBot
-	| bot |
-	bot := self getNewBotData.
-	bot := self startBot: bot.
-	bots addLast: bot.
+	bots addLast: (self startBot: self getNewBotData).
 	newBotDialog owner delete.
 	self updateBotList.

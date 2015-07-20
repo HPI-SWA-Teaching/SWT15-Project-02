@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (435@210).
+	panel extent: (436@210).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -34,8 +34,8 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	BotTypeRow := UiContainer new.
 	BotTypeRow changeProportionalLayout.
-	BotTypeRow extent: (426@21).
-	BotTypeRow position: (4@5).
+	BotTypeRow extent: (427@22).
+	BotTypeRow position: (4@4).
 	BotTypeRow hResizing: (#spaceFill).
 	BotTypeRow vResizing: (#shrinkWrap).
 	BotTypeRow minWidth: (2).
@@ -54,7 +54,7 @@ initializePanel
 	BotTypeRow frameFractions: (0@0 corner: 1@0.125).
 	BotTypeRow frameOffsets: (0@0 corner: 0@0).
 	BotTypeRow balloonText: ('!logbot, !lb, ...').
-	BotTypeRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	BotTypeRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	BotTypeRow color: (Color transparent).
 	BotTypeRow borderWidth: (0).
 	BotTypeRow borderStyle2: (#simple).
@@ -82,14 +82,14 @@ initializePanel
 	BotTypeLabel frameFractions: (0@0 corner: 0.2@1).
 	BotTypeLabel frameOffsets: (0@0 corner: 0@0).
 	BotTypeLabel balloonText: (nil).
-	BotTypeLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	BotTypeLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	BotTypeLabel text: ('Bot type:').
 	BotTypeLabel setProperty: #formByDesigner toValue: 'nil'.
 	BotTypeLabel form: (nil).
 	BotTypeLabel setProperty: #objectName toValue: 'BotTypeLabel'.
 	BotTypeRow addChild: BotTypeLabel.
 	BotTypeSelect := UiComboBox new.
-	BotTypeSelect extent: (341@20).
+	BotTypeSelect extent: (342@20).
 	BotTypeSelect position: (89@5).
 	BotTypeSelect hResizing: (#spaceFill).
 	BotTypeSelect vResizing: (#rigid).
@@ -109,15 +109,15 @@ initializePanel
 	BotTypeSelect frameFractions: (0.2@0 corner: 1@1).
 	BotTypeSelect frameOffsets: (0@0 corner: 0@0).
 	BotTypeSelect balloonText: ('').
-	BotTypeSelect balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	BotTypeSelect balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	BotTypeSelect readOnly: (true).
 	BotTypeSelect setProperty: #objectName toValue: 'BotTypeSelect'.
 	BotTypeRow addChild: BotTypeSelect.
 	panel addChild: BotTypeRow.
 	NameRow := UiContainer new.
 	NameRow changeProportionalLayout.
-	NameRow extent: (426@21).
-	NameRow position: (4@31).
+	NameRow extent: (427@22).
+	NameRow position: (4@30).
 	NameRow hResizing: (#spaceFill).
 	NameRow vResizing: (#shrinkWrap).
 	NameRow minWidth: (2).
@@ -164,14 +164,14 @@ initializePanel
 	NameLabel frameFractions: (0@0 corner: 0.2@1).
 	NameLabel frameOffsets: (0@0 corner: 0@0).
 	NameLabel balloonText: ('').
-	NameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	NameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	NameLabel text: ('Nickname:').
 	NameLabel setProperty: #formByDesigner toValue: 'nil'.
 	NameLabel form: (nil).
 	NameLabel setProperty: #objectName toValue: 'NameLabel'.
 	NameRow addChild: NameLabel.
 	NameEdit := UiLineEdit new.
-	NameEdit extent: (341@20).
+	NameEdit extent: (342@20).
 	NameEdit position: (89@31).
 	NameEdit hResizing: (#spaceFill).
 	NameEdit vResizing: (#rigid).
@@ -211,8 +211,8 @@ initializePanel
 	panel addChild: NameRow.
 	ServerEditRow := UiContainer new.
 	ServerEditRow changeProportionalLayout.
-	ServerEditRow extent: (426@21).
-	ServerEditRow position: (4@57).
+	ServerEditRow extent: (427@22).
+	ServerEditRow position: (4@56).
 	ServerEditRow hResizing: (#spaceFill).
 	ServerEditRow vResizing: (#shrinkWrap).
 	ServerEditRow minWidth: (2).
@@ -231,7 +231,7 @@ initializePanel
 	ServerEditRow frameFractions: (0@0.25 corner: 1@0.375).
 	ServerEditRow frameOffsets: (0@0 corner: 0@0).
 	ServerEditRow balloonText: ('').
-	ServerEditRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	ServerEditRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	ServerEditRow color: (Color transparent).
 	ServerEditRow borderWidth: (0).
 	ServerEditRow borderStyle2: (#simple).
@@ -259,14 +259,14 @@ initializePanel
 	ServerLabel frameFractions: (0@0 corner: 0.2@1).
 	ServerLabel frameOffsets: (0@0 corner: 0@0).
 	ServerLabel balloonText: (nil).
-	ServerLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	ServerLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	ServerLabel text: ('Server:').
 	ServerLabel setProperty: #formByDesigner toValue: 'nil'.
 	ServerLabel form: (nil).
 	ServerLabel setProperty: #objectName toValue: 'ServerLabel'.
 	ServerEditRow addChild: ServerLabel.
 	ServerEdit := UiLineEdit new.
-	ServerEdit extent: (341@20).
+	ServerEdit extent: (342@20).
 	ServerEdit position: (89@57).
 	ServerEdit hResizing: (#spaceFill).
 	ServerEdit vResizing: (#rigid).
@@ -286,7 +286,7 @@ initializePanel
 	ServerEdit frameFractions: (0.2@0 corner: 1@1).
 	ServerEdit frameOffsets: (0@0 corner: 0@0).
 	ServerEdit balloonText: ('').
-	ServerEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	ServerEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	ServerEdit widgetResizable: (false).
 	ServerEdit horizontalScrollBarPolicy: (#alwaysOff).
 	ServerEdit verticalScrollBarPolicy: (#alwaysOff).
@@ -306,8 +306,8 @@ initializePanel
 	panel addChild: ServerEditRow.
 	PortRow := UiContainer new.
 	PortRow changeProportionalLayout.
-	PortRow extent: (426@21).
-	PortRow position: (4@83).
+	PortRow extent: (427@22).
+	PortRow position: (4@82).
 	PortRow hResizing: (#spaceFill).
 	PortRow vResizing: (#shrinkWrap).
 	PortRow minWidth: (2).
@@ -326,7 +326,7 @@ initializePanel
 	PortRow frameFractions: (0@0.375 corner: 1@0.5).
 	PortRow frameOffsets: (0@0 corner: 0@0).
 	PortRow balloonText: (nil).
-	PortRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	PortRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	PortRow color: (Color transparent).
 	PortRow borderWidth: (0).
 	PortRow borderStyle2: (#simple).
@@ -361,7 +361,7 @@ initializePanel
 	PortLabel setProperty: #objectName toValue: 'PortLabel'.
 	PortRow addChild: PortLabel.
 	PortEdit := UiLineEdit new.
-	PortEdit extent: (341@20).
+	PortEdit extent: (342@20).
 	PortEdit position: (89@83).
 	PortEdit hResizing: (#spaceFill).
 	PortEdit vResizing: (#rigid).
@@ -381,7 +381,7 @@ initializePanel
 	PortEdit frameFractions: (0.2@0 corner: 1@1).
 	PortEdit frameOffsets: (0@0 corner: 0@0).
 	PortEdit balloonText: (nil).
-	PortEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	PortEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	PortEdit widgetResizable: (false).
 	PortEdit horizontalScrollBarPolicy: (#alwaysOff).
 	PortEdit verticalScrollBarPolicy: (#alwaysOff).
@@ -401,8 +401,8 @@ initializePanel
 	panel addChild: PortRow.
 	ChannelRow := UiContainer new.
 	ChannelRow changeProportionalLayout.
-	ChannelRow extent: (426@21).
-	ChannelRow position: (4@109).
+	ChannelRow extent: (427@22).
+	ChannelRow position: (4@108).
 	ChannelRow hResizing: (#spaceFill).
 	ChannelRow vResizing: (#shrinkWrap).
 	ChannelRow minWidth: (2).
@@ -421,14 +421,14 @@ initializePanel
 	ChannelRow frameFractions: (0@0.5 corner: 1@0.625).
 	ChannelRow frameOffsets: (0@0 corner: 0@0).
 	ChannelRow balloonText: ('').
-	ChannelRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	ChannelRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	ChannelRow color: (Color transparent).
 	ChannelRow borderWidth: (0).
 	ChannelRow borderStyle2: (#simple).
 	ChannelRow borderColor: (Color black).
 	ChannelRow setProperty: #objectName toValue: 'ChannelRow'.
 	ChannelEdit := UiLineEdit new.
-	ChannelEdit extent: (341@20).
+	ChannelEdit extent: (342@20).
 	ChannelEdit position: (89@109).
 	ChannelEdit hResizing: (#spaceFill).
 	ChannelEdit vResizing: (#rigid).
@@ -448,7 +448,7 @@ initializePanel
 	ChannelEdit frameFractions: (0.2@0 corner: 1@1).
 	ChannelEdit frameOffsets: (0@0 corner: 0@0).
 	ChannelEdit balloonText: ('').
-	ChannelEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	ChannelEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	ChannelEdit widgetResizable: (false).
 	ChannelEdit horizontalScrollBarPolicy: (#alwaysOff).
 	ChannelEdit verticalScrollBarPolicy: (#alwaysOff).
@@ -487,7 +487,7 @@ initializePanel
 	ChannelLabel frameFractions: (0@0 corner: 0.2@1).
 	ChannelLabel frameOffsets: (0@0 corner: 0@0).
 	ChannelLabel balloonText: (nil).
-	ChannelLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	ChannelLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	ChannelLabel text: ('Channel:').
 	ChannelLabel setProperty: #formByDesigner toValue: 'nil'.
 	ChannelLabel form: (nil).
@@ -496,8 +496,8 @@ initializePanel
 	panel addChild: ChannelRow.
 	FloodProtectionRow := UiContainer new.
 	FloodProtectionRow changeProportionalLayout.
-	FloodProtectionRow extent: (426@21).
-	FloodProtectionRow position: (4@135).
+	FloodProtectionRow extent: (427@22).
+	FloodProtectionRow position: (4@134).
 	FloodProtectionRow hResizing: (#spaceFill).
 	FloodProtectionRow vResizing: (#shrinkWrap).
 	FloodProtectionRow minWidth: (2).
@@ -516,7 +516,7 @@ initializePanel
 	FloodProtectionRow frameFractions: (0@0.625 corner: 1@0.75).
 	FloodProtectionRow frameOffsets: (0@0 corner: 0@0).
 	FloodProtectionRow balloonText: ('').
-	FloodProtectionRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	FloodProtectionRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	FloodProtectionRow color: (Color transparent).
 	FloodProtectionRow borderWidth: (0).
 	FloodProtectionRow borderStyle2: (#simple).
@@ -551,13 +551,13 @@ initializePanel
 	FloodProtectionCheckbox text: ('FloodProtectionWaiting:').
 	FloodProtectionCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
 	FloodProtectionCheckbox checkable: (true).
-	FloodProtectionCheckbox checked: (false).
+	FloodProtectionCheckbox checked: (true).
 	FloodProtectionCheckbox autoExclusive: (false).
 	FloodProtectionCheckbox setProperty: #objectName toValue: 'FloodProtectionCheckbox'.
 	FloodProtectionRow addChild: FloodProtectionCheckbox.
 	FloodProtectionEdit := UiLineEdit new.
 	FloodProtectionEdit extent: (256@20).
-	FloodProtectionEdit position: (174@135).
+	FloodProtectionEdit position: (175@135).
 	FloodProtectionEdit hResizing: (#spaceFill).
 	FloodProtectionEdit vResizing: (#rigid).
 	FloodProtectionEdit minWidth: (2).
@@ -576,7 +576,7 @@ initializePanel
 	FloodProtectionEdit frameFractions: (0.4@0 corner: 1@1).
 	FloodProtectionEdit frameOffsets: (0@0 corner: 0@0).
 	FloodProtectionEdit balloonText: ('').
-	FloodProtectionEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	FloodProtectionEdit balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	FloodProtectionEdit widgetResizable: (false).
 	FloodProtectionEdit horizontalScrollBarPolicy: (#alwaysOff).
 	FloodProtectionEdit verticalScrollBarPolicy: (#alwaysOff).
@@ -616,7 +616,7 @@ initializePanel
 	ReactToRow frameFractions: (0@0 corner: 1@1).
 	ReactToRow frameOffsets: (0@0 corner: 0@0).
 	ReactToRow balloonText: (nil).
-	ReactToRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	ReactToRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	ReactToRow color: (Color transparent).
 	ReactToRow borderWidth: (0).
 	ReactToRow borderStyle2: (#simple).
@@ -644,7 +644,7 @@ initializePanel
 	ReactToLabel frameFractions: (0@0 corner: 1@1).
 	ReactToLabel frameOffsets: (0@0 corner: 0@0).
 	ReactToLabel balloonText: ('!logbot, !lb, ...').
-	ReactToLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	ReactToLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	ReactToLabel text: ('React to:').
 	ReactToLabel setProperty: #formByDesigner toValue: 'nil'.
 	ReactToLabel form: (nil).
@@ -672,7 +672,7 @@ initializePanel
 	ReactToRadioGroup frameFractions: (0@0.75 corner: 1@0.875).
 	ReactToRadioGroup frameOffsets: (0@0 corner: 0@0).
 	ReactToRadioGroup balloonText: (nil).
-	ReactToRadioGroup balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	ReactToRadioGroup balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	ReactToRadioGroup color: (Color transparent).
 	ReactToRadioGroup borderWidth: (0).
 	ReactToRadioGroup borderStyle2: (#simple).
@@ -700,7 +700,7 @@ initializePanel
 	ClassNameRadio frameFractions: (0@0 corner: 1@1).
 	ClassNameRadio frameOffsets: (0@0 corner: 0@0).
 	ClassNameRadio balloonText: ('!logbot, !lb, ...').
-	ClassNameRadio balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	ClassNameRadio balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	ClassNameRadio enabled: (true).
 	ClassNameRadio setProperty: #iconByDesigner toValue: 'nil'.
 	ClassNameRadio icon: (nil).
@@ -766,7 +766,7 @@ initializePanel
 	BotNameRadio frameFractions: (0@0 corner: 1@1).
 	BotNameRadio frameOffsets: (0@0 corner: 0@0).
 	BotNameRadio balloonText: ('@nickname:').
-	BotNameRadio balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	BotNameRadio balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	BotNameRadio enabled: (true).
 	BotNameRadio setProperty: #iconByDesigner toValue: 'nil'.
 	BotNameRadio icon: (nil).
@@ -801,7 +801,7 @@ initializePanel
 	ButtonRow frameFractions: (0@0.875 corner: 1@1).
 	ButtonRow frameOffsets: (0@0 corner: 0@0).
 	ButtonRow balloonText: (nil).
-	ButtonRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	ButtonRow balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	ButtonRow color: (Color transparent).
 	ButtonRow borderWidth: (0).
 	ButtonRow borderStyle2: (#simple).
@@ -829,7 +829,7 @@ initializePanel
 	CreateButton frameFractions: (0@0 corner: 1@1).
 	CreateButton frameOffsets: (0@0 corner: 0@0).
 	CreateButton balloonText: ('').
-	CreateButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	CreateButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	CreateButton enabled: (true).
 	CreateButton setProperty: #iconByDesigner toValue: 'nil'.
 	CreateButton icon: (nil).

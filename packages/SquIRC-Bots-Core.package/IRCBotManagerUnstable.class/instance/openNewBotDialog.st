@@ -1,8 +1,6 @@
 private
 openNewBotDialog
 	newBotDialog ifNotNil: [newBotDialog owner delete].
-	newBotDialog := NewBotDialogUnstable new. 
-	newBotDialog ui BotTypeSelect addTextList: #('LogBot' 'InterpreterBot' 'UtilityBot') asOrderedCollection.
-	newBotDialog openInWindowLabeled: 'Create new bot'.
+	newBotDialog := NewBotDialogUnstable new open.
 	self connect: newBotDialog ui CreateButton signal: #clicked: toSelector: #createNewBot.
 	ui NewBotButton checked: false.
