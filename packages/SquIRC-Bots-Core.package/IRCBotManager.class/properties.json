@@ -1,0 +1,17 @@
+{
+	"category" : "SquIRC-Bots-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"bots",
+		"newBotDialog",
+		"botType" ],
+	"name" : "IRCBotManager",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"BotName" : "LW 7/20/2015 23:25",
+		"BotType" : "LW 7/20/2015 23:25",
+		"ButtonRow" : "LW 7/20/2015 23:25",
+		"Channel" : "LW 7/20/2015 23:25",
+		"ChannelLabel" : "LW 7/20/2015 23:25",
+		"ChannelRow" : "LW 7/20/2015 23:25",
+		"FPWaiting" : "LW 7/20/2015 23:25",
+		"FPWaitingLabel" : "LW 7/20/2015 23:25",
+		"FPWaitingRow" : "LW 7/20/2015 23:25",
+		"ListSeperator" : "LW 7/20/2015 23:25",
+		"NameAndTypeRow" : "LW 7/20/2015 23:25",
+		"Port" : "LW 7/20/2015 23:25",
+		"PortLabel" : "LW 7/20/2015 23:25",
+		"PortRow" : "LW 7/20/2015 23:25",
+		"ReactTo" : "LW 7/20/2015 23:25",
+		"ReactToLabel" : "LW 7/20/2015 23:25",
+		"ReactToRow" : "LW 7/20/2015 23:25",
+		"RestartButton" : "LW 7/20/2015 23:25",
+		"Server" : "LW 7/20/2015 23:25",
+		"ServerLabel" : "LW 7/20/2015 23:25",
+		"ServerRow" : "LW 7/20/2015 23:25",
+		"StopButton" : "LW 7/20/2015 23:25",
+		"initializePanel" : "LW 7/20/2015 23:25" } }
