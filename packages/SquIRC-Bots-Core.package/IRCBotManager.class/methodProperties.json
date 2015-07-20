@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"open" : "LW 7/17/2015 16:21" },
+		"initialize" : "LW 7/21/2015 00:27",
+		"open" : "LW 7/17/2015 16:21",
+		"registerInOpenMenu" : "LW 7/21/2015 00:31" },
 	"instance" : {
 		"buildBotEntry:width:ypos:" : "LW 7/20/2015 23:22",
 		"buildBotEntryAdvancedData:entry:" : "LW 7/20/2015 22:33",
