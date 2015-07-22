@@ -8,7 +8,8 @@ baseline: spec
 		   package: 'SquIRC-Base-Core' with: [spec requires: #('VB-Regex')];
 		   package: 'SquIRC-Bots-Core' with: [spec requires: #('default')];
                package: 'SquIRC-Base-Tests' with: [ spec requires: #('default') ];
-		   package: 'SquIRC-Bots-Tests' with: [ spec requires: #('bots') ].
+		   package: 'SquIRC-Bots-Tests' with: [ spec requires: #('bots') ];
+		   package: 'SquIRC-Bots-Gui' with: [ spec requires: #('bots') ].
 				
             spec
                group: 'default' with: #('SquIRC-Base-Core');

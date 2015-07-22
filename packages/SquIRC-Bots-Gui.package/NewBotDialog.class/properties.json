@@ -1,14 +1,14 @@
 {
-	"category" : "SquIRC-Bots-Core",
+	"category" : "SquIRC-Bots-Gui",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "IRCBotManagerWindow",
+		"ui" ],
+	"name" : "NewBotDialog",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Morph",
 	"type" : "normal" }
