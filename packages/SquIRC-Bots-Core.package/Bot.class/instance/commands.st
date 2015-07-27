@@ -1,0 +1,4 @@
+private
+commands
+
+	self subclassResponsibility

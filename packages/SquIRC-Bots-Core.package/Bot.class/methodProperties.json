@@ -10,6 +10,7 @@
 	"instance" : {
 		"addChannel:" : "jc 5/24/2015 23:10",
 		"channels" : "jc 5/8/2015 20:15",
+		"commands" : "jc 7/27/2015 23:57",
 		"connectAndJoin" : "jc 6/19/2015 16:10",
 		"connection" : "jc 5/8/2015 20:10",
 		"connection:" : "jc 5/10/2015 22:22",
@@ -26,7 +27,7 @@
 		"looping" : "LW 7/13/2015 21:55",
 		"oneLoop" : "jc 5/24/2015 23:24",
 		"openChannels" : "jc 5/24/2015 23:25",
-		"processLine:from:" : "jc 7/27/2015 23:39",
+		"processLine:from:" : "jc 7/27/2015 23:51",
 		"processNewLinesFrom:" : "jc 5/11/2015 14:31",
 		"quit" : "LW 7/13/2015 22:27",
 		"reactTo" : "LW 7/20/2015 12:12",
