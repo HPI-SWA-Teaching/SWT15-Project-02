@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testCommands" : "jc 7/28/2015 00:14",
 		"testDisconnect" : "jc 7/8/2015 23:15",
 		"testHandleTryCharacterFromOn" : "LW 7/9/2015 12:13",
 		"testHandleTrySolutionFromOn" : "LW 7/9/2015 12:13",
