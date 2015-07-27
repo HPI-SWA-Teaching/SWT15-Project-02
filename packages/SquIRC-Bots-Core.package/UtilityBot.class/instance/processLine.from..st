@@ -4,7 +4,11 @@ processLine: aString from: aChannelObserver
 	| parser |
 	parser := super processLine: aString from: aChannelObserver.
 
-	( (parser command = 'start') and: (parser interpreterbot) ) ifTrue: [ self startInterpreterBot: (aChannelObserver channelName) ].
+	self commands keysAndValuesDo: [ :condition :effect |
+		(self evaluate: condition parser: parser observer: aChannelObserver) ifTrue: 
+			[ effect value: parser value: aChannelObserver ] ]
+
+	"( (parser command = 'start') and: (parser interpreterbot) ) ifTrue: [ self startInterpreterBot: (aChannelObserver channelName) ].
 	( (parser command = 'start') and: (parser logbot) ) ifTrue: [ self startLogBot: (aChannelObserver channelName) ].
 	( (parser command = 'stop') and: (parser interpreterbot) ) ifTrue: [ self stopInterpreterBot ].
 	( (parser command = 'stop') and: (parser logbot) ) ifTrue: [ self stopLogBot ].
@@ -19,4 +23,4 @@ processLine: aString from: aChannelObserver
 	( ( parser command = 'try' ) and: ( parser isFinalSolution not ) ) ifTrue: [ self handleTryCharacterFrom: parser on: aChannelObserver ].
 
 	( parser command = 'help' ) ifTrue: [ self sendHelpFor: parser ].
-	( parser command = 'quit' ) ifTrue: [ self disconnect. ].
+	( parser command = 'quit' ) ifTrue: [ self disconnect. ]."

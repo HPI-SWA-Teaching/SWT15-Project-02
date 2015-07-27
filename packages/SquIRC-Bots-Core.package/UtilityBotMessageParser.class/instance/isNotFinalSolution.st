@@ -1,0 +1,3 @@
+accessing
+isNotFinalSolution
+	^ (isFinalSolution not)
